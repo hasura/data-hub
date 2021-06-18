@@ -1,0 +1,1030 @@
+[
+	{
+	  "name": "Contentful",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/contentful.svg",
+	  "short_desc": "Contentful is an API First CMS to build digital products.",
+	  "url_path": "contentful-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/contentful-remote-schema",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Contentful",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Contentful GraphQL API Docs",
+	      "link": "https://www.contentful.com/developers/docs/references/graphql/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": "https://www.youtube.com/embed/aachB3XVKKI",
+	  "integration_link": "https://github.com/praveenweb/contentful-remote-schema",
+	  "categories": [
+	    {
+	      "name": "CMS"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Fauna",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/faunadb.svg",
+	  "short_desc": "Fauna is a serverless cloud database for modern applications.",
+	  "url_path": "faunadb-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/faunadb-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Fauna",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Fauna API Docs",
+	      "link": "https://docs.fauna.com/fauna/current/tutorials/graphql/quick_start"
+	    },
+	    {
+	      "text": "Join Fauna with Hasura",
+	      "link": "https://hasura.io/blog/joining-postgres-data-with-faunadb-serverless-hasura-remote-joins/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "",
+	  "categories": [
+	    {
+	      "name": "Databases"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Dgraph",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/dgraph.svg",
+	  "short_desc": "Dgraph is a native GraphQL graph database that is built to be distributed.",
+	  "url_path": "dgraph-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/dgraph-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Dgraph",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Dgraph API Docs",
+	      "link": "https://dgraph.io/docs/graphql/overview/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "",
+	  "categories": [
+	    {
+	      "name": "Databases"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Neo4j",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/neo4j.svg",
+	  "short_desc": "Neo4j is a native graph database platform",
+	  "url_path": "neo4j-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/neo4j-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Neo4j",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Neo4j GraphQL Docs",
+	      "link": "https://neo4j.com/developer/graphql/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "",
+	  "categories": [
+	    {
+	      "name": "Databases"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Strapi",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/strapi.svg",
+	  "short_desc": "Strapi is an open-source Headless CMS",
+	  "url_path": "strapi-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/strapi-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Strapi",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Strapi GraphQL API Docs",
+	      "link": "https://strapi.io/documentation/developer-docs/latest/development/plugins/graphql.html"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": "https://www.youtube.com/embed/EbfYeQNPUe0",
+	  "integration_link": "",
+	  "categories": [
+	    {
+	      "name": "CMS"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "GraphCMS",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/graphcms.svg",
+	  "short_desc": "GraphCMS is the Headless CMS allowing you to build digital experiences the way you envisioned them",
+	  "url_path": "graphcms-graphql-api",
+	  "github_repo": {
+	    "name": "motleydev/graphcms-remote-schema",
+	    "branch": "main",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "GraphCMS",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "GraphCMS API Docs",
+	      "link": "https://graphcms.com/docs"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "",
+	  "categories": [
+	    {
+	      "name": "CMS"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Prismic",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/prismic.svg",
+	  "short_desc": "Prismic is a Content Management System, a tool for editing online content",
+	  "url_path": "prismic-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/prismic-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Prismic",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Prismic API Docs",
+	      "link": "https://prismic.io/docs/technologies/intro-to-the-graphql-api"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "",
+	  "categories": [
+	    {
+	      "name": "CMS"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Open API (IBM)",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/ibm.svg",
+	  "short_desc": "Translate APIs described by OpenAPI Specifications (OAS) or Swagger into GraphQL.",
+	  "url_path": "ibm-open-api-graphql",
+	  "github_repo": {
+	    "name": "praveenweb/openapi-swagger-remote-schema",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "IBM",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Join Open API data with Hasura",
+	      "link": "https://hasura.io/blog/join-openapi-swagger-spec-data-to-graphql-hasura-remote-joins/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "praveenweb/openapi-swagger-remote-schema",
+	  "categories": [
+	    {
+	      "name": "REST API"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "GraphQL Mesh",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/graphql-mesh.svg",
+	  "short_desc": "GraphQL Mesh allows you to use GraphQL query language to access data in remote APIs that don't run GraphQL",
+	  "url_path": "graphql-mesh-api",
+	  "github_repo": {
+	    "name": "praveenweb/graphql-mesh",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "The Guild",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "GraphQL Mesh Docs",
+	      "link": "https://www.graphql-mesh.com/docs/getting-started/introduction/"
+	    },
+	    {
+	      "text": "Join GraphQL Mesh data with Hasura",
+	      "link": "https://hasura.io/blog/creating-data-graph-graphql-mesh-hasura-remote-joins/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "praveenweb/graphql-mesh",
+	  "categories": [
+	    {
+	      "name": "REST API"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "OneGraph",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/one-graph.svg",
+	  "short_desc": "OneGraph is single GraphQL endpoint that brings together all your SaaS APIs",
+	  "url_path": "onegraph-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/onegraph-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "OneGraph",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "OneGraph API Docs",
+	      "link": "https://www.onegraph.com/docs/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "praveenweb/onegraph-graphql-api",
+	  "categories": [
+	    {
+	      "name": "REST API"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Github",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/github.svg",
+	  "short_desc": "Use GitHub GraphQL API to create precise and flexible queries for the data",
+	  "url_path": "github-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/github-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Github",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Github GraphQL API Docs",
+	      "link": "https://docs.github.com/en/graphql"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "praveenweb/github-graphql-api",
+	  "categories": [
+	    {
+	      "name": "Data Services"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "GitLab",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/gitlab.svg",
+	  "short_desc": "Gitlab's GraphQL API is the primary way to interact programatically with GitLab.",
+	  "url_path": "gitlab-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/gitlab-graphql-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "GitLab",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "GitLab GraphQL API",
+	      "link": "https://docs.gitlab.com/ee/api/graphql/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "praveenweb/gitlab-graphql-api",
+	  "categories": [
+	    {
+	      "name": "Data Services"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Shopify",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/shopify.svg",
+	  "short_desc": "Shopify is an E-Commerce Platform that helps you to Sell Online, on Facebook, or in person",
+	  "url_path": "shopify-graphql-admin-api",
+	  "github_repo": {
+	    "name": "praveenweb/shopify-graphql-admin-api",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Shopify",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Shopify GraphQL API Docs",
+	      "link": "https://shopify.dev/docs/admin-api/graphql/reference"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/praveenweb/shopify-graphql-admin-api",
+	  "categories": [
+	    {
+	      "name": "Ecommerce"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Adobe Commerce (Magento)",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/adobe.svg",
+	  "short_desc": "Create engaging, shoppable experiences with Adobe Commerce",
+	  "url_path": "adobe-commerce-magento-graphql",
+	  "github_repo": {
+	    "name": "praveenweb/adobe-commerce-magento-graphql",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Adobe",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Magento GraphQL API Docs",
+	      "link": "https://devdocs.magento.com/guides/v2.4/graphql/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/praveenweb/adobe-commerce-magento-graphql",
+	  "categories": [
+	    {
+	      "name": "Ecommerce"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Sanity",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/sanity.svg",
+	  "short_desc": "Sanity.io is the unified content platform that powers better digital experiences",
+	  "url_path": "sanity-graphql-api",
+	  "github_repo": {
+	    "name": "praveenweb/sanity-graphql",
+	    "branch": "master",
+	    "readme_repo_path": "/README.md"
+	  },
+	  "developed_by": "Sanity",
+	  "released_on": "June 10, 2021",
+	  "last_updated": "June 10, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Sanity GraphQL API Docs",
+	      "link": "https://www.sanity.io/docs/graphql"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/praveenweb/sanity-graphql",
+	  "categories": [
+	    {
+	      "name": "CMS"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": true,
+	  "type": "Remote Schema"
+	},
+	{
+	  "name": "Views: Group By & Aggregate",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/views-group-aggregate/preview.svg",
+	  "short_desc": "Views can be used to expose the results of a custom query as a virtual table. This example demonstrates grouping by a column and aggregating.",
+	  "url_path": "schema-share-views-group-aggregate",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/views-group-aggregate/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Views - Group By & Aggregate",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/views-group-aggregate"
+	    },
+	    {
+	      "text": "Documentation: Views",
+	      "link": "https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/views.html#example-group-by-and-then-aggregate"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/views-group-aggregate",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Functions: Multiple Column Text Search",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-multiple-column-search/preview.svg",
+	  "short_desc": "Custom functions are ideal solutions for retrieving some derived data based on some custom business logic that requires user input to be calculated. This is an example of using a custom function to create a text search across multiple columns.",
+	  "url_path": "schema-share-functions",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/functions-multiple-column-search/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Functions - Multiple Column Text Search",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-multiple-column-search"
+	    },
+	    {
+	      "text": "Documentation: Functions - Multiple Column Text Search",
+	      "link": "https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/custom-functions.html#example-text-search-functions"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-multiple-column-search",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Enum: Reference Table",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/enum-reference-table/preview.svg",
+	  "short_desc": "Using foreign-key references to a single-column table allows us to represents an enum using ordinary relational database concepts using Hasura.",
+	  "url_path": "schema-share-enum-reference-table",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/enum-reference-table/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Enum - Reference Table",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/enum-reference-table"
+	    },
+	    {
+	      "text": "Documentation: Enum - Reference Table",
+	      "link": "https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/enums.html#enums-in-the-hasura-graphql-engine"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/enum-reference-table",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Relationships - One-to-One",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/relationships-one-to-one/preview.svg",
+	  "short_desc": "A one-to-one relationship between two tables can be established via a unique foreign key constraint and tracked using Hasura.",
+	  "url_path": "schema-share-relationships-one-to-one",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/relationships-one-to-one/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Relationships - One-to-One",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-one"
+	    },
+	    {
+	      "text": "Documentation: Relationships - One-to-One",
+	      "link": "https://hasura.io/docs/latest/graphql/core/guides/data-modelling/one-to-one.html"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-one",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Relationships - One-to-Many",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/relationships-one-to-many/preview.svg",
+	  "short_desc": "A one-to-many relationship between two tables can be established via a unique foreign key constraint and tracked using Hasura.",
+	  "url_path": "schema-share-relationships-one-to-many",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/relationships-one-to-many/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Relationships - One-to-Many",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-many"
+	    },
+	    {
+	      "text": "Documentation: Relationships - One-to-Many",
+	      "link": "https://hasura.io/docs/latest/graphql/core/guides/data-modelling/one-to-many.html"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-many",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Relationships - Many-to-Many",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/relationships-many-to-many/preview.svg",
+	  "short_desc": "A many-to-many relationship between two tables can be established by creating a table typically called a bridge/junction/join table and adding foreign-key constraints from it to the original tables. These are then tracked using Hasura.",
+	  "url_path": "schema-share-relationships-many-to-many",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/relationships-many-to-many/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Relationships - Many-to-Many",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-many-to-many"
+	    },
+	    {
+	      "text": "Documentation: Relationships - Many-to-Many",
+	      "link": "https://hasura.io/docs/latest/graphql/core/guides/data-modelling/many-to-many.html"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-many-to-many",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Permissions: Row-Level (Basic)",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/permissions-row-level-basic/preview.svg",
+	  "short_desc": "Row-level permissions can be set based on a user's role or any session variables.",
+	  "url_path": "schema-share-permissions-row-level",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/permissions-row-level-basic/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Permissions: Row-Level (Basic)",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-row-level-basic"
+	    },
+	    {
+	      "text": "Documentation: Permissions: Row-Level (Basic)",
+	      "link": "https://hasura.io/docs/latest/graphql/core/auth/authorization/roles-variables.html"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-row-level-basic",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Permissions: Column-Level Filtering",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/permissions-column-level/preview.svg",
+	  "short_desc": "Column-level permissions determine access to columns that are accessible by the user's role.",
+	  "url_path": "schema-share-permissions-column-level",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/permissions-column-level/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Permissions - Column-Level Filtering",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-column-level"
+	    },
+	    {
+	      "text": "Documentation: Permissions - Column-Level Filtering",
+	      "link": "https://hasura.io/docs/latest/graphql/core/auth/authorization/permission-rules.html#column-level-permissions"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-column-level",
+	  "categories": [
+	    {
+	      "name": "Core Concepts"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Functions: Fuzzy-Match Search",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-fuzzy-match-search/preview.svg",
+	  "short_desc": "Custom functions are ideal solutions for retrieving some derived data based on some custom business logic that requires user input to be calculated. This is an example of a fuzzy-match search function across multiple columns.",
+	  "url_path": "schema-share-functions-fuzzy-match-search",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/functions-fuzzy-match-search/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Functions - Fuzzy-Match Search",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-fuzzy-match-search"
+	    },
+	    {
+	      "text": "Documentation: Functions - Fuzzy-Match Search",
+	      "link": "https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/custom-functions.html#example-fuzzy-match-search-functions"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-fuzzy-match-search",
+	  "categories": [
+	    {
+	      "name": "Intermediate Implementations"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Functions: PostGIS",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-postgis/preview.svg",
+	  "short_desc": "Fetching landmark data using the popular spacial database PostGIS extension.",
+	  "url_path": "schema-share-functions-postgis",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/functions-postgis/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Functions - PostGIS",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-postgis"
+	    },
+	    {
+	      "text": "Documentation: Functions - PostGIS",
+	      "link": "https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/custom-functions.html#example-postgis-functions"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-postgis",
+	  "categories": [
+	    {
+	      "name": "Intermediate Implementations"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Functions: Accessing Session Variables",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-session-variables/preview.svg",
+	  "short_desc": "Create a function with an argument for session variables and track it using your Hasura API.",
+	  "url_path": "schema-share-functions-session-variables",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/functions-session-variables/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Functions - Accessing Session Variables",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-session-variables"
+	    },
+	    {
+	      "text": "Documentation: Functions - Accessing Session Variables",
+	      "link": "https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/custom-functions.html#accessing-hasura-session-variables-in-custom-functions"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-session-variables",
+	  "categories": [
+	    {
+	      "name": "Intermediate Implementations"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	},
+	{
+	  "name": "Data Model: E-Commerce Backend",
+	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/data-model-ecommerce-backend/preview.svg",
+	  "short_desc": "A fully-functioning e-commerce backend built with your Hasura API.",
+	  "url_path": "schema-share-data-model-ecommerce-backend",
+	  "github_repo": {
+	    "name": "hasura/schema-sharing",
+	    "branch": "main",
+	    "readme_repo_path": "/postgres/data-model-ecommerce-backend/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "June 16, 2021",
+	  "last_updated": "June 16, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Schema Sharing: Data Model - E-Commerce Backend",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-ecommerce-backend"
+	    },
+	    {
+	      "text": "Blog: Building a customizable e-commerce backend with Hasura",
+	      "link": "https://hasura.io/blog/building-customizable-ecommerce-backend-with-hasura-graphql-apis/"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-ecommerce-backend",
+	  "categories": [
+	    {
+	      "name": "Sample Data Models"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Database Schema"
+	}
+]
