@@ -65,7 +65,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "",
+	  "integration_link": "https://github.com/praveenweb/faunadb-graphql-api",
 	  "categories": [
 	    {
 	      "name": "Databases"
