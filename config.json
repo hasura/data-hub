@@ -321,7 +321,7 @@
 	    }
 	  ],
 	  "video_demo": "https://www.youtube.com/embed/8Jr3tSTf5-E",
-	  "integration_link": "praveenweb/graphql-mesh",
+	  "integration_link": "https://github.com/praveenweb/graphql-mesh",
 	  "categories": [
 	    {
 	      "name": "REST API"
