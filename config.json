@@ -320,7 +320,7 @@
 	      "alt": ""
 	    }
 	  ],
-	  "video_demo": null,
+	  "video_demo": "https://www.youtube.com/embed/8Jr3tSTf5-E",
 	  "integration_link": "praveenweb/graphql-mesh",
 	  "categories": [
 	    {
@@ -988,26 +988,26 @@
 	  "type": "Database Schema"
 	},
 	{
-	  "name": "Data Model: E-Commerce Backend",
+	  "name": "Data Model: Location Tracking",
 	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/data-model-ecommerce-backend/preview.svg",
-	  "short_desc": "A fully-functioning e-commerce backend built with your Hasura API.",
-	  "url_path": "schema-share-data-model-ecommerce-backend",
+	  "short_desc": "A fully-functioning location tracking model to build a realtime GraphQL API",
+	  "url_path": "schema-share-data-model-location-tracking",
 	  "github_repo": {
 	    "name": "hasura/schema-sharing",
 	    "branch": "main",
-	    "readme_repo_path": "/postgres/data-model-ecommerce-backend/README.md"
+	    "readme_repo_path": "/postgres/data-model-location-tracking/README.md"
 	  },
 	  "developed_by": "Hasura",
 	  "released_on": "June 16, 2021",
 	  "last_updated": "June 16, 2021",
 	  "additional_resources": [
 	    {
-	      "text": "Schema Sharing: Data Model - E-Commerce Backend",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-ecommerce-backend"
+	      "text": "Schema Sharing: Data Model - Location Tracking",
+	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-location-tracking"
 	    },
 	    {
-	      "text": "Blog: Building a customizable e-commerce backend with Hasura",
-	      "link": "https://hasura.io/blog/building-customizable-ecommerce-backend-with-hasura-graphql-apis/"
+	      "text": "Github Sample App",
+	      "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/realtime-location-tracking"
 	    }
 	  ],
 	  "additional_images": [
@@ -1017,7 +1017,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-ecommerce-backend",
+	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-location-tracking",
 	  "categories": [
 	    {
 	      "name": "Sample Data Models"
