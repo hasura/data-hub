@@ -549,11 +549,11 @@
 	},
 	{
 	  "name": "Views: Group By & Aggregate",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/views-group-aggregate/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/views-group-aggregate/preview.svg",
 	  "short_desc": "Views can be used to expose the results of a custom query as a virtual table. This example demonstrates grouping by a column and aggregating.",
 	  "url_path": "schema-share-views-group-aggregate",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/views-group-aggregate/README.md"
 	  },
@@ -563,7 +563,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Views - Group By & Aggregate",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/views-group-aggregate"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/views-group-aggregate"
 	    },
 	    {
 	      "text": "Documentation: Views",
@@ -577,7 +577,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/views-group-aggregate",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/views-group-aggregate",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -589,11 +589,11 @@
 	},
 	{
 	  "name": "Functions: Multiple Column Text Search",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-multiple-column-search/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/functions-multiple-column-search/preview.svg",
 	  "short_desc": "Custom functions are ideal solutions for retrieving some derived data based on some custom business logic that requires user input to be calculated. This is an example of using a custom function to create a text search across multiple columns.",
 	  "url_path": "schema-share-functions",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/functions-multiple-column-search/README.md"
 	  },
@@ -603,7 +603,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Functions - Multiple Column Text Search",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-multiple-column-search"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-multiple-column-search"
 	    },
 	    {
 	      "text": "Documentation: Functions - Multiple Column Text Search",
@@ -617,7 +617,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-multiple-column-search",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-multiple-column-search",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -629,11 +629,11 @@
 	},
 	{
 	  "name": "Enum: Reference Table",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/enum-reference-table/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/enum-reference-table/preview.svg",
 	  "short_desc": "Using foreign-key references to a single-column table allows us to represents an enum using ordinary relational database concepts using Hasura.",
 	  "url_path": "schema-share-enum-reference-table",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/enum-reference-table/README.md"
 	  },
@@ -643,7 +643,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Enum - Reference Table",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/enum-reference-table"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/enum-reference-table"
 	    },
 	    {
 	      "text": "Documentation: Enum - Reference Table",
@@ -657,7 +657,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/enum-reference-table",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/enum-reference-table",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -669,11 +669,11 @@
 	},
 	{
 	  "name": "Relationships - One-to-One",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/relationships-one-to-one/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/relationships-one-to-one/preview.svg",
 	  "short_desc": "A one-to-one relationship between two tables can be established via a unique foreign key constraint and tracked using Hasura.",
 	  "url_path": "schema-share-relationships-one-to-one",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/relationships-one-to-one/README.md"
 	  },
@@ -683,7 +683,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Relationships - One-to-One",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-one"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/relationships-one-to-one"
 	    },
 	    {
 	      "text": "Documentation: Relationships - One-to-One",
@@ -697,7 +697,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-one",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/relationships-one-to-one",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -709,11 +709,11 @@
 	},
 	{
 	  "name": "Relationships - One-to-Many",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/relationships-one-to-many/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/relationships-one-to-many/preview.svg",
 	  "short_desc": "A one-to-many relationship between two tables can be established via a unique foreign key constraint and tracked using Hasura.",
 	  "url_path": "schema-share-relationships-one-to-many",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/relationships-one-to-many/README.md"
 	  },
@@ -723,7 +723,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Relationships - One-to-Many",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-many"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/relationships-one-to-many"
 	    },
 	    {
 	      "text": "Documentation: Relationships - One-to-Many",
@@ -737,7 +737,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-one-to-many",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/relationships-one-to-many",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -749,11 +749,11 @@
 	},
 	{
 	  "name": "Relationships - Many-to-Many",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/relationships-many-to-many/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/relationships-many-to-many/preview.svg",
 	  "short_desc": "A many-to-many relationship between two tables can be established by creating a table typically called a bridge/junction/join table and adding foreign-key constraints from it to the original tables. These are then tracked using Hasura.",
 	  "url_path": "schema-share-relationships-many-to-many",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/relationships-many-to-many/README.md"
 	  },
@@ -763,7 +763,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Relationships - Many-to-Many",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-many-to-many"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/relationships-many-to-many"
 	    },
 	    {
 	      "text": "Documentation: Relationships - Many-to-Many",
@@ -777,7 +777,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/relationships-many-to-many",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/relationships-many-to-many",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -789,11 +789,11 @@
 	},
 	{
 	  "name": "Permissions: Row-Level (Basic)",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/permissions-row-level-basic/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/permissions-row-level-basic/preview.svg",
 	  "short_desc": "Row-level permissions can be set based on a user's role or any session variables.",
 	  "url_path": "schema-share-permissions-row-level",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/permissions-row-level-basic/README.md"
 	  },
@@ -803,7 +803,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Permissions: Row-Level (Basic)",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-row-level-basic"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/permissions-row-level-basic"
 	    },
 	    {
 	      "text": "Documentation: Permissions: Row-Level (Basic)",
@@ -817,7 +817,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-row-level-basic",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/permissions-row-level-basic",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -829,11 +829,11 @@
 	},
 	{
 	  "name": "Permissions: Column-Level Filtering",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/permissions-column-level/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/permissions-column-level/preview.svg",
 	  "short_desc": "Column-level permissions determine access to columns that are accessible by the user's role.",
 	  "url_path": "schema-share-permissions-column-level",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/permissions-column-level/README.md"
 	  },
@@ -843,7 +843,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Permissions - Column-Level Filtering",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-column-level"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/permissions-column-level"
 	    },
 	    {
 	      "text": "Documentation: Permissions - Column-Level Filtering",
@@ -857,7 +857,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/permissions-column-level",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/permissions-column-level",
 	  "categories": [
 	    {
 	      "name": "Core Concepts"
@@ -869,11 +869,11 @@
 	},
 	{
 	  "name": "Functions: Fuzzy-Match Search",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-fuzzy-match-search/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/functions-fuzzy-match-search/preview.svg",
 	  "short_desc": "Custom functions are ideal solutions for retrieving some derived data based on some custom business logic that requires user input to be calculated. This is an example of a fuzzy-match search function across multiple columns.",
 	  "url_path": "schema-share-functions-fuzzy-match-search",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/functions-fuzzy-match-search/README.md"
 	  },
@@ -883,7 +883,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Functions - Fuzzy-Match Search",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-fuzzy-match-search"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-fuzzy-match-search"
 	    },
 	    {
 	      "text": "Documentation: Functions - Fuzzy-Match Search",
@@ -897,7 +897,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-fuzzy-match-search",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-fuzzy-match-search",
 	  "categories": [
 	    {
 	      "name": "Intermediate Implementations"
@@ -909,11 +909,11 @@
 	},
 	{
 	  "name": "Functions: PostGIS",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-postgis/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/functions-postgis/preview.svg",
 	  "short_desc": "Fetching landmark data using the popular spacial database PostGIS extension.",
 	  "url_path": "schema-share-functions-postgis",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/functions-postgis/README.md"
 	  },
@@ -923,7 +923,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Functions - PostGIS",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-postgis"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-postgis"
 	    },
 	    {
 	      "text": "Documentation: Functions - PostGIS",
@@ -937,7 +937,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-postgis",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-postgis",
 	  "categories": [
 	    {
 	      "name": "Intermediate Implementations"
@@ -949,11 +949,11 @@
 	},
 	{
 	  "name": "Functions: Accessing Session Variables",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/functions-session-variables/preview.svg",
+	  "logo_url": "https://hasura.github.io/template-gallery/postgres/functions-session-variables/preview.svg",
 	  "short_desc": "Create a function with an argument for session variables and track it using your Hasura API.",
 	  "url_path": "schema-share-functions-session-variables",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/functions-session-variables/README.md"
 	  },
@@ -963,7 +963,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Functions - Accessing Session Variables",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-session-variables"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-session-variables"
 	    },
 	    {
 	      "text": "Documentation: Functions - Accessing Session Variables",
@@ -977,7 +977,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/functions-session-variables",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/functions-session-variables",
 	  "categories": [
 	    {
 	      "name": "Intermediate Implementations"
@@ -989,11 +989,11 @@
 	},
 	{
 	  "name": "Data Model: Location Tracking",
-	  "logo_url": "https://hasura.github.io/schema-sharing/postgres/data-model-ecommerce-backend/preview.svg",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/template-gallery/icons/data-model.png",
 	  "short_desc": "A fully-functioning location tracking model to build a realtime GraphQL API",
 	  "url_path": "schema-share-data-model-location-tracking",
 	  "github_repo": {
-	    "name": "hasura/schema-sharing",
+	    "name": "hasura/template-gallery",
 	    "branch": "main",
 	    "readme_repo_path": "/postgres/data-model-location-tracking/README.md"
 	  },
@@ -1003,7 +1003,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Schema Sharing: Data Model - Location Tracking",
-	      "link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-location-tracking"
+	      "link": "https://github.com/hasura/template-gallery/tree/main/postgres/data-model-location-tracking"
 	    },
 	    {
 	      "text": "Github Sample App",
@@ -1017,7 +1017,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/schema-sharing/tree/main/postgres/data-model-location-tracking",
+	  "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/data-model-location-tracking",
 	  "categories": [
 	    {
 	      "name": "Sample Data Models"
