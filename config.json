@@ -281,7 +281,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "praveenweb/openapi-swagger-remote-schema",
+	  "integration_link": "https://github.com/praveenweb/openapi-swagger-remote-schema",
 	  "categories": [
 	    {
 	      "name": "REST API"
