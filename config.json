@@ -909,7 +909,7 @@
 	},
 	{
 	  "name": "Functions: PostGIS",
-	  "logo_url": "https://hasura.github.io/template-gallery/postgres/functions-postgis/preview.svg",
+		"logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/postgis.svg",
 	  "short_desc": "Fetching landmark data using the popular spacial database PostGIS extension.",
 	  "url_path": "schema-share-functions-postgis",
 	  "github_repo": {
@@ -944,7 +944,7 @@
 	    }
 	  ],
 	  "is_featured": false,
-	  "coming_soon": false,
+	  "coming_soon": true,
 	  "type": "Database Schema"
 	},
 	{
