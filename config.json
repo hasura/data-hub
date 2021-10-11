@@ -51,7 +51,7 @@
 	  "additional_resources": [
 	    {
 	      "text": "Fauna API Docs",
-	      "link": "https://docs.fauna.com/fauna/current/tutorials/graphql/quick_start"
+	      "link": "https://docs.fauna.com/fauna/current/learn/quick_start/gql_quick_start"
 	    },
 	    {
 	      "text": "Join Fauna with Hasura",
