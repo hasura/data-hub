@@ -2,7 +2,7 @@
 	{
 	  "name": "Contentful",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/contentful.svg",
-	  "short_desc": "Contentful is an API First CMS to build digital products.",
+	  "short_desc": "Contentful is an API First CMS to build digital products. It offers a GraphQL API that can be joined with Hasura using Remote Schema.",
 	  "url_path": "contentful-graphql-api",
 	  "github_repo": {
 	    "name": "praveenweb/contentful-remote-schema",
@@ -38,7 +38,7 @@
 	{
 	  "name": "Fauna",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/faunadb.svg",
-	  "short_desc": "Fauna is a serverless cloud database for modern applications.",
+	  "short_desc": "FaunaDB is a serverless cloud database for modern applications and offers a GraphQL API that can be joined with Hasura using Remote Joins.",
 	  "url_path": "faunadb-graphql-api",
 	  "github_repo": {
 	    "name": "praveenweb/faunadb-graphql-api",
@@ -186,7 +186,7 @@
 	{
 	  "name": "GraphCMS",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/graphcms.svg",
-	  "short_desc": "GraphCMS is the Headless CMS allowing you to build digital experiences the way you envisioned them",
+	  "short_desc": "GraphCMS is a headless CMS allowing you to build digital experiences the way you envisioned them and connects to Hasura using Remote Schema.",
 	  "url_path": "graphcms-graphql-api",
 	  "github_repo": {
 	    "name": "motleydev/graphcms-remote-schema",
@@ -258,7 +258,7 @@
 	{
 	  "name": "Open API (IBM)",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/ibm.svg",
-	  "short_desc": "Translate APIs described by OpenAPI Specifications (OAS) or Swagger into GraphQL.",
+	  "short_desc": "openapi-to-graphql translates APIs described by OpenAPI Specifications (OAS) or Swagger into GraphQL. Query OpenAPI/Swagger data via Hasura.",
 	  "url_path": "ibm-open-api-graphql",
 	  "github_repo": {
 	    "name": "praveenweb/openapi-swagger-remote-schema",
@@ -294,7 +294,7 @@
 	{
 	  "name": "GraphQL Mesh",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/graphql-mesh.svg",
-	  "short_desc": "GraphQL Mesh allows you to use GraphQL query language to access data in remote APIs that don't run GraphQL",
+	  "short_desc": "GraphQL Mesh lets you use GraphQL to access data in remote APIs. Learn how to create a Data Graph with GraphQL Mesh & Hasura Remote Joins.",
 	  "url_path": "graphql-mesh-api",
 	  "github_repo": {
 	    "name": "praveenweb/graphql-mesh",
@@ -668,7 +668,7 @@
 	  "type": "Database Schema"
 	},
 	{
-	  "name": "Relationships - One-to-One",
+	  "name": "Relationships: One-to-One",
 	  "logo_url": "https://hasura.github.io/template-gallery/postgres/relationships-one-to-one/preview.svg",
 	  "short_desc": "A one-to-one relationship between two tables can be established via a unique foreign key constraint and tracked using Hasura.",
 	  "url_path": "schema-share-relationships-one-to-one",
@@ -708,7 +708,7 @@
 	  "type": "Database Schema"
 	},
 	{
-	  "name": "Relationships - One-to-Many",
+	  "name": "Relationships: One-to-Many",
 	  "logo_url": "https://hasura.github.io/template-gallery/postgres/relationships-one-to-many/preview.svg",
 	  "short_desc": "A one-to-many relationship between two tables can be established via a unique foreign key constraint and tracked using Hasura.",
 	  "url_path": "schema-share-relationships-one-to-many",
@@ -748,9 +748,9 @@
 	  "type": "Database Schema"
 	},
 	{
-	  "name": "Relationships - Many-to-Many",
+	  "name": "Relationships: Many-to-Many",
 	  "logo_url": "https://hasura.github.io/template-gallery/postgres/relationships-many-to-many/preview.svg",
-	  "short_desc": "A many-to-many relationship between two tables can be established by creating a table typically called a bridge/junction/join table and adding foreign-key constraints from it to the original tables. These are then tracked using Hasura.",
+	  "short_desc": "A many-to-many relationship, established by creating a table & adding foreign-key constraints from it to the original tables, can be tracked using Hasura.",
 	  "url_path": "schema-share-relationships-many-to-many",
 	  "github_repo": {
 	    "name": "hasura/template-gallery",
@@ -870,7 +870,7 @@
 	{
 	  "name": "Functions: Fuzzy-Match Search",
 	  "logo_url": "https://hasura.github.io/template-gallery/postgres/functions-fuzzy-match-search/preview.svg",
-	  "short_desc": "Custom functions are ideal solutions for retrieving some derived data based on some custom business logic that requires user input to be calculated. This is an example of a fuzzy-match search function across multiple columns.",
+	  "short_desc": "This is an example of a fuzzy-match search function across multiple columns. This schema is installable through Hasura Console.",
 	  "url_path": "schema-share-functions-fuzzy-match-search",
 	  "github_repo": {
 	    "name": "hasura/template-gallery",
