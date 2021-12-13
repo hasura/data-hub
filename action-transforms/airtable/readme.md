@@ -1,16 +1,10 @@
-Using this template: https://www.airtable.com/templates/featured/expZvMLT9L6c4yeBX/product-catalog
+# Airtable Action Transform for Hasura
 
-Map the important parts of your your
+Airtable is a well loved, no-code information manager used by companies of all sizes to perform many different workloads. Leverage Airtable data through Hasura's API ecosystem by using this action transform.
 
-Needs authentication: https://airtable.com/account
+This integration creates a generic interface with Airtable that requres you to pass the name of your Table within your base as the "table" parameter of the action request.
 
-add auth to env
-add base url to auth
-
-![handler image](./images/guide-image-2.png)
-![handler image](./images/guide-image-3.png)
-
-https://api.airtable.com/v0/<your_app_id>/Furniture
+Using this [E-Commerce example from Airtable](https://www.airtable.com/templates/featured/expZvMLT9L6c4yeBX/product-catalog) you would access the Furniture table the following way.
 
 ```graphql
 {
@@ -19,12 +13,6 @@ https://api.airtable.com/v0/<your_app_id>/Furniture
   }
 }
 ```
-
----
-
-# Airtable Action Transform for Hasura
-
-Airtable is a well loved, no-code information manager used by companies of all sizes to perform many different workloads. Leverage Airtable data through Hasura's API ecosystem by using this action transform.
 
 ## Getting your Airtable API Settings
 
@@ -39,22 +27,19 @@ Locate your API Key in [your Airtable settings](https://airtable.com/account). I
 ![Airtable API Key](./images/guide-image-1.png)
 Your API base path will be available on a per-base basis. [You can find all your Airtable bases here.](https://airtable.com/api)
 
-## Adding Airtable to Hasura
+## Importing an Action Transform
 
-- Create a new action.
-- Use
+Importing actions and events into Hasura apply one or more actions. Actions based on request configurations and will need metadata to be applied. Events need underlying table structure to trigger the events.
 
-```
-https://graphql.contentful.com/content/v1/spaces/<space-id>
-```
+Steps required for this integration:
 
-And replace <space-id> with the appropriate value.
+- Metadata Apply
 
-- In Contentful dashboard, click on **Settings**. Under **Space Settings** click on **API keys**. Copy the Space ID and paste in the above endpoint.
-- Now copy Content Delivery API - access token and use it in Authorization headers like below:
+### Metatadata Apply
 
-```
-Authorization: Bearer <access_token>
-```
+To apply metadata into your project. You will need:
 
-- In Hasura Console, head to Remote Schemas and enter GraphQL Server URL with the above contentful endpoint. Under Additional Headers, enter the Authorization header with the access_token as mentioned above.
+1. The Hasura CLI installed.
+2. Run "hasura metadata apply" from the root folder of your Hasura metadata project. In this project, you can find that folder under `/hasura`.
+
+More [information about Hasura CLI](https://hasura.io/docs/latest/graphql/core/hasura-cli/index.html) can be found in the documentation.
