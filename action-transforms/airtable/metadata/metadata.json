@@ -1,0 +1,88 @@
+{
+  "resource_version": 20,
+  "metadata": {
+    "version": 3,
+    "sources": [],
+    "actions": [
+      {
+        "name": "airtable",
+        "definition": {
+          "handler": "{{AIRTABLE_BASE_PATH}}",
+          "output_type": "AirtableResponse",
+          "headers": [
+            {
+              "name": "Authorization",
+              "value_from_env": "AIRTABLE_API_KEY"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "table",
+              "type": "String!"
+            }
+          ],
+          "request_transform": {
+            "url": "{{$base_url}}/{{$body.input.table}}",
+            "method": "GET",
+            "query_params": {},
+            "template_engine": "Kriti"
+          },
+          "type": "query"
+        }
+      }
+    ],
+    "custom_types": {
+      "input_objects": [
+        {
+          "name": "AirtableFilterInput",
+          "fields": [
+            {
+              "name": "filterByFormula",
+              "type": "String"
+            },
+            {
+              "name": "maxRecords",
+              "type": "Int"
+            },
+            {
+              "name": "pageSize",
+              "type": "Int"
+            },
+            {
+              "name": "view",
+              "type": "String"
+            },
+            {
+              "name": "cellFormat",
+              "type": "String"
+            },
+            {
+              "name": "timeZone",
+              "type": "String"
+            },
+            {
+              "name": "userLocale",
+              "type": "String"
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "name": "AirtableResponse",
+          "fields": [
+            {
+              "name": "records",
+              "type": "jsonb"
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "jsonb"
+        }
+      ]
+    }
+  }
+}
