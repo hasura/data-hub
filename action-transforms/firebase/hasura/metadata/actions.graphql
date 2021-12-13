@@ -1,0 +1,39 @@
+type Mutation {
+  firebase_signin(
+    params: FireBaseSignInInput!
+  ): FireBaseSignInOutput
+}
+
+type Mutation {
+  firebase_signup(
+    params: FireBaseSignupInput!
+  ): FirebaseSignupOutput
+}
+
+input FireBaseSignupInput {
+  email: String!
+  password: String!
+}
+
+input FireBaseSignInInput {
+  email: String!
+  password: String!
+}
+
+type FirebaseSignupOutput {
+  idToken: String
+  email: String
+  refreshToken: String
+  expiresIn: String
+  localId: String
+}
+
+type FireBaseSignInOutput {
+  idToken: String
+  email: String
+  refreshToken: String
+  expiresIn: String
+  localId: String
+  registered: Boolean
+}
+
