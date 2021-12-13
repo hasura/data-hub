@@ -14,7 +14,7 @@ Using this [E-Commerce example from Airtable](https://www.airtable.com/templates
 }
 ```
 
-## Getting your Airtable API Settings
+## Configuring an Action Transform
 
 You'll need the following environment variables.
 
@@ -22,6 +22,8 @@ You'll need the following environment variables.
 AIRABLE_API_KEY: "keyXXXXXXXXXXXXXX"
 AIRTABLE_BASE_PATH: "https://api.airtable.com/v0/<your_app_id>"
 ```
+
+If you are using Docker you can provide these environment variables along with the rest of your Hasura configuration information.
 
 Locate your API Key in [your Airtable settings](https://airtable.com/account). If no key exists, you make need to generate a new one.  
 ![Airtable API Key](./images/guide-image-1.png)
