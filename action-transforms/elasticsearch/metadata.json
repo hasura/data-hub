@@ -1,0 +1,55 @@
+{
+  "resource_version": 27,
+  "metadata": {
+    "version": 3,
+    "sources": [],
+    "actions": [
+     {
+        "name": "searchCustomerId",
+        "definition": {
+          "handler": "https://test-elastic-search.cloud.es.io:9243/",
+          "output_type": "SearchOutput",
+          "headers": [
+            {
+              "value": "ApiKey abcdef123",
+              "name": "Authorization"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "customer_id",
+              "type": "Int"
+            }
+          ],
+          "type": "query"
+        },
+        "request_transform": {
+	  "url": "{{$base_url}}/{{$session_variables['x-hasura-user-id']}}",
+          "body": "{ \"query\": { \"match\": { \"customer_id\": {{$body.input.customer_id}} } } }",
+          "method": "GET",
+          "query_params": null,
+          "template_engine": "Kriti"
+        }
+      }
+    ],
+    "custom_types": {
+      "input_objects": [],
+      "objects": [
+        {
+          "name": "SearchOutput",
+          "fields": [
+            {
+              "name": "hits",
+              "type": "jsonb"
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "jsonb"
+        }
+      ]
+    }
+  }
+}

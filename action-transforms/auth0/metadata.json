@@ -1,0 +1,134 @@
+{
+  "resource_version": 21,
+  "metadata": {
+    "version": 3,
+    "sources": [],
+    "actions": [
+    {
+        "name": "updateProfilePic",
+        "definition": {
+          "handler": "https://crossliftspro.auth0.com/api/v2/users",
+          "output_type": "ProfileOutput",
+          "headers": [
+            {
+              "value": "Bearer <token>",
+              "name": "authorization"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "picture_url",
+              "type": "String"
+            }
+          ],
+          "type": "mutation",
+          "kind": "synchronous"
+        },
+        "request_transform": {
+          "body": "{\n  \"user_metadata\": {\n    \"picture\": {{$body.input.picture_url}}\n  }\n}\n",
+          "url": "{{$base_url}}/{{$session_variables['x-hasura-user-id']}}",
+          "method": "PATCH",
+          "template_engine": "Kriti"
+        }
+      }
+    ],
+    "custom_types": {
+      "input_objects": [
+        {
+          "name": "SampleInput",
+          "fields": [
+            {
+              "name": "username",
+              "type": "String!"
+            },
+            {
+              "name": "password",
+              "type": "String!"
+            },
+            {
+              "name": "access",
+              "type": "AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "fields": [
+            {
+              "name": "token",
+              "type": "String"
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "name": "ProfileOutput",
+          "fields": [
+            {
+              "name": "email",
+              "type": "String!"
+            },
+            {
+              "name": "last_ip",
+              "type": "String!"
+            },
+            {
+              "name": "email_verified",
+              "type": "String!"
+            },
+            {
+              "name": "logins_count",
+              "type": "String!"
+            },
+            {
+              "name": "picture",
+              "type": "String!"
+            },
+            {
+              "name": "name",
+              "type": "String!"
+            },
+            {
+              "name": "updated_at",
+              "type": "String!"
+            },
+            {
+              "name": "created_at",
+              "type": "String!"
+            },
+            {
+              "name": "identities",
+              "type": "String!"
+            },
+            {
+              "name": "nickname",
+              "type": "String!"
+            },
+            {
+              "name": "user_metadata",
+              "type": "String!"
+            },
+            {
+              "name": "app_metadata",
+              "type": "String!"
+            },
+            {
+              "name": "user_id",
+              "type": "String!"
+            },
+            {
+              "name": "last_login",
+              "type": "String!"
+            }
+          ]
+        },
+      ],
+      "scalars": [
+        {
+          "name": "jsonb"
+        }
+      ]
+    }
+  }
+}

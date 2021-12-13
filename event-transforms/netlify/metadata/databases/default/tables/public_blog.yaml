@@ -1,0 +1,18 @@
+table:
+  name: blog
+  schema: public
+event_triggers:
+- definition:
+    delete:
+      columns: "*"
+    enable_manual: false
+    insert:
+      columns: "*"
+    update:
+      columns: "*"
+  name: netlify_deploy
+  retry_conf:
+    interval_sec: 10
+    num_retries: 0
+    timeout_sec: 60
+  webhook_from_env: NETLIFY_BUILD_HOOK

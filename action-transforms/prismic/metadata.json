@@ -1,0 +1,77 @@
+{
+  "resource_version": 21,
+  "metadata": {
+    "version": 3,
+    "sources": [],
+    "actions": [
+      {
+        "name": "prismicSearch",
+        "definition": {
+          "handler": "https://test-tiru.prismic.io/api/v2/documents/search",
+          "output_type": "SamplePrismicOutput",
+          "arguments": [
+            {
+              "name": "q",
+              "type": "String!"
+            }
+          ],
+          "type": "query"
+        },
+        "request_transform": {
+          "method": "GET",
+          "query_params": {
+            "q": "{{$body.input.q}}",
+            "ref": "YVwkWxEAACUAwfs3"
+          },
+          "template_engine": "Kriti"
+        }
+      }
+    ],
+    "custom_types": {
+      "input_objects": [
+        {
+          "name": "SampleInput",
+          "fields": [
+            {
+              "name": "username",
+              "type": "String!"
+            },
+            {
+              "name": "password",
+              "type": "String!"
+            },
+            {
+              "name": "access",
+              "type": "AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "fields": [
+            {
+              "name": "token",
+              "type": "String"
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "name": "SamplePrismicOutput",
+          "fields": [
+            {
+              "name": "results",
+              "type": "jsonb"
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "jsonb"
+        }
+      ]
+    }
+  }
+}

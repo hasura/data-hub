@@ -1,0 +1,8 @@
+curl -XGET 'https://test-tiru.es.us-central1.gcp.cloud.es.io:9243/kibana_sample_data_ecommerce/_search' -H 'Content-Type: application/json' -H 'Authorization: ApiKey <token>' \
+-d '{
+  "query": {
+    "match": {
+      "customer_id": 10   
+    }
+  }
+}'
