@@ -1,0 +1,24 @@
+type Query {
+  openweather_current(
+    location: String!
+  ): OpenWeatherOutputType
+}
+
+type OpenWeatherOutputType {
+  coord: jsonb
+  weather: jsonb
+  base: String
+  main: jsonb
+  visibility: Int
+  wind: jsonb
+  clouds: jsonb
+  dt: Int
+  sys: jsonb
+  timezone: Int
+  id: Int
+  name: String
+  code: Int
+}
+
+scalar jsonb
+

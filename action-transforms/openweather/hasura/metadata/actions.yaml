@@ -1,0 +1,19 @@
+actions:
+- name: openweather_current
+  definition:
+    kind: ""
+    handler: '{{OPEN_WEATHER_API_PATH}}'
+    request_transform:
+      method: GET
+      query_params:
+        appid: <your-api-key>
+        q: '{{$body.input.location}}'
+      template_engine: Kriti
+      url: '{{$base_url}}/weather'
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+  - name: OpenWeatherOutputType
+  scalars:
+  - name: jsonb
