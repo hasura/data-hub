@@ -36,118 +36,6 @@
 	  "type": "Remote Schema"
 	},
 	{
-	  "name": "Fauna",
-	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/faunadb.svg",
-	  "short_desc": "Fauna is a serverless cloud database for modern applications.",
-	  "url_path": "faunadb-graphql-api",
-	  "github_repo": {
-	    "name": "praveenweb/faunadb-graphql-api",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
-	  },
-	  "developed_by": "Fauna",
-	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
-	  "additional_resources": [
-	    {
-	      "text": "Fauna API Docs",
-	      "link": "https://docs.fauna.com/fauna/current/tutorials/graphql/quick_start"
-	    },
-	    {
-	      "text": "Join Fauna with Hasura",
-	      "link": "https://hasura.io/blog/joining-postgres-data-with-faunadb-serverless-hasura-remote-joins/"
-	    }
-	  ],
-	  "additional_images": [
-	    {
-	      "url": "",
-	      "alt": ""
-	    }
-	  ],
-	  "video_demo": null,
-	  "integration_link": "https://github.com/praveenweb/faunadb-graphql-api",
-	  "categories": [
-	    {
-	      "name": "Databases"
-	    }
-	  ],
-	  "is_featured": false,
-	  "coming_soon": false,
-	  "type": "Remote Schema"
-	},
-	{
-	  "name": "Dgraph",
-	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/dgraph.svg",
-	  "short_desc": "Dgraph is a native GraphQL graph database that is built to be distributed.",
-	  "url_path": "dgraph-graphql-api",
-	  "github_repo": {
-	    "name": "praveenweb/dgraph-graphql-api",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
-	  },
-	  "developed_by": "Dgraph",
-	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
-	  "additional_resources": [
-	    {
-	      "text": "Dgraph API Docs",
-	      "link": "https://dgraph.io/docs/graphql/overview/"
-	    }
-	  ],
-	  "additional_images": [
-	    {
-	      "url": "",
-	      "alt": ""
-	    }
-	  ],
-	  "video_demo": null,
-	  "integration_link": "",
-	  "categories": [
-	    {
-	      "name": "Databases"
-	    }
-	  ],
-	  "is_featured": false,
-	  "coming_soon": true,
-	  "type": "Remote Schema"
-	},
-	{
-	  "name": "Neo4j",
-	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/neo4j.svg",
-	  "short_desc": "Neo4j is a native graph database platform",
-	  "url_path": "neo4j-graphql-api",
-	  "github_repo": {
-	    "name": "praveenweb/neo4j-graphql-api",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
-	  },
-	  "developed_by": "Neo4j",
-	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
-	  "additional_resources": [
-	    {
-	      "text": "Neo4j GraphQL Docs",
-	      "link": "https://neo4j.com/developer/graphql/"
-	    }
-	  ],
-	  "additional_images": [
-	    {
-	      "url": "",
-	      "alt": ""
-	    }
-	  ],
-	  "video_demo": null,
-	  "integration_link": "",
-	  "categories": [
-	    {
-	      "name": "Databases"
-	    }
-	  ],
-	  "is_featured": false,
-	  "coming_soon": true,
-	  "type": "Remote Schema"
-	},
-	{
 	  "name": "Strapi",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/strapi.svg",
 	  "short_desc": "Strapi is an open-source Headless CMS",
@@ -1283,6 +1171,42 @@
 	  "name": "Vercel",
 	  "logo_url": "",
 	  "short_desc": "Trigger a Vercel deployment on database events",
+	  "url_path": "vercel",
+	  "github_repo": {
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/event-transforms/vercel/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "December 14, 2021",
+	  "last_updated": "December 14, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Vercel Deploy Hooks",
+	      "link": "https://vercel.com/docs/concepts/git/deploy-hooks"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/event-transforms/vercel",
+	  "categories": [
+	    {
+	      "name": "CI/CD"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Event Transforms"
+	},
+	{
+	  "name": "Circle CI",
+	  "logo_url": "",
+	  "short_desc": "Trigger a Circle CI deployment on database events",
 	  "url_path": "vercel",
 	  "github_repo": {
 	    "name": "hasura/data-hub",

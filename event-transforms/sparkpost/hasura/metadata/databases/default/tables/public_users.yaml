@@ -11,7 +11,7 @@ event_triggers:
     value_from_env: SPARKPOST_API_KEY
   name: send_email_sparkpost
   request_transform:
-    body: "{\n  \"campaign_id\": {{$body.trigger.name}},\n  \"recipients\": [\n    {\n      \"address\": {{$body.event.data.new.email}}\n    }\n  ],\n  \"content\": {\n    \"from\": {\n      \"email\": \"praveen@hasura.io\",\n      \"name\": \"Hasura\"\n    },\n\n    \"subject\": \"SparkPost inline template example\",\n    \"html\": \"<html><body>Here is your inline html!<br></body></html>\",\n    \"text\": \"Here is your plain text!\"\n  }\n}"
+    body: "{\n  \"campaign_id\": {{$body.trigger.name}},\n  \"recipients\": [\n    {\n      \"address\": {{$body.event.data.new.email}}\n    }\n  ],\n  \"content\": {\n    \"from\": {\n      \"email\": \"<from_email>\",\n      \"name\": \"<from_name>\"\n    },\n\n    \"subject\": \"SparkPost inline template example\",\n    \"html\": \"<html><body>Here is your inline html!<br></body></html>\",\n    \"text\": \"Here is your plain text!\"\n  }\n}"
     content_type: application/json
     method: POST
     query_params:
