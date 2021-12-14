@@ -2,7 +2,7 @@
 
 Airtable is a well loved, no-code information manager used by companies of all sizes to perform many different workloads. Leverage Airtable data through Hasura's API ecosystem by using this action transform.
 
-This integration creates a generic interface with Airtable that requres you to pass the name of your Table within your base as the "table" parameter of the action request.
+This integration creates a generic interface with Airtable that requires you to pass the name of your Table within your base as the "table" parameter of the action request.
 
 Using this [E-Commerce example from Airtable](https://www.airtable.com/templates/featured/expZvMLT9L6c4yeBX/product-catalog) you would access the Furniture table the following way.
 

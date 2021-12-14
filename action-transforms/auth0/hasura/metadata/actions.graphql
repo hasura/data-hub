@@ -1,0 +1,35 @@
+type Mutation {
+  updateProfilePic(
+    picture_url: String
+  ): ProfileOutput
+}
+
+input SampleInput {
+  username: String!
+  password: String!
+  access: AccessToken
+}
+
+input AccessToken {
+  token: String
+}
+
+type ProfileOutput {
+  email: String!
+  last_ip: String!
+  email_verified: String!
+  logins_count: String!
+  picture: String!
+  name: String!
+  updated_at: String!
+  created_at: String!
+  identities: String!
+  nickname: String!
+  user_metadata: String!
+  app_metadata: String!
+  user_id: String!
+  last_login: String!
+}
+
+scalar jsonb
+

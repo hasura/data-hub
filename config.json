@@ -877,7 +877,7 @@
 	},
 	{
 	  "name": "Data Model: Location Tracking",
-	  "logo_url": "https://graphql-engine-cdn.hasura.io/template-gallery/icons/data-model.png",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/location.svg",
 	  "short_desc": "A fully-functioning location tracking model to build a realtime GraphQL API",
 	  "url_path": "schema-share-data-model-location-tracking",
 	  "github_repo": {
@@ -917,7 +917,7 @@
 	},
 	{
 	  "name": "Algolia Search",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/algolia.svg",
 	  "short_desc": "Transform Algolia's REST API to a GraphQL Query",
 	  "url_path": "algolia-search-graphql",
 	  "github_repo": {
@@ -953,7 +953,7 @@
 	},
 	{
 	  "name": "Elasticsearch",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/elasticsearch.svg",
 	  "short_desc": "Transform Elasticsearch REST API to a GraphQL Query",
 	  "url_path": "elasticsearch-graphql",
 	  "github_repo": {
@@ -989,7 +989,7 @@
 	},
 	{
 	  "name": "Auth0",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/auth0.svg",
 	  "short_desc": "Transform Auth0 REST API to a GraphQL Query. Update profile information easily.",
 	  "url_path": "auth0-graphql",
 	  "github_repo": {
@@ -1016,7 +1016,7 @@
 	  "integration_link": "https://github.com/hasura/data-hub/tree/main/action-transforms/auth0",
 	  "categories": [
 	    {
-	      "name": "Authentication"
+	      "name": "Auth"
 	    }
 	  ],
 	  "is_featured": false,
@@ -1025,7 +1025,7 @@
 	},
 	{
 	  "name": "Prismic",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/prismic.svg",
 	  "short_desc": "Transform Prismic REST API to a GraphQL Query. Search the content of your repository.",
 	  "url_path": "prismic-graphql",
 	  "github_repo": {
@@ -1060,8 +1060,116 @@
 	  "type": "Action Transforms"
 	},
 	{
+	  "name": "Airtable",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/airtable.svg",
+	  "short_desc": "Transform Airtable REST API to a GraphQL Query/Mutation.",
+	  "url_path": "airtable-graphql",
+	  "github_repo": {
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/action-transforms/airtable/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "December 14, 2021",
+	  "last_updated": "December 14, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Airtable REST API",
+	      "link": "https://airtable.com/api"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/action-transforms/airtable",
+	  "categories": [
+	    {
+	      "name": "CMS"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Action Transforms"
+	},
+	{
+	  "name": "Firebase",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/firebase.svg",
+	  "short_desc": "Transform Firebase Auth REST API to GraphQL",
+	  "url_path": "firebase-graphql",
+	  "github_repo": {
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/action-transforms/firebase/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "December 14, 2021",
+	  "last_updated": "December 14, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Firebase REST API",
+	      "link": "https://firebase.google.com/docs/reference/rest/auth"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/action-transforms/firebase",
+	  "categories": [
+	    {
+	      "name": "Auth"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Action Transforms"
+	},
+	{
+	  "name": "OpenWeather",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/openweather.svg",
+	  "short_desc": "Transform OpenWeatherMap REST API to GraphQL",
+	  "url_path": "openweather-graphql",
+	  "github_repo": {
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/action-transforms/openweather/README.md"
+	  },
+	  "developed_by": "Hasura",
+	  "released_on": "December 14, 2021",
+	  "last_updated": "December 14, 2021",
+	  "additional_resources": [
+	    {
+	      "text": "Open Weather REST API",
+	      "link": "https://openweathermap.org/current"
+	    }
+	  ],
+	  "additional_images": [
+	    {
+	      "url": "",
+	      "alt": ""
+	    }
+	  ],
+	  "video_demo": null,
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/action-transforms/openweather",
+	  "categories": [
+	    {
+	      "name": "Data Services"
+	    }
+	  ],
+	  "is_featured": false,
+	  "coming_soon": false,
+	  "type": "Action Transforms"
+	},
+	{
 	  "name": "Sendgrid",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/sendgrid.svg",
 	  "short_desc": "Send emails on database events / triggers using Sendgrid's Mail API",
 	  "url_path": "sendgrid-email",
 	  "github_repo": {
@@ -1097,7 +1205,7 @@
 	},
 	{
 	  "name": "Sparkpost",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/sparkpost.svg",
 	  "short_desc": "Send emails on database events / triggers using Sparkpost Transmission API",
 	  "url_path": "sparkpost-email",
 	  "github_repo": {
@@ -1133,7 +1241,7 @@
 	},
 	{
 	  "name": "Netlify",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/netlify.svg",
 	  "short_desc": "Trigger a Netlify build on database events",
 	  "url_path": "netlify",
 	  "github_repo": {
@@ -1169,7 +1277,7 @@
 	},
 	{
 	  "name": "Vercel",
-	  "logo_url": "",
+	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/vercel.svg",
 	  "short_desc": "Trigger a Vercel deployment on database events",
 	  "url_path": "vercel",
 	  "github_repo": {
@@ -1207,19 +1315,19 @@
 	  "name": "Circle CI",
 	  "logo_url": "",
 	  "short_desc": "Trigger a Circle CI deployment on database events",
-	  "url_path": "vercel",
+	  "url_path": "circle-ci-deployment",
 	  "github_repo": {
 	    "name": "hasura/data-hub",
 	    "branch": "main",
-	    "readme_repo_path": "/event-transforms/vercel/README.md"
+	    "readme_repo_path": "/event-transforms/circle-ci/README.md"
 	  },
 	  "developed_by": "Hasura",
 	  "released_on": "December 14, 2021",
 	  "last_updated": "December 14, 2021",
 	  "additional_resources": [
 	    {
-	      "text": "Vercel Deploy Hooks",
-	      "link": "https://vercel.com/docs/concepts/git/deploy-hooks"
+	      "text": "",
+	      "link": ""
 	    }
 	  ],
 	  "additional_images": [
@@ -1229,14 +1337,14 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/hasura/data-hub/tree/main/event-transforms/vercel",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/event-transforms/circle-ci",
 	  "categories": [
 	    {
 	      "name": "CI/CD"
 	    }
 	  ],
 	  "is_featured": false,
-	  "coming_soon": false,
+	  "coming_soon": true,
 	  "type": "Event Transforms"
 	}
 ]

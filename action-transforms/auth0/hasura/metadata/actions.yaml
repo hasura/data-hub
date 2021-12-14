@@ -1,0 +1,29 @@
+actions:
+- name: updateProfilePic
+  definition:
+    kind: synchronous
+    handler: https://{{AUTH0_DOMAIN}}/api/v2/users
+    headers:
+    - name: Authorization
+      value_from_env: AUTH0_AUTH_TOKEN
+    request_transform:
+      body: |-
+        {
+          "user_metadata": {
+            "picture": {{$body.input.picture_url}}
+          }
+        }
+      content_type: application/json
+      method: PATCH
+      query_params: {}
+      template_engine: Kriti
+      url: '{{$base_url}}/{{$session_variables[''x-hasura-user-id'']}}'
+custom_types:
+  enums: []
+  input_objects:
+  - name: SampleInput
+  - name: AccessToken
+  objects:
+  - name: ProfileOutput
+  scalars:
+  - name: jsonb

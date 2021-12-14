@@ -1,0 +1,22 @@
+type Query {
+  prismicSearch(
+    q: String!
+  ): SamplePrismicOutput
+}
+
+input SampleInput {
+  username: String!
+  password: String!
+  access: AccessToken
+}
+
+input AccessToken {
+  token: String
+}
+
+type SamplePrismicOutput {
+  results: jsonb
+}
+
+scalar jsonb
+
