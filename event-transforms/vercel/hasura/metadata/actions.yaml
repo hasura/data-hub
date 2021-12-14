@@ -1,26 +1,6 @@
-actions:
-- name: algoliaSearch
-  definition:
-    kind: ""
-    handler: https://{{ALGOLIA_APPLICATION_ID}}.algolia.net/1/indexes/{{ALGOLIA_INDEX_NAME}}/query
-    headers:
-    - name: X-Algolia-API-Key
-      value_from_env: ALGOLIA_API_KEY
-    - name: X-Algolia-Application-Id
-      value_from_env: ALGOLIA_APPLICATION_ID
-    request_transform:
-      body: |-
-        {
-          "params": "query={{$body.input.query}}&hitsPerPage={{$body.input.hitsPerPage}}&getRankingInfo={{$body.input.getRankingInfo}}"
-        }
-      content_type: application/json
-      method: POST
-      query_params: {}
-      template_engine: Kriti
+actions: []
 custom_types:
   enums: []
   input_objects: []
-  objects:
-  - name: searchOutput
-  scalars:
-  - name: jsonb
+  objects: []
+  scalars: []
