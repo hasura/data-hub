@@ -26,7 +26,7 @@ AIRTABLE_BASE_PATH: "https://api.airtable.com/v0/<your_app_id>"
 If you are using Docker you can provide these environment variables along with the rest of your Hasura configuration information.
 
 Locate your API Key in [your Airtable settings](https://airtable.com/account). If no key exists, you make need to generate a new one.  
-![Airtable API Key](./images/guide-image-1.png)
+![Airtable API Key](https://storage.googleapis.com/graphql-engine-cdn.hasura.io/assets/main-site/marketplace/airtable-guide-image-1.png)
 Your API base path will be available on a per-base basis. [You can find all your Airtable bases here.](https://airtable.com/api)
 
 ## Importing an Action Transform
