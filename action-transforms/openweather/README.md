@@ -27,8 +27,8 @@ OPEN_WEATHER_API_PATH: "https://api.openweathermap.org/data/2.5"
 
 Additionally, you'll need your Openweather API Key which you can find from your [key settings page](https://home.openweathermap.org/api_keys). The Environment variable can be added along with the rest of your Hasura GraphQL Engine settings, but the API key will need to be added as a query parameter value for the action itself.
 
-![Openweather API Key](https://storage.googleapis.com/graphql-engine-cdn.hasura.io/assets/main-site/marketplace/open-weather-guide-image-1.png)
-![Openweather API Key](https://storage.googleapis.com/graphql-engine-cdn.hasura.io/assets/main-site/marketplace/open-weather-guide-image-2.png)
+![Openweather API Key](https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/open-weather-guide-image-1.png)
+![Openweather API Key](https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/open-weather-guide-image-2.png)
 
 ## Importing an Action Transform
 

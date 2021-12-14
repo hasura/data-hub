@@ -47,8 +47,8 @@ You'll need the following environment variables.
 
 Additionally, you'll need your Web API key which you can find from your key settings page available `/settings/general` from your main console. You'll provide this as a query parameter. The Environment variable can be added along with the rest of your Hasura GraphQL Engine settings, but the API key will need to be added as a query parameter value for the action itself.
 
-![Firebase API Key](https://storage.googleapis.com/graphql-engine-cdn.hasura.io/assets/main-site/marketplace/firebase-guide-image-1.png)
-![Firebase API Key](https://storage.googleapis.com/graphql-engine-cdn.hasura.io/assets/main-site/marketplace/firebase-guide-image-2.png)
+![Firebase API Key](https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/firebase-guide-image-1.png)
+![Firebase API Key](https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/firebase-guide-image-2.png)
 
 ## Importing an Action Transform
 
