@@ -1,0 +1,21 @@
+actions:
+- name: airtable
+  definition:
+    kind: ""
+    handler: '{{AIRTABLE_BASE_PATH}}'
+    headers:
+    - name: Authorization
+      value_from_env: AIRTABLE_API_KEY
+    request_transform:
+      method: GET
+      query_params: {}
+      template_engine: Kriti
+      url: '{{$base_url}}/{{$body.input.table}}'
+custom_types:
+  enums: []
+  input_objects:
+  - name: AirtableFilterInput
+  objects:
+  - name: AirtableResponse
+  scalars:
+  - name: jsonb

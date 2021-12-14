@@ -1,0 +1,23 @@
+actions:
+- name: searchCustomerId
+  definition:
+    kind: ""
+    handler: '{{ELASTIC_SEARCH_ENDPOINT}}'
+    headers:
+    - name: Authorization
+      value_from_env: ELASTIC_API_KEY
+    request_transform:
+      body: '{ "query": { "match": { "customer_id": {{$body.input.customer_id}} }
+        } }'
+      content_type: application/json
+      method: GET
+      query_params: {}
+      template_engine: Kriti
+      url: '{{$base_url}}/{{$session_variables[''x-hasura-user-id'']}}'
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+  - name: SearchOutput
+  scalars:
+  - name: jsonb

@@ -1,0 +1,44 @@
+actions:
+- name: firebase_signin
+  definition:
+    kind: synchronous
+    handler: '{{FIREBASE_API_BASE}}'
+    request_transform:
+      body: |-
+        {
+            "email": {{$body.input.params.email}},
+            "password": {{$body.input.params.password}},
+            "returnSecureToken": true
+        }
+      content_type: application/json
+      method: POST
+      query_params:
+        key: <your-web-api-key>
+      template_engine: Kriti
+      url: '{{$base_url}}/accounts:signInWithPassword'
+- name: firebase_signup
+  definition:
+    kind: synchronous
+    handler: '{{FIREBASE_API_BASE}}'
+    request_transform:
+      body: |-
+        {
+            "email": {{$body.input.params.email}},
+            "password": {{$body.input.params.password}},
+            "returnSecureToken": true
+        }
+      content_type: application/json
+      method: POST
+      query_params:
+        key: <your-web-api-key>
+      template_engine: Kriti
+      url: '{{$base_url}}/accounts:signUp'
+custom_types:
+  enums: []
+  input_objects:
+  - name: FireBaseSignupInput
+  - name: FireBaseSignInInput
+  objects:
+  - name: FirebaseSignupOutput
+  - name: FireBaseSignInOutput
+  scalars: []

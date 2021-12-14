@@ -1,0 +1,20 @@
+actions:
+- name: prismicSearch
+  definition:
+    kind: ""
+    handler: '{{PRISMIC_SEARCH_ENDPOINT}}'
+    request_transform:
+      method: GET
+      query_params:
+        q: '{{$body.input.q}}'
+        ref: YVwkWxEAACUAwfs3
+      template_engine: Kriti
+custom_types:
+  enums: []
+  input_objects:
+  - name: SampleInput
+  - name: AccessToken
+  objects:
+  - name: SamplePrismicOutput
+  scalars:
+  - name: jsonb

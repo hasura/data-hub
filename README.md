@@ -8,10 +8,10 @@ Hasura Data Hub allows you to discover, reuse and collaborate with the community
 
 Featuring native GraphQL APIs and samples of
 
-- Remote Schemas with Joins
-- Installable Database Schemas with Metadata
-- Actions with transformers (coming soon)
-- Events with transformers (coming soon)
+- Remote Schemas and Remote Joins
+- Installable Database Schemas with Authorization, Relationships, Views and Functions
+- Action Transforms (Declaratively transform your existing REST API to GraphQL queries and mutations)
+- Event Transforms (Declaratively transform your existing REST API to Event payload)
 
 ## Contribute
 

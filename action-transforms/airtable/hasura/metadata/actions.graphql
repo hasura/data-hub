@@ -1,0 +1,22 @@
+type Query {
+  airtable(
+    table: String!
+  ): AirtableResponse
+}
+
+input AirtableFilterInput {
+  filterByFormula: String
+  maxRecords: Int
+  pageSize: Int
+  view: String
+  cellFormat: String
+  timeZone: String
+  userLocale: String
+}
+
+type AirtableResponse {
+  records: jsonb
+}
+
+scalar jsonb
+

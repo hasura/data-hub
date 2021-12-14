@@ -1,0 +1,12 @@
+type Query {
+  searchCustomerId(
+    customer_id: Int
+  ): SearchOutput
+}
+
+type SearchOutput {
+  hits: jsonb
+}
+
+scalar jsonb
+
