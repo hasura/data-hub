@@ -1,0 +1,17 @@
+type Query {
+  spotify_search(
+    search: String!
+  ): SpotifySearchOutput
+}
+
+type SpotifySearchOutput {
+  tracks: jsonb
+  artists: jsonb
+  albums: jsonb
+  playlists: jsonb
+  shows: jsonb
+  episodes: jsonb
+}
+
+scalar jsonb
+

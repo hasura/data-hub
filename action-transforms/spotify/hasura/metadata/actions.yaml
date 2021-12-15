@@ -1,0 +1,23 @@
+actions:
+- name: spotify_search
+  definition:
+    kind: ""
+    handler: '{{SPOTIFY_BASE_URL}}'
+    headers:
+    - value: Bearer BQCqk5JAmFjw5a73XMW0_xu-WhmX72SSvnQHTryO_XNq7GRtT9zOi-ykjS0Awpqgl1EJR0YrU7kw9I6W9bw
+      name: Authorization
+    request_transform:
+      method: GET
+      query_params:
+        include_external: audio
+        q: '{{$body.input.search}}'
+        type: album
+      template_engine: Kriti
+      url: '{{$base_url}}/search'
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+  - name: SpotifySearchOutput
+  scalars:
+  - name: jsonb
