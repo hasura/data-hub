@@ -405,13 +405,13 @@
 	  "short_desc": "Sanity.io is the unified content platform that powers better digital experiences",
 	  "url_path": "sanity-graphql-api",
 	  "github_repo": {
-	    "name": "praveenweb/sanity-graphql",
-	    "branch": "master",
+	    "name": "catalinpit/sanity-remote-schema",
+	    "branch": "main",
 	    "readme_repo_path": "/README.md"
 	  },
 	  "developed_by": "Sanity",
-	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "released_on": "January 31, 2022",
+	  "last_updated": "January 31, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "Sanity GraphQL API Docs",
@@ -425,14 +425,14 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/praveenweb/sanity-graphql",
+	  "integration_link": "https://github.com/catalinpit/sanity-remote-schema",
 	  "categories": [
 	    {
 	      "name": "CMS"
 	    }
 	  ],
 	  "is_featured": false,
-	  "coming_soon": true,
+	  "coming_soon": false,
 	  "type": "Remote Schema"
 	},
 	{
