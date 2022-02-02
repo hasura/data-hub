@@ -108,6 +108,42 @@
 	  "type": "Remote Schema"
 	},
 	{
+		"name": "Directus",
+		"logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/directus.svg",
+		"short_desc": "Directus is an open-source Headless CMS with the flexibility and power of a Data API.",
+		"url_path": "directus-graphql-api",
+		"github_repo": {
+		  "name": "catalinpit/directus-remote-schema",
+		  "branch": "main",
+		  "readme_repo_path": "/README.md"
+		},
+		"developed_by": "Directus",
+		"released_on": "February 02, 2021",
+		"last_updated": "February 02, 2021",
+		"additional_resources": [
+		  {
+			"text": "Directus API Docs",
+			"link": "https://docs.directus.io"
+		  }
+		],
+		"additional_images": [
+		  {
+			"url": "",
+			"alt": ""
+		  }
+		],
+		"video_demo": null,
+		"integration_link": "",
+		"categories": [
+		  {
+			"name": "CMS"
+		  }
+		],
+		"is_featured": false,
+		"coming_soon": false,
+		"type": "Remote Schema"
+	  },
+	{
 	  "name": "Prismic",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/prismic.svg",
 	  "short_desc": "Prismic is a Content Management System, a tool for editing online content",
