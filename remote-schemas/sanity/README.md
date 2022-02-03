@@ -38,7 +38,7 @@ Head over to the Hasura Console, go to the “Remote Schemas” page and click o
 2. Add the GraphQL endpoint
 3. Click on “Add Remote Schema”
 
-![Hasura Add Remote Schema Without Authorization](https://raw.githubusercontent.com/hasura/data-hub/remote-schemas/sanity/main/images/hasura-add-remote-schema.png)
+![Hasura Add Remote Schema Without Authorization](./images/hasura-add-remote-schema.png)
 
 You are done! You can use the GraphQL API in Hasura.
 
@@ -50,17 +50,17 @@ Go to your Sanity [dashboard](https://www.sanity.io/manage) and choose your proj
 
 After that, click on the `Datasets` option. Once on the `Datasets` page, click on the dataset. In this example, my dataset is named “production.”
 
-![Sanity Project Dashboard](https://raw.githubusercontent.com/hasura/data-hub/remote-schemas/sanity/main/images/sanity-project-dashboard.png)
+![Sanity Project Dashboard](./images/sanity-project-dashboard.png)
 
 Click on the `Edit dataset` button and a new pop-up will appear. Change the `Visibility` to **Private** and save it.
 
-![Sanity Dataset Settings](https://raw.githubusercontent.com/hasura/data-hub/remote-schemas/sanity/main/images/sanity-dataset-settings.png)
+![Sanity Dataset Settings](./images/sanity-dataset-settings.png)
 
 Now that your API is protected, you need to define a token. Go to the `API` page, scroll down and click on the **Add API token**.
 
 Enter the token name and choose the appropriate permissions. In this case, the token is read-only.
 
-![Sanity API Token](https://raw.githubusercontent.com/hasura/data-hub/remote-schemas/sanity/main/images/sanity-api-token.png)
+![Sanity API Token](./images/sanity-api-token.png)
 
 Save it and copy the token.
 
@@ -69,7 +69,7 @@ Now go to the “Remote Schemas” in Hasura and click on the “Add” button. 
 * GraphQL endpoint URL
 * Authorization header under the “Additional headers” section
 
-![Hasura Add Remote Schema With Authorization](https://raw.githubusercontent.com/hasura/data-hub/remote-schemas/sanity/main/images/hasura-add-remote-schema-token.png)
+![Hasura Add Remote Schema With Authorization](./images/hasura-add-remote-schema-token.png)
 
 See the image above for reference.
 
