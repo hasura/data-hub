@@ -5,13 +5,13 @@
 	  "short_desc": "Contentful is an API First CMS to build digital products. It offers a GraphQL API that can be joined with Hasura using Remote Schema.",
 	  "url_path": "contentful-graphql-api",
 	  "github_repo": {
-	    "name": "praveenweb/contentful-remote-schema",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/remote-schemas/contentful/README.md"
 	  },
 	  "developed_by": "Contentful",
-	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "released_on": "February 03, 2022",
+	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "Contentful GraphQL API Docs",
@@ -25,7 +25,7 @@
 	    }
 	  ],
 	  "video_demo": "https://www.youtube.com/embed/aachB3XVKKI",
-	  "integration_link": "https://github.com/praveenweb/contentful-remote-schema",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/contentful",
 	  "categories": [
 	    {
 	      "name": "CMS"
@@ -133,7 +133,7 @@
 		  }
 		],
 		"video_demo": null,
-		"integration_link": "https://github.com//hasura/data-hub/tree/main/remote-schemas/directus",
+		"integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/directus",
 		"categories": [
 		  {
 			"name": "CMS"
@@ -461,7 +461,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com//hasura/data-hub/tree/main/remote-schemas/sanity",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/sanity",
 	  "categories": [
 	    {
 	      "name": "CMS"

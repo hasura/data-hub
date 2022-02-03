@@ -1,5 +1,3 @@
-# sanity-remote-schema
-
 Sanity is the platform for structured content that allows you to manage your text, images and other media with APIs.
 
 ## Enable the GraphQL API for your Sanity Project

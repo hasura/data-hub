@@ -1,5 +1,3 @@
-# directus-remote-schema
-
 Directus is an open-source Headless CMS with the flexibility and power of a Data API. It allows managing both content and raw data in any new or existing SQL database — keeping all your data pure, organized, and portable, end-to-end.
 
 ## Directus GraphQL API
