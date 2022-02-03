@@ -221,9 +221,9 @@
 	  "short_desc": "GraphQL Mesh lets you use GraphQL to access data in remote APIs. Learn how to create a Data Graph with GraphQL Mesh & Hasura Remote Joins.",
 	  "url_path": "graphql-mesh-api",
 	  "github_repo": {
-	    "name": "praveenweb/graphql-mesh",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
+	    "name": "hasura/graphql-mesh",
+	    "branch": "main",
+	    "readme_repo_path": "/remote-schemas/graphql-mesh/README.md"
 	  },
 	  "developed_by": "The Guild",
 	  "released_on": "June 10, 2021",
@@ -245,7 +245,7 @@
 	    }
 	  ],
 	  "video_demo": "https://www.youtube.com/embed/8Jr3tSTf5-E",
-	  "integration_link": "https://github.com/praveenweb/graphql-mesh",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/graphql-mesh",
 	  "categories": [
 	    {
 	      "name": "REST API"
