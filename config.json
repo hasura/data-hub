@@ -77,13 +77,13 @@
 	  "short_desc": "GraphCMS is a headless CMS allowing you to build digital experiences the way you envisioned them and connects to Hasura using Remote Schema.",
 	  "url_path": "graphcms-graphql-api",
 	  "github_repo": {
-	    "name": "motleydev/graphcms-remote-schema",
+	    "name": "hasura/data-hub",
 	    "branch": "main",
-	    "readme_repo_path": "/README.md"
+	    "readme_repo_path": "/remote-schemas/graphcms/README.md"
 	  },
 	  "developed_by": "GraphCMS",
-	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "released_on": "February 03, 2022",
+	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "GraphCMS API Docs",
@@ -97,7 +97,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/graphcms",
 	  "categories": [
 	    {
 	      "name": "CMS"
