@@ -1,5 +1,3 @@
-# openapi-swagger-remote-schema
-
 [openapi-to-graphql](https://github.com/IBM/openapi-to-graphql) translates APIs described by OpenAPI Specifications (OAS) or Swagger into GraphQL. This server uses that package as a dependency to convert OAS to GraphQL.
 
 ## Deploy with Glitch
