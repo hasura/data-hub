@@ -5,13 +5,13 @@
 	  "short_desc": "Contentful is an API First CMS to build digital products. It offers a GraphQL API that can be joined with Hasura using Remote Schema.",
 	  "url_path": "contentful-graphql-api",
 	  "github_repo": {
-	    "name": "praveenweb/contentful-remote-schema",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/remote-schemas/contentful/README.md"
 	  },
 	  "developed_by": "Contentful",
 	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "Contentful GraphQL API Docs",
@@ -25,7 +25,7 @@
 	    }
 	  ],
 	  "video_demo": "https://www.youtube.com/embed/aachB3XVKKI",
-	  "integration_link": "https://github.com/praveenweb/contentful-remote-schema",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/contentful",
 	  "categories": [
 	    {
 	      "name": "CMS"
@@ -77,13 +77,13 @@
 	  "short_desc": "GraphCMS is a headless CMS allowing you to build digital experiences the way you envisioned them and connects to Hasura using Remote Schema.",
 	  "url_path": "graphcms-graphql-api",
 	  "github_repo": {
-	    "name": "motleydev/graphcms-remote-schema",
+	    "name": "hasura/data-hub",
 	    "branch": "main",
-	    "readme_repo_path": "/README.md"
+	    "readme_repo_path": "/remote-schemas/graphcms/README.md"
 	  },
 	  "developed_by": "GraphCMS",
 	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "GraphCMS API Docs",
@@ -97,7 +97,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/graphcms",
 	  "categories": [
 	    {
 	      "name": "CMS"
@@ -107,6 +107,42 @@
 	  "coming_soon": false,
 	  "type": "Remote Schema"
 	},
+	{
+		"name": "Directus",
+		"logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/directus.svg",
+		"short_desc": "Directus is an open-source Headless CMS with the flexibility and power of a Data API.",
+		"url_path": "directus-graphql-api",
+		"github_repo": {
+		  "name": "hasura/data-hub",
+		  "branch": "main",
+		  "readme_repo_path": "/remote-schemas/directus/README.md"
+		},
+		"developed_by": "Directus",
+		"released_on": "February 03, 2021",
+		"last_updated": "February 03, 2021",
+		"additional_resources": [
+		  {
+			"text": "Directus API Docs",
+			"link": "https://docs.directus.io"
+		  }
+		],
+		"additional_images": [
+		  {
+			"url": "",
+			"alt": ""
+		  }
+		],
+		"video_demo": null,
+		"integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/directus",
+		"categories": [
+		  {
+			"name": "CMS"
+		  }
+		],
+		"is_featured": false,
+		"coming_soon": false,
+		"type": "Remote Schema"
+	  },
 	{
 	  "name": "Prismic",
 	  "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/prismic.svg",
@@ -149,13 +185,13 @@
 	  "short_desc": "openapi-to-graphql translates APIs described by OpenAPI Specifications (OAS) or Swagger into GraphQL. Query OpenAPI/Swagger data via Hasura.",
 	  "url_path": "ibm-open-api-graphql",
 	  "github_repo": {
-	    "name": "praveenweb/openapi-swagger-remote-schema",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/remote-schemas/openapi-swagger/README.md"
 	  },
 	  "developed_by": "IBM",
 	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "Join Open API data with Hasura",
@@ -169,7 +205,7 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/praveenweb/openapi-swagger-remote-schema",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/openapi-swagger",
 	  "categories": [
 	    {
 	      "name": "REST API"
@@ -185,9 +221,9 @@
 	  "short_desc": "GraphQL Mesh lets you use GraphQL to access data in remote APIs. Learn how to create a Data Graph with GraphQL Mesh & Hasura Remote Joins.",
 	  "url_path": "graphql-mesh-api",
 	  "github_repo": {
-	    "name": "praveenweb/graphql-mesh",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/remote-schemas/graphql-mesh/README.md"
 	  },
 	  "developed_by": "The Guild",
 	  "released_on": "June 10, 2021",
@@ -209,7 +245,7 @@
 	    }
 	  ],
 	  "video_demo": "https://www.youtube.com/embed/8Jr3tSTf5-E",
-	  "integration_link": "https://github.com/praveenweb/graphql-mesh",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/graphql-mesh",
 	  "categories": [
 	    {
 	      "name": "REST API"
@@ -405,13 +441,13 @@
 	  "short_desc": "Sanity.io is the unified content platform that powers better digital experiences",
 	  "url_path": "sanity-graphql-api",
 	  "github_repo": {
-	    "name": "praveenweb/sanity-graphql",
-	    "branch": "master",
-	    "readme_repo_path": "/README.md"
+	    "name": "hasura/data-hub",
+	    "branch": "main",
+	    "readme_repo_path": "/remote-schemas/sanity/README.md"
 	  },
 	  "developed_by": "Sanity",
 	  "released_on": "June 10, 2021",
-	  "last_updated": "June 10, 2021",
+	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
 	      "text": "Sanity GraphQL API Docs",
@@ -425,14 +461,14 @@
 	    }
 	  ],
 	  "video_demo": null,
-	  "integration_link": "https://github.com/praveenweb/sanity-graphql",
+	  "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/sanity",
 	  "categories": [
 	    {
 	      "name": "CMS"
 	    }
 	  ],
 	  "is_featured": false,
-	  "coming_soon": true,
+	  "coming_soon": false,
 	  "type": "Remote Schema"
 	},
 	{

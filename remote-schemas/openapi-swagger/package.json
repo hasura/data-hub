@@ -1,0 +1,19 @@
+{
+    "name": "openapi-swagger-remote-schema",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node -r esm index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Praveen",
+    "license": "MIT",
+    "dependencies": {
+      "esm": "^3.2.25",
+      "express": "^4.17.1",
+      "express-graphql": "^0.9.0",
+      "graphql": "^14.4.2",
+      "openapi-to-graphql": "^1.3.0"
+    }
+  }
