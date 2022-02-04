@@ -10,7 +10,7 @@
 	    "readme_repo_path": "/remote-schemas/contentful/README.md"
 	  },
 	  "developed_by": "Contentful",
-	  "released_on": "February 03, 2022",
+	  "released_on": "June 10, 2021",
 	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
@@ -82,7 +82,7 @@
 	    "readme_repo_path": "/remote-schemas/graphcms/README.md"
 	  },
 	  "developed_by": "GraphCMS",
-	  "released_on": "February 03, 2022",
+	  "released_on": "June 10, 2021",
 	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
@@ -190,7 +190,7 @@
 	    "readme_repo_path": "/remote-schemas/openapi-swagger/README.md"
 	  },
 	  "developed_by": "IBM",
-	  "released_on": "February 03, 2022",
+	  "released_on": "June 10, 2021",
 	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
@@ -221,7 +221,7 @@
 	  "short_desc": "GraphQL Mesh lets you use GraphQL to access data in remote APIs. Learn how to create a Data Graph with GraphQL Mesh & Hasura Remote Joins.",
 	  "url_path": "graphql-mesh-api",
 	  "github_repo": {
-	    "name": "hasura/graphql-mesh",
+	    "name": "hasura/data-hub",
 	    "branch": "main",
 	    "readme_repo_path": "/remote-schemas/graphql-mesh/README.md"
 	  },
@@ -446,7 +446,7 @@
 	    "readme_repo_path": "/remote-schemas/sanity/README.md"
 	  },
 	  "developed_by": "Sanity",
-	  "released_on": "February 03, 2022",
+	  "released_on": "June 10, 2021",
 	  "last_updated": "February 03, 2022",
 	  "additional_resources": [
 	    {
