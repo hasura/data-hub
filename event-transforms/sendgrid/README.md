@@ -1,5 +1,3 @@
-# Sendgrid Event Transform for Hasura
-
 Sendgrid is a platform for sending transactional and marketing emails.
 
 In this example, we are making use of Sendgrid's REST API to send email.

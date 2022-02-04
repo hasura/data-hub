@@ -1,5 +1,3 @@
-# Auth0 Action Transform for Hasura
-
 Auth0 is an identify platform for adding user authentication easily to apps.
 
 In this integration, we are making use of Auth0's update profile REST API by defining a GraphQL mutation and mapping the input argument to the Auth0 payload.

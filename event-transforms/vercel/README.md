@@ -1,5 +1,3 @@
-# Vercel Event Trigger for Hasura
-
 Vercel is a platform for frontend teams to manage your modern app infrastructure.
 
 In this example, we are going to make use of Vercel Deploy Hooks to trigger a deployment automatically on a configured branch whenever there is an insert on a database table.

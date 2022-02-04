@@ -1,5 +1,3 @@
-# Openweather Action Transform for Hasura
-
 Openweather is a favorite utility for quickly integrating weather data into applications all around the web. With this integration, you can now use this popular resource without writing a custom endpoint to handle the request!
 
 This integration maps the `/weather` endpoint which takes an input artgument of "location" which can be a city, city/state pair, or postal code. [See the Openweather API documentation for further details.](https://openweathermap.org/current).

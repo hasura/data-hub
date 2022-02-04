@@ -1,5 +1,3 @@
-# Airtable Action Transform for Hasura
-
 Airtable is a well loved, no-code information manager used by companies of all sizes to perform many different workloads. Leverage Airtable data through Hasura's API ecosystem by using this action transform.
 
 This integration creates a generic interface with Airtable that requires you to pass the name of your Table within your base as the "table" parameter of the action request.

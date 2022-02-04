@@ -1,5 +1,3 @@
-# Algolia Action Transform for Hasura
-
 Algolia provides composable APIs enabling developers to add search functionality to apps. With a global CDN, it can deliver results in milliseconds. Leverage Algolia data through Hasura's API ecosystem by using this action transform.
 
 We are going to define a GraphQL query which accepts a search input and returns the response from Algolia. We are mapping the search input type to Algolia's REST API payload.

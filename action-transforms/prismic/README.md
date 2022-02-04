@@ -1,5 +1,3 @@
-# Prismic Action Transform for Hasura
-
 Prismic is a Content Management System, a tool for editing online content.
 
 In this integration, we are making use of Prismic REST API for search by defining a GraphQL query and mapping the input argument to the REST API payload.
