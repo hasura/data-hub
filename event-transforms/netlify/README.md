@@ -1,5 +1,3 @@
-# Netlify Event Trigger for Hasura
-
 Netlify is an all-in-one platform for automating modern web projects with a single workflow.
 
 In this example, we are going to make use of Netlify Build Hooks to trigger a deployment automatically on a configured branch whenever there is an insert on a database table.

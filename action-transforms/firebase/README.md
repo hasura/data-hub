@@ -1,5 +1,3 @@
-# Firebase Action Transform for Hasura
-
 Firebase is a popular suite of tools and services for starting projects quickly in the Google Cloud. Many startups begin there journey with Firebase and as such, have many user accounts still authenticating with Firebase, even after migrating to other tools for the the rest of their stack.
 
 This integration allows you to create new user accounts, and authenticate users with `email` and `password`.

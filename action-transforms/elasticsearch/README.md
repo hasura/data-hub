@@ -1,5 +1,3 @@
-# Elasticsearch Action Transform for Hasura
-
 Elasticsearch is a search engine based on Lucene providing a full text search engine with an HTTP web interface.
 
 In this integration, we are making use of Elastic's REST API for search by defining a GraphQL query and mapping the input argument to the REST API payload.

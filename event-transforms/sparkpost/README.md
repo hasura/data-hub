@@ -1,5 +1,3 @@
-# Sparkpost Event Transform for Hasura
-
 Sparkpost is a platform for sending commercial emails.
 
 In this example, we are making use of Sparkpost REST API to send email.
