@@ -14,7 +14,7 @@
 - Get the API Key
 You will need this Key to access the GraphQL API. Please follow this [document](https://www.webiny.com/docs/how-to-guides/webiny-applications/headless-cms/using-graphql-api/#creating-the-api-key) to create the API Key.
 
-- Now go to the Hasura Project Console, head to Remote Schemas and enter GraphQL Server URL with the above GraphQL endpoint.
+- Now go to the Hasura Project Console, head to Remote Schemas, and enter the GraphQL Server URL you copied from the API Playground.
 
   Select the 'Forward all headers from client' option
 
