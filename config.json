@@ -472,6 +472,42 @@
 	  "type": "Remote Schema"
 	},
 	{
+		"name": "Webiny",
+		"logo_url": "https://raw.githubusercontent.com/swapnilmmane/webiny-logo/main/webiny.svg",
+		"short_desc": " Webiny is Open-Source Serverless Enterprise CMS.",
+		"url_path": "webiny-graphql-api",
+		"github_repo": {
+		  "name": "hasura/data-hub",
+		  "branch": "main",
+		  "readme_repo_path": "/remote-schemas/webiny/README.md"
+		},
+		"developed_by": "Webiny",
+		"released_on": "February 08, 2022",
+		"last_updated": "February 10, 2022",
+		"additional_resources": [
+		  {
+			"text": "Webiny GraphQL API Docs",
+			"link": "https://www.webiny.com/docs/key-topics/webiny-applications/headless-cms/graphql-api"
+		  }
+		],
+		"additional_images": [
+		  {
+			"url": "",
+			"alt": ""
+		  }
+		],
+		"video_demo": null,
+		"integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/webiny",
+		"categories": [
+		  {
+			"name": "CMS"
+		  }
+		],
+		"is_featured": false,
+		"coming_soon": false,
+		"type": "Remote Schema"
+	},
+	{
 	  "name": "Views: Group By & Aggregate",
 	  "logo_url": "https://hasura.github.io/template-gallery/postgres/views-group-aggregate/preview.svg",
 	  "short_desc": "Views can be used to expose the results of a custom query as a virtual table. This example demonstrates grouping by a column and aggregating.",
