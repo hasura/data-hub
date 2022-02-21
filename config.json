@@ -1448,11 +1448,11 @@
 		"integration_link": "github.com/stateset/data-hub/stateset/README.md",
 		"categories": [
 		  {
-			"name": "eCommerce"
+			"name": "Ecommerce"
 		  }
 		],
 		"is_featured": false,
 		"coming_soon": false,
-		"type": "Database Schema"
+		"type": "Remote Schema"
 	  }
 ]
