@@ -4,7 +4,7 @@
 
 Stateset projects come with a GraphQL API by default. After creating the Stateset project, you need to deploy the GraphQL API manually. 
 
-You can deploy the API only by using signing up on stateset.io/signup.
+You can deploy the API only by signing up on stateset.io/signup.
 
 Upon SignUp at https://stateset.io/signup you will receive an email with your Stateset backend URL and Stateset Admin Secret.
 
