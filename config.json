@@ -1418,5 +1418,41 @@
 	  "is_featured": false,
 	  "coming_soon": true,
 	  "type": "Event Transforms"
-	}
+	},
+	{
+		"name": "Stateset",
+		"logo_url": "https://app.stateset.zone/stateset.jpeg",
+		"short_desc": "Stateset is the operations platform for direct-to-consumer merchants",
+		"url_path": "https://stateset.io",
+		"github_repo": {
+		  "name": "hasura/data-hub",
+		  "branch": "main",
+		  "readme_repo_path": "remote-schemas/stateset/README.md"
+		},
+		"developed_by": "Stateset Inc.",
+		"released_on": "2/28/2022",
+		"last_updated": "2/18/2022",
+		"additional_resources": [
+		  {
+			"text": "",
+			"link": ""
+		  }
+		],
+		"additional_images": [
+		  {
+			"url": "",
+			"alt": ""
+		  }
+		],
+		"video_demo": "",
+		"integration_link": "github.com/stateset/data-hub/stateset/README.md",
+		"categories": [
+		  {
+			"name": "Ecommerce"
+		  }
+		],
+		"is_featured": false,
+		"coming_soon": false,
+		"type": "Remote Schema"
+	  }
 ]
