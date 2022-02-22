@@ -1423,7 +1423,7 @@
 		"name": "Stateset",
 		"logo_url": "https://app.stateset.zone/stateset.jpeg",
 		"short_desc": "Stateset is the operations platform for direct-to-consumer merchants",
-		"url_path": "https://stateset.io",
+		"url_path": "stateset-graphql-api",
 		"github_repo": {
 		  "name": "hasura/data-hub",
 		  "branch": "main",
@@ -1434,8 +1434,8 @@
 		"last_updated": "2/18/2022",
 		"additional_resources": [
 		  {
-			"text": "",
-			"link": ""
+			"text": "Stateset",
+			"link": "https://stateset.io"
 		  }
 		],
 		"additional_images": [
