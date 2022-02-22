@@ -1427,7 +1427,7 @@
 		"github_repo": {
 		  "name": "hasura/data-hub",
 		  "branch": "main",
-		  "readme_repo_path": "remote-schemas/stateset/README.md"
+		  "readme_repo_path": "/remote-schemas/stateset/README.md"
 		},
 		"developed_by": "Stateset Inc.",
 		"released_on": "2/28/2022",
