@@ -41,17 +41,17 @@
     "short_desc": "Strapi is an open-source Headless CMS",
     "url_path": "strapi-graphql-api",
     "github_repo": {
-      "name": "praveenweb/strapi-graphql-api",
+      "name": "hasura/data-hub",
       "branch": "master",
-      "readme_repo_path": "/README.md"
+      "readme_repo_path": "/remote-schemas/strapi/README.md"
     },
     "developed_by": "Strapi",
     "released_on": "June 10, 2021",
-    "last_updated": "June 10, 2021",
+    "last_updated": "March 8, 2022",
     "additional_resources": [
       {
         "text": "Strapi GraphQL API Docs",
-        "link": "https://strapi.io/documentation/developer-docs/latest/development/plugins/graphql.html"
+        "link": "https://docs.strapi.io/developer-docs/latest/plugins/graphql.html"
       }
     ],
     "additional_images": [
@@ -68,7 +68,7 @@
       }
     ],
     "is_featured": false,
-    "coming_soon": true,
+    "coming_soon": false,
     "type": "Remote Schema"
   },
   {
