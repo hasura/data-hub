@@ -1490,5 +1490,41 @@
     "is_featured": false,
     "coming_soon": false,
     "type": "Action Transforms"
+  },
+  {
+    "name": "CircleCI",
+    "logo_url": "https://circleci.com/docs/assets/img/logos/logo-wordmark-black.svg",
+    "short_desc": "Trigger a CircleCI build on database events",
+    "url_path": "circleci",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/event-transforms/circleci/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "March 8, 2022",
+    "last_updated": "March 8, 2022",
+    "additional_resources": [
+      {
+        "text": "CircleCI API Docs",
+        "link": "https://circleci.com/docs/2.0/api-intro/"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/event-transforms/circleci",
+    "categories": [
+      {
+        "name": "CI/CD"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Event Transforms"
   }
 ]
