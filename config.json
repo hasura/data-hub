@@ -1384,42 +1384,6 @@
     "type": "Event Transforms"
   },
   {
-    "name": "Circle CI",
-    "logo_url": "",
-    "short_desc": "Trigger a Circle CI deployment on database events",
-    "url_path": "circle-ci-deployment",
-    "github_repo": {
-      "name": "hasura/data-hub",
-      "branch": "main",
-      "readme_repo_path": "/event-transforms/circle-ci/README.md"
-    },
-    "developed_by": "Hasura",
-    "released_on": "December 14, 2021",
-    "last_updated": "December 14, 2021",
-    "additional_resources": [
-      {
-        "text": "",
-        "link": ""
-      }
-    ],
-    "additional_images": [
-      {
-        "url": "",
-        "alt": ""
-      }
-    ],
-    "video_demo": null,
-    "integration_link": "https://github.com/hasura/data-hub/tree/main/event-transforms/circle-ci",
-    "categories": [
-      {
-        "name": "CI/CD"
-      }
-    ],
-    "is_featured": false,
-    "coming_soon": true,
-    "type": "Event Transforms"
-  },
-  {
     "name": "Stateset",
     "logo_url": "https://app.stateset.zone/stateset.jpeg",
     "short_desc": "Stateset is the operations platform for direct-to-consumer merchants",
