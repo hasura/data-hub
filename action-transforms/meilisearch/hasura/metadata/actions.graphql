@@ -1,0 +1,7 @@
+type Query {
+  meilisearchSearch(query: String!, limit: Int, offset: Int): searchOutput
+}
+
+type searchOutput {
+  hits: jsonb
+}

@@ -1,0 +1,23 @@
+actions:
+  - name: meilisearchSearch
+    definition:
+      kind: ""
+      handler: "{{MEILISEARCH_URL}}"
+      request_transform:
+        body: |-
+          {
+            "q": {{$body.input.query}},
+            "limit": {{$body.input?.limit ?? 20}},
+            "offset": {{$body.input?.offset ?? 0}}
+          }
+        content_type: application/json
+        method: POST
+        query_params: {}
+        template_engine: Kriti
+        url: "{{$base_url}}/indexes/movies/search"
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+    - name: searchOutput
+  scalars: []

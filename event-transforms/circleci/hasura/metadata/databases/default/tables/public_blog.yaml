@@ -1,0 +1,27 @@
+table:
+  name: blog
+  schema: public
+event_triggers:
+- definition:
+    delete:
+      columns: "*"
+    enable_manual: true
+    insert:
+      columns: "*"
+    update:
+      columns: "*"
+  headers:
+  - name: Circle-Token
+    value_from_env: CIRCLECI_TOKEN
+  name: circleci
+  request_transform:
+    body: "{\n  \"branch\": \"main\"\n}"
+    content_type: application/json
+    method: POST
+    query_params: {}
+    template_engine: Kriti
+  retry_conf:
+    interval_sec: 10
+    num_retries: 0
+    timeout_sec: 60
+  webhook_from_env: CIRCLECI_PIPELINE_URL

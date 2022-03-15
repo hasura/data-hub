@@ -8,7 +8,7 @@ The format of items in the config.json file is as follows:
 {
   "name": "<name-of-your-integration>",
   "logo_url": "URL of the logo",
-  "short_desc": "A short description about the integration, preferabbly in less than 100 characters.",
+  "short_desc": "A short description about the integration, preferably in less than 100 characters.",
   "url_path": "The URL path to be generated on the website. Use small case and hyphens between words",
   "github_repo": {
     "name": "user/repo",
