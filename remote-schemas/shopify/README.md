@@ -13,7 +13,7 @@ Shopify does not come with a GraphQL API by default. You have to install and con
 7. Go to `API credentials` and configure your `Admin/Storefront API scopes`
 8. After that, go again to `API Credentials` and click on `Install app`
 9. A new pop-up appears - click on `Install` again
-10. You will get the `Admin API access token`, which you need to copy and safe somewhere safe
+10. You will get the `Admin API access token`, which you need to copy and save somewhere safe
 
 Now it's time to add your Shopify store to Hasura as a remote schema.
 
