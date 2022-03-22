@@ -366,12 +366,12 @@
   {
     "name": "Shopify",
     "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/shopify.svg",
-    "short_desc": "Shopify is an E-Commerce Platform that helps you to Sell Online, on Facebook, or in person",
+    "short_desc": "Shopify is an ecommerce platform that allows you to start and run an online shop. Integrate Shopify with your Hasura application with the help of Remote Schema",
     "url_path": "shopify-graphql-admin-api",
     "github_repo": {
-      "name": "praveenweb/shopify-graphql-admin-api",
-      "branch": "master",
-      "readme_repo_path": "/README.md"
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/remote-schemas/shopify/README.md"
     },
     "developed_by": "Shopify",
     "released_on": "June 10, 2021",
@@ -379,7 +379,7 @@
     "additional_resources": [
       {
         "text": "Shopify GraphQL API Docs",
-        "link": "https://shopify.dev/docs/admin-api/graphql/reference"
+        "link": "https://shopify.dev/api/admin-graphql"
       }
     ],
     "additional_images": [
@@ -389,25 +389,25 @@
       }
     ],
     "video_demo": null,
-    "integration_link": "https://github.com/praveenweb/shopify-graphql-admin-api",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/shopify",
     "categories": [
       {
         "name": "Ecommerce"
       }
     ],
     "is_featured": false,
-    "coming_soon": true,
+    "coming_soon": false,
     "type": "Remote Schema"
   },
   {
     "name": "Adobe Commerce (Magento)",
     "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/adobe.svg",
     "short_desc": "Create engaging, shoppable experiences with Adobe Commerce",
-    "url_path": "adobe-commerce-magento-graphql",
+    "url_path": "adobe-commerce-magento-graphql-api",
     "github_repo": {
-      "name": "praveenweb/adobe-commerce-magento-graphql",
-      "branch": "master",
-      "readme_repo_path": "/README.md"
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/remote-schemas/magento/README.md"
     },
     "developed_by": "Adobe",
     "released_on": "June 10, 2021",
@@ -425,14 +425,14 @@
       }
     ],
     "video_demo": null,
-    "integration_link": "https://github.com/praveenweb/adobe-commerce-magento-graphql",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/magento",
     "categories": [
       {
         "name": "Ecommerce"
       }
     ],
     "is_featured": false,
-    "coming_soon": true,
+    "coming_soon": false,
     "type": "Remote Schema"
   },
   {
@@ -1493,15 +1493,15 @@
   },
   {
     "name": "WordPress",
-    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/wordpress-blue.svg",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/wordpress.svg",
     "short_desc": "WordPress is CMS which can be joined to Hasura with the help of Remote Schema",
-    "url_path": "wordpress",
+    "url_path": "wordpress-graphql-api",
     "github_repo": {
       "name": "hasura/data-hub",
       "branch": "main",
       "readme_repo_path": "/remote-schemas/wordpress/README.md"
     },
-    "developed_by": "Hasura",
+    "developed_by": "WordPress",
     "released_on": "March 22, 2022",
     "last_updated": "March 22, 2022",
     "additional_resources": [
@@ -1526,5 +1526,41 @@
     "is_featured": false,
     "coming_soon": false,
     "type": "Remote Schema"
+  },
+  {
+    "name": "Sparkpost",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/sparkpost.svg",
+    "short_desc": "Integrate Sparkpost with Hasura",
+    "url_path": "sparkpost-graphql-api",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/action-transforms/sparkpost/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "December 14, 2021",
+    "last_updated": "December 14, 2021",
+    "additional_resources": [
+      {
+        "text": "Sparkpost Transmission API",
+        "link": "https://developers.sparkpost.com/api/transmissions/"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/action-transforms/sparkpost",
+    "categories": [
+      {
+        "name": "Email"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Action Transforms"
   }
 ]
