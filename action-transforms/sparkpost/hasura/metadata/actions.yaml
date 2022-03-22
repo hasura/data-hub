@@ -1,0 +1,37 @@
+actions:
+- name: send_email_sparkpost
+  definition:
+    kind: synchronous
+    handler: https://api.sparkpost.com/api/v1/transmissions
+    headers:
+    - value: <YOUR_API_KEY>
+      name: Authorization
+    request_transform:
+      body:
+        action: transform
+        template: |
+          {
+            "recipients": [
+              {
+                "address": {{$body.input.email.recipient}}
+              }
+            ],
+            "content": {
+              "from": {
+                "email": {{$body.input.email.from_email}},
+                "name": {{$body.input.email.from_name}}
+              },
+              "subject": {{$body.input.email.subject}},
+              "html": {{$body.input.email.html}}
+            }
+          }
+      template_engine: Kriti
+      version: 2
+custom_types:
+  enums: []
+  input_objects:
+  - name: EmailInput
+  objects:
+  - name: EmailOutput
+  scalars:
+  - name: jsonb

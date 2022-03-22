@@ -8,7 +8,7 @@ We are making use of this endpoint:
 https://api.sparkpost.com/api/v1/transmissions
 ```
 
-## Configuring an Event Transform
+## Configuring an Action Transform
 
 You'll need the following environment variables.
 
@@ -20,7 +20,7 @@ If you are using Docker you can provide these environment variables along with t
 
 Check out Sparkpost docs on [creating an API key](https://support.sparkpost.com/docs/getting-started/create-api-keys)
 
-## Importing an Event Transform
+## Importing an Action Transform
 
 Importing actions and events into Hasura apply one or more actions. Actions are based on request configurations and will need metadata to be applied. Events need underlying table structure to trigger the events.
 

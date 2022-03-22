@@ -1,0 +1,20 @@
+type Mutation {
+  send_email_sparkpost(
+    email: EmailInput!
+  ): EmailOutput
+}
+
+input EmailInput {
+  subject: String!
+  recipient: String!
+  from_email: String!
+  from_name: String!
+  html: String!
+}
+
+type EmailOutput {
+  results: jsonb
+}
+
+scalar jsonb
+
