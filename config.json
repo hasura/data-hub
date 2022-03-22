@@ -1490,5 +1490,41 @@
     "is_featured": false,
     "coming_soon": false,
     "type": "Event Transforms"
+  },
+  {
+    "name": "WordPress",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/wordpress-blue.svg",
+    "short_desc": "WordPress is CMS which can be joined to Hasura with the help of Remote Schema",
+    "url_path": "wordpress",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/remote-schemas/wordpress/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "March 22, 2022",
+    "last_updated": "March 22, 2022",
+    "additional_resources": [
+      {
+        "text": "WordPress Developer Resources",
+        "link": "https://developer.wordpress.org/"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/wordpress",
+    "categories": [
+      {
+        "name": "CMS"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Remote Schema"
   }
 ]
