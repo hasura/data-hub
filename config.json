@@ -1531,7 +1531,7 @@
     "name": "Sparkpost",
     "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/sparkpost.svg",
     "short_desc": "Integrate Sparkpost with Hasura",
-    "url_path": "sparkpost-email",
+    "url_path": "sparkpost-graphql-api",
     "github_repo": {
       "name": "hasura/data-hub",
       "branch": "main",
