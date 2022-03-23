@@ -1562,5 +1562,41 @@
     "is_featured": false,
     "coming_soon": false,
     "type": "Action Transforms"
+  },
+  {
+    "name": "Drupal",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/drupal.svg",
+    "short_desc": "Drupal is a free and open-source CMS which can be joined to Hasura as a Remote Schema",
+    "url_path": "drupal-graphql-api",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/remote-schemas/drupal/README.md"
+    },
+    "developed_by": "Drupal",
+    "released_on": "March 23, 2022",
+    "last_updated": "March 23, 2022",
+    "additional_resources": [
+      {
+        "text": "Drupal GraphQL Documentation",
+        "link": "https://drupal-graphql.gitbook.io/graphql/"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/drupal",
+    "categories": [
+      {
+        "name": "CMS"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Remote Schema"
   }
 ]
