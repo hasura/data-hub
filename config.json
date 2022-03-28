@@ -297,13 +297,13 @@
     "short_desc": "Use GitHub GraphQL API to create precise and flexible queries for the data",
     "url_path": "github-graphql-api",
     "github_repo": {
-      "name": "praveenweb/github-graphql-api",
-      "branch": "master",
-      "readme_repo_path": "/README.md"
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/remote-schemas/github/README.md"
     },
     "developed_by": "Github",
     "released_on": "June 10, 2021",
-    "last_updated": "June 10, 2021",
+    "last_updated": "March 27, 2022",
     "additional_resources": [
       {
         "text": "Github GraphQL API Docs",
@@ -317,14 +317,14 @@
       }
     ],
     "video_demo": null,
-    "integration_link": "praveenweb/github-graphql-api",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/github",
     "categories": [
       {
         "name": "Data Services"
       }
     ],
     "is_featured": false,
-    "coming_soon": true,
+    "coming_soon": false,
     "type": "Remote Schema"
   },
   {
