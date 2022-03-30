@@ -6,12 +6,12 @@ Github is a development platform where millions of developers and companies buil
 
 1. Create a [Github personal access token with the proper scopes](https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql).
 
-2. Add the token as enviroment variable in Hasura in the form of `bearer <your personal access token>`
+2. Add the token as an environment variable in Hasura in the form of `bearer <your personal access token>`
 
 3. In the Hasura Console, go to Remote Schemas and add the Github API
 
    - The GraphQL Server URL is `https://api.github.com/graphql`
-   - Add the `Authorization` header from the enviroment variable you created earlier
+   - Add the `Authorization` header from the environment variable you created earlier
 
 4. Test by querying the token user
 

@@ -303,7 +303,7 @@
     },
     "developed_by": "Github",
     "released_on": "June 10, 2021",
-    "last_updated": "March 27, 2022",
+    "last_updated": "March 29, 2022",
     "additional_resources": [
       {
         "text": "Github GraphQL API Docs",
@@ -330,16 +330,16 @@
   {
     "name": "GitLab",
     "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/gitlab.svg",
-    "short_desc": "Gitlab's GraphQL API is the primary way to interact programatically with GitLab.",
+    "short_desc": "Gitlab's GraphQL API is the primary way to interact programmatically with GitLab.",
     "url_path": "gitlab-graphql-api",
     "github_repo": {
-      "name": "praveenweb/gitlab-graphql-api",
-      "branch": "master",
-      "readme_repo_path": "/README.md"
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/remote-schemas/gitlab/README.md"
     },
     "developed_by": "GitLab",
     "released_on": "June 10, 2021",
-    "last_updated": "June 10, 2021",
+    "last_updated": "March 29, 2022",
     "additional_resources": [
       {
         "text": "GitLab GraphQL API",
@@ -353,14 +353,14 @@
       }
     ],
     "video_demo": null,
-    "integration_link": "praveenweb/gitlab-graphql-api",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/gitlab",
     "categories": [
       {
         "name": "Data Services"
       }
     ],
     "is_featured": false,
-    "coming_soon": true,
+    "coming_soon": false,
     "type": "Remote Schema"
   },
   {
