@@ -1457,7 +1457,7 @@
   },
   {
     "name": "CircleCI",
-    "logo_url": "https://circleci.com/docs/assets/img/logos/logo-wordmark-black.svg",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/circleci.svg",
     "short_desc": "Trigger a CircleCI build on database events",
     "url_path": "circleci",
     "github_repo": {
