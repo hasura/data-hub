@@ -9,5 +9,5 @@
         max_connections: 50
         retries: 1
   tables:
-    - "!include default/tables/public_book.yaml"
+    - "!include default/tables/public_message.yaml"
   functions: []

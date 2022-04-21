@@ -1942,5 +1942,121 @@
     "is_featured": false,
     "coming_soon": false,
     "type": "Database Schema"
+  },
+  {
+    "name": "Push Notifications",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/sample-apps.png",
+    "short_desc": "Push notifications using Hasura Event Triggers and FCM",
+    "url_path": "schema-share-data-model-serverless-push",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/serverless-push/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/serverless-push"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/serverless-push",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Multiplayer Tic-Tac-Toe",
+    "logo_url": "https://css-tricks.com/wp-json/social-image-generator/v1/image/294362",
+    "short_desc": "Multiplayer Tic Tac Toe with GraphQL",
+    "url_path": "schema-share-data-model-tic-tac-toe-react",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/tic-tac-toe-react/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Multiplayer Tic Tac Toe with GraphQL",
+        "link": "https://css-tricks.com/multiplayer-tic-tac-toe-with-graphql/"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/tic-tac-toe-react"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/tic-tac-toe-react",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "WhatsApp Clone",
+    "logo_url": "https://hasura.io/blog/content/images/2019/05/WHATSAPP_clone_blog.png",
+    "short_desc": "Building a WhatsApp Clone with GraphQL, React Hooks and TypeScript",
+    "url_path": "schema-share-data-model-whatsapp-clone",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/whatsapp-clone-typescript-react/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Building a WhatsApp Clone with GraphQL, React Hooks and TypeScript",
+        "link": "https://hasura.io/blog/building-a-whatsapp-clone-with-graphql-react-hooks-typescript/"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/whatsapp-clone-typescript-react"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/whatsapp-clone-typescript-react",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
   }
 ]
