@@ -1,0 +1,32 @@
+table:
+  schema: public
+  name: store
+object_relationships:
+  - name: address
+    using:
+      foreign_key_constraint_on: address_id
+  - name: staff
+    using:
+      foreign_key_constraint_on: manager_staff_id
+array_relationships:
+  - name: customers
+    using:
+      foreign_key_constraint_on:
+        column: store_id
+        table:
+          schema: public
+          name: customer
+  - name: inventories
+    using:
+      foreign_key_constraint_on:
+        column: store_id
+        table:
+          schema: public
+          name: inventory
+  - name: staffs
+    using:
+      foreign_key_constraint_on:
+        column: store_id
+        table:
+          schema: public
+          name: staff

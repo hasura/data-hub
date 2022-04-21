@@ -1,0 +1,29 @@
+table:
+  schema: public
+  name: address
+object_relationships:
+  - name: city
+    using:
+      foreign_key_constraint_on: city_id
+array_relationships:
+  - name: customers
+    using:
+      foreign_key_constraint_on:
+        column: address_id
+        table:
+          schema: public
+          name: customer
+  - name: staffs
+    using:
+      foreign_key_constraint_on:
+        column: address_id
+        table:
+          schema: public
+          name: staff
+  - name: stores
+    using:
+      foreign_key_constraint_on:
+        column: address_id
+        table:
+          schema: public
+          name: store

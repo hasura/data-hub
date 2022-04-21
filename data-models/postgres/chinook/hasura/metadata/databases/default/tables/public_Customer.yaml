@@ -1,0 +1,15 @@
+table:
+  schema: public
+  name: Customer
+object_relationships:
+  - name: Employee
+    using:
+      foreign_key_constraint_on: SupportRepId
+array_relationships:
+  - name: Invoices
+    using:
+      foreign_key_constraint_on:
+        column: CustomerId
+        table:
+          schema: public
+          name: Invoice

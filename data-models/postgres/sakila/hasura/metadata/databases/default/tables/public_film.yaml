@@ -1,0 +1,32 @@
+table:
+  schema: public
+  name: film
+object_relationships:
+  - name: language
+    using:
+      foreign_key_constraint_on: language_id
+  - name: languageByOriginalLanguageId
+    using:
+      foreign_key_constraint_on: original_language_id
+array_relationships:
+  - name: film_actors
+    using:
+      foreign_key_constraint_on:
+        column: film_id
+        table:
+          schema: public
+          name: film_actor
+  - name: film_categories
+    using:
+      foreign_key_constraint_on:
+        column: film_id
+        table:
+          schema: public
+          name: film_category
+  - name: inventories
+    using:
+      foreign_key_constraint_on:
+        column: film_id
+        table:
+          schema: public
+          name: inventory

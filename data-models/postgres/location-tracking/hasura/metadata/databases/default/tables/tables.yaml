@@ -1,0 +1,2 @@
+- "!include public_vehicle.yaml"
+- "!include public_vehicle_location.yaml"

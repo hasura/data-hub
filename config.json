@@ -948,22 +948,22 @@
     "type": "Database Schema"
   },
   {
-    "name": "Data Model: Location Tracking",
+    "name": "Location Tracking",
     "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/location.svg",
     "short_desc": "A fully-functioning location tracking model to build a realtime GraphQL API",
     "url_path": "schema-share-data-model-location-tracking",
     "github_repo": {
-      "name": "hasura/template-gallery",
+      "name": "hasura/data-hub",
       "branch": "main",
-      "readme_repo_path": "/postgres/data-model-location-tracking/README.md"
+      "readme_repo_path": "/data-models/postgres/location-tracking/README.md"
     },
     "developed_by": "Hasura",
-    "released_on": "June 16, 2021",
-    "last_updated": "June 16, 2021",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
     "additional_resources": [
       {
-        "text": "Schema Sharing: Data Model - Location Tracking",
-        "link": "https://github.com/hasura/template-gallery/tree/main/postgres/data-model-location-tracking"
+        "text": "Build a real-time location tracking app with GraphQL Subscriptions",
+        "link": "https://hasura.io/blog/building-a-realtime-location-tracking-app-graphql-subscriptions/"
       },
       {
         "text": "Github Sample App",
@@ -977,7 +977,7 @@
       }
     ],
     "video_demo": null,
-    "integration_link": "https://github.com/hasura/template-gallery/tree/main/postgres/data-model-location-tracking",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/location-tracking",
     "categories": [
       {
         "name": "Sample Data Models"
@@ -1598,5 +1598,349 @@
     "is_featured": false,
     "coming_soon": false,
     "type": "Remote Schema"
+  },
+  {
+    "name": "Ecommerce",
+    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/e-commerce.png",
+    "short_desc": "An ecommerce model from the Hasura Super App",
+    "url_path": "schema-share-data-model-ecommerce",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/ecommerce/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 13, 2022",
+    "last_updated": "April 13, 2022",
+    "additional_resources": [
+      {
+        "text": "Hasura Super App",
+        "link": "https://hasura.io/reference-app/"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/ecommerce",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Chinook",
+    "logo_url": "https://opengraph.githubassets.com/1eb78949c4f90805fa6e6fb3b8cd78f6c5f5b8543d2a97590a81d167cf7851be/lerocha/chinook-database",
+    "short_desc": "The Chinook data model represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.",
+    "url_path": "schema-share-data-model-chinook",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/chinook/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 13, 2022",
+    "last_updated": "April 13, 2022",
+    "additional_resources": [
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/lerocha/chinook-database"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/chinook",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Sakila",
+    "logo_url": "https://opengraph.githubassets.com/94286b04456b43b0c2bf9b4ec0b62e7ce38f628771ee67b6dfe2b580d9bc343b/jOOQ/sakila",
+    "short_desc": "The Sakila database is a nicely normalised database modelling a DVD rental store.",
+    "url_path": "schema-share-data-model-sakila",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/sakila/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 13, 2022",
+    "last_updated": "April 13, 2022",
+    "additional_resources": [
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/jOOQ/sakila"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/sakila",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Gatsby + Contentful + Auth0",
+    "logo_url": "",
+    "short_desc": "Building a Music Playlist App with Gatsby, Contentful and Hasura Remote Joins",
+    "url_path": "schema-share-data-model-gatsby-contentful-auth0",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/gatsby-contentful-auth0/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Building a Music Playlist App with Gatsby, Contentful and Hasura Remote Joins",
+        "link": "https://hasura.io/blog/building-a-music-playlist-app-with-gatsby-contentful-auth0-hasura/"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/gatsby-contentful-auth0"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/gatsby-contentful-auth0",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Next.js Incremental Static Regeneration",
+    "logo_url": "https://hasura.io/blog/content/images/2022/03/nextjs_isr.png",
+    "short_desc": "Regenerate Next.js Pages On-demand (ISR) with Hasura Table Events",
+    "url_path": "schema-share-data-model-nextjs-incremental-static-regeneration",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/nextjs-incremental-static-regeneration/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Regenerate Next.js Pages On-demand (ISR) with Hasura Table Events",
+        "link": "https://hasura.io/blog/nextjs-incremental-static-regeneration-hasura-table-events/"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/nextjs-incremental-static-regeneration"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/nextjs-incremental-static-regeneration",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Next.js Serverless JWT Auth",
+    "logo_url": "https://hasura.io/blog/content/images/2019/04/nextjwthasura.png",
+    "short_desc": "Add Authentication and Authorization to Next.js 8 Serverless Apps using JWT and GraphQL",
+    "url_path": "schema-share-data-model-nextjs-serverless-jwt",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/nextjs-serverless-jwt/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Add Authentication and Authorization to Next.js 8 Serverless Apps using JWT and GraphQL",
+        "link": "https://hasura.io/blog/add-authentication-and-authorization-to-next-js-8-serverless-apps-using-jwt-and-graphql/"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/nextjs-8-serverless/with-apollo-jwt"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/nextjs-serverless-jwt",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Realtime Collaborative Todo App",
+    "logo_url": "https://images.ctfassets.net/23aumh6u8s0i/7dRRpqkgQsuoZfqK47sAFj/15ea762a924d8164cee9ee22d6fc83f8/graphql",
+    "short_desc": "Build a real-time to-do app backend with GraphQL APIs, secured using JSON Web Tokens.",
+    "url_path": "schema-share-data-model-realtime-todo-auth0",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/react-apollo-todo/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Build a real-time to-do app backend with GraphQL APIs, secured using JSON Web Tokens",
+        "link": "https://auth0.com/blog/building-a-collaborative-todo-app-with-realtime-graphql-using-hasura"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/react-apollo-todo"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/react-apollo-todo",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Realtime Chat",
+    "logo_url": "https://hasura.io/blog/content/images/2021/12/realtime_chat_app-1.png",
+    "short_desc": "Build a realtime chat app with GraphQL Subscriptions.",
+    "url_path": "schema-share-data-model-realtime-chat",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/realtime-chat/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Build a realtime chat app with GraphQL Subscriptions",
+        "link": "https://hasura.io/blog/building-a-realtime-chat-app-with-graphql-subscriptions-d68cd33e73f/"
+      },
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/realtime-chat"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/realtime-chat",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
+  },
+  {
+    "name": "Serverless ETL",
+    "logo_url": "https://shahidh.in/hasura-serverless-etl/arch.png",
+    "short_desc": "Build an ETL process using event triggers on Hasura.",
+    "url_path": "schema-share-data-model-serverless-etl",
+    "github_repo": {
+      "name": "hasura/data-hub",
+      "branch": "main",
+      "readme_repo_path": "/data-models/postgres/serverless-etl/README.md"
+    },
+    "developed_by": "Hasura",
+    "released_on": "April 21, 2022",
+    "last_updated": "April 21, 2022",
+    "additional_resources": [
+      {
+        "text": "Github Repository",
+        "link": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/serverless-etl"
+      }
+    ],
+    "additional_images": [
+      {
+        "url": "",
+        "alt": ""
+      }
+    ],
+    "video_demo": null,
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/data-models/postgres/serverless-etl",
+    "categories": [
+      {
+        "name": "Sample Data Models"
+      }
+    ],
+    "is_featured": false,
+    "coming_soon": false,
+    "type": "Database Schema"
   }
 ]

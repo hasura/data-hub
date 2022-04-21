@@ -1,0 +1,16 @@
+event_triggers:
+  - definition:
+      insert:
+        columns:
+          - title
+          - author
+          - id
+          - created_at
+    name: book_event
+    retry_conf:
+      interval_sec: 10
+      num_retries: 0
+    webhook_from_env: CLOUD_FUNCTION_URL
+table:
+  name: book
+  schema: public

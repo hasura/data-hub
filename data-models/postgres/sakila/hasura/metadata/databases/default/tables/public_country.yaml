@@ -1,0 +1,11 @@
+table:
+  schema: public
+  name: country
+array_relationships:
+  - name: cities
+    using:
+      foreign_key_constraint_on:
+        column: country_id
+        table:
+          schema: public
+          name: city
