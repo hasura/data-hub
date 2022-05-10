@@ -1,0 +1,11 @@
+table:
+  schema: public
+  name: MediaType
+array_relationships:
+  - name: Tracks
+    using:
+      foreign_key_constraint_on:
+        column: MediaTypeId
+        table:
+          schema: public
+          name: Track

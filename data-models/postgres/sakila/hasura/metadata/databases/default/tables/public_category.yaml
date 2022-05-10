@@ -1,0 +1,11 @@
+table:
+  schema: public
+  name: category
+array_relationships:
+  - name: film_categories
+    using:
+      foreign_key_constraint_on:
+        column: category_id
+        table:
+          schema: public
+          name: film_category

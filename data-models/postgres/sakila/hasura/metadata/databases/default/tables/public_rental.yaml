@@ -1,0 +1,63 @@
+table:
+  schema: public
+  name: rental
+object_relationships:
+  - name: customer
+    using:
+      foreign_key_constraint_on: customer_id
+  - name: inventory
+    using:
+      foreign_key_constraint_on: inventory_id
+  - name: staff
+    using:
+      foreign_key_constraint_on: staff_id
+array_relationships:
+  - name: payment_p2007_01s
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment_p2007_01
+  - name: payment_p2007_02s
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment_p2007_02
+  - name: payment_p2007_03s
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment_p2007_03
+  - name: payment_p2007_04s
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment_p2007_04
+  - name: payment_p2007_05s
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment_p2007_05
+  - name: payment_p2007_06s
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment_p2007_06
+  - name: payments
+    using:
+      foreign_key_constraint_on:
+        column: rental_id
+        table:
+          schema: public
+          name: payment

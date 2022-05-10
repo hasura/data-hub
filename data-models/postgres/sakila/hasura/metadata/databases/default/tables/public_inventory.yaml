@@ -1,0 +1,18 @@
+table:
+  schema: public
+  name: inventory
+object_relationships:
+  - name: film
+    using:
+      foreign_key_constraint_on: film_id
+  - name: store
+    using:
+      foreign_key_constraint_on: store_id
+array_relationships:
+  - name: rentals
+    using:
+      foreign_key_constraint_on:
+        column: inventory_id
+        table:
+          schema: public
+          name: rental

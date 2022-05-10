@@ -1,0 +1,18 @@
+table:
+  schema: public
+  name: language
+array_relationships:
+  - name: films
+    using:
+      foreign_key_constraint_on:
+        column: language_id
+        table:
+          schema: public
+          name: film
+  - name: filmsByOriginalLanguageId
+    using:
+      foreign_key_constraint_on:
+        column: original_language_id
+        table:
+          schema: public
+          name: film

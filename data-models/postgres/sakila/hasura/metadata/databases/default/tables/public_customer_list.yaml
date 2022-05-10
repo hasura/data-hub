@@ -1,0 +1,10 @@
+table:
+  schema: public
+  name: customer_list
+configuration:
+  custom_root_fields: {}
+  column_config:
+    zip code:
+      custom_name: zip_code
+  custom_column_names:
+    zip code: zip_code

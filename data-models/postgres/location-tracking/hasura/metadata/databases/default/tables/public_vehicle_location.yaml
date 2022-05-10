@@ -1,0 +1,7 @@
+table:
+  schema: public
+  name: vehicle_location
+object_relationships:
+  - name: vehicle
+    using:
+      foreign_key_constraint_on: vehicle_id

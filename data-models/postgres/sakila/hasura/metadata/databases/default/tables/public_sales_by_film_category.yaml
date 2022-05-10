@@ -1,0 +1,3 @@
+table:
+  schema: public
+  name: sales_by_film_category

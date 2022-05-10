@@ -1,0 +1,74 @@
+table:
+  schema: public
+  name: staff
+object_relationships:
+  - name: address
+    using:
+      foreign_key_constraint_on: address_id
+  - name: store
+    using:
+      foreign_key_constraint_on: store_id
+array_relationships:
+  - name: payment_p2007_01s
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment_p2007_01
+  - name: payment_p2007_02s
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment_p2007_02
+  - name: payment_p2007_03s
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment_p2007_03
+  - name: payment_p2007_04s
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment_p2007_04
+  - name: payment_p2007_05s
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment_p2007_05
+  - name: payment_p2007_06s
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment_p2007_06
+  - name: payments
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: payment
+  - name: rentals
+    using:
+      foreign_key_constraint_on:
+        column: staff_id
+        table:
+          schema: public
+          name: rental
+  - name: stores
+    using:
+      foreign_key_constraint_on:
+        column: manager_staff_id
+        table:
+          schema: public
+          name: store
