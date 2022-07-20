@@ -231,7 +231,7 @@
     "additional_resources": [
       {
         "text": "GraphQL Mesh Docs",
-        "link": "https://www.graphql-mesh.com/docs/getting-started/introduction/"
+        "link": "https://www.graphql-mesh.com/docs/getting-started/overview"
       },
       {
         "text": "Join GraphQL Mesh data with Hasura",
@@ -1399,7 +1399,7 @@
     "additional_resources": [
       {
         "text": "Stateset",
-        "link": "https://stateset.io"
+        "link": "https://stateset.io/product"
       }
     ],
     "additional_images": [
