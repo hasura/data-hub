@@ -1409,7 +1409,7 @@
       }
     ],
     "video_demo": "",
-    "integration_link": "github.com/stateset/data-hub/stateset/README.md",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/stateset",
     "categories": [
       {
         "name": "Ecommerce"
