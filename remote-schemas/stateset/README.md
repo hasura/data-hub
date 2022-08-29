@@ -1,8 +1,8 @@
-[Stateset](https://www.stateset.is/) is the Serverless Operations Platform for direct-to-consumer merchants.
+[Stateset](https://www.stateset.io/) is the Serverless Operations Platform for direct-to-consumer merchants.
 
 ## Enable the GraphQL API for your Stateset Project
 
-Stateset projects come with a GraphQL API by default. After creating the Stateset project, you need to deploy the GraphQL API manually. 
+Stateset projects come with a GraphQL API by default. After creating the Stateset project, you need to deploy the GraphQL API manually.
 
 You can deploy the API only by signing up on stateset.io/signup.
 
@@ -16,8 +16,8 @@ https://<your-project-name>.stateset.app/v1/graphql
 
 It’s important to note that all data is accessible only to authenticated users. There are two ways to access data:
 
-* using JWTs
-* using static tokens that are set for each user and do not expire
+- using JWTs
+- using static tokens that are set for each user and do not expire
 
 ## Accessing your Stateset Operations Backend
 
@@ -34,12 +34,11 @@ You will need this Stateset Admin Secret Key to access the Stateset GraphQL API.
   Authorization: Bearer <your-Stateset-API-Token>
   ```
 
-  or 
+  or
 
-   ```
+  ```
   x-hasura-admin-secret: Bearer <Stateset Admin Secret>
   ```
-
 
 ## Adding Stateset as Remote Schema
 
