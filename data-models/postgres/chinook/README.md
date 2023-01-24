@@ -1,3 +1,5 @@
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=data-models/postgres/chinook/hasura)
+
 A sample data schema based off the [Chinook example database](https://github.com/cwoodruff/ChinookDatabase).
 
 The Chinook data model represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.
