@@ -15,6 +15,10 @@ HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
 
 ## Importing the data schema
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=data-models/postgres/ecommerce/hasura)
+
 Open a terminal in the Hasura directory. Now we apply the migrations, metadata, and seeds.
 
 ```bash

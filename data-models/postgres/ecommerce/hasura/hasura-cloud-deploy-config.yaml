@@ -1,0 +1,18 @@
+name: "ecommerce"
+
+static-env:
+  STREAMING_SUBSCRIPTION_FLAG: true
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  PG_DATABASE_URL:
+    description: "Postgres database URL"
+    mandatory: true
+  NEXTJS_SERVER_URL:
+    default: "http://localhost:3000"
+    description: "Next.js Server URL for authentication and custom business logic"
+    mandatory: true
+  HASURA_GRAPHQL_JWT_SECRET:
+    default: "{\"key\": \"this-is-the-hasura-nextjs-secret-key-replace-it-with-something-secure\",\"type\": \"HS256\"}"
+    description: "JWT Secret key"
+    mandatory: true
