@@ -12,14 +12,24 @@ Using this [E-Commerce example from Airtable](https://www.airtable.com/templates
 }
 ```
 
+## Clone the Data Hub Repo
+
+git clone https://github.com/hasura/data-hub
+cp https://github.com/hasura/data-hub/tree/main/action-transforms/airtable/hasura <your_root_folder_path>
+
+
 ## Configuring an Action Transform
 
-You'll need the following environment variables.
+You'll need the following environment variables into the .env file.
 
 ```bash
+AIRTABLE_APP_ID: "appXXXXXXXXXXXXXX"
 AIRABLE_API_KEY: "keyXXXXXXXXXXXXXX"
-AIRTABLE_BASE_PATH: "https://api.airtable.com/v0/<your_app_id>"
+AIRTABLE_BASE_PATH: "https://api.airtable.com/v0/${AIRTABLE_APP_ID}"
 ```
+
+## Using Hasura CLI you can reload and indicate the .env file name eg. production.env
+hasura console --envfile production.env
 
 If you are using Docker you can provide these environment variables along with the rest of your Hasura configuration information.
 
