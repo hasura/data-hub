@@ -1,0 +1,14 @@
+name: "auth0-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  AUTH0_DOMAIN:
+    default: "app-name.auth0.com"
+    description: "Find your Auth0 Domain https://auth0.com/docs/configure/applications/application-settings#basic-settings"
+    mandatory: true
+  AUTH0_AUTH_TOKEN:
+    default: "Bearer xxxxx"
+    description: "The Bearer authentication token"
+    mandatory: true

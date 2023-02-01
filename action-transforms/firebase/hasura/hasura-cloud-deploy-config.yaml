@@ -1,0 +1,10 @@
+name: "firebase-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  FIREBASE_API_BASE:
+    default: "https://identitytoolkit.googleapis.com/v1"
+    description: "The Firebase API base"
+    mandatory: true

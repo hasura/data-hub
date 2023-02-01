@@ -1,0 +1,10 @@
+name: "prismic-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  PRISMIC_SEARCH_ENDPOINT:
+    default: "https://my-app-name.prismic.io/api/v2/documents/search"
+    description: "The endpoint of your Prismic application"
+    mandatory: true
