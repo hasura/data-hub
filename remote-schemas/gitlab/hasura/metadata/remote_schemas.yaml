@@ -1,0 +1,8 @@
+- name: GitLab
+  definition:
+    url: https://gitlab.com/api/graphql
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: GITLAB_PERSONAL_ACCESS_TOKEN

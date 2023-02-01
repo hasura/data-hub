@@ -1,0 +1,12 @@
+name: "gitlab-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  GITLAB_PERSONAL_ACCESS_TOKEN:
+    default: "Bearer <API Access Token>"
+    description: "GitLab Personal Access Token https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token"
+    mandatory: true

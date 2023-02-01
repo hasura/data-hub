@@ -1,0 +1,8 @@
+- name: Contentful
+  definition:
+    url_from_env: CONTENTFUL_GRAPHQL_CONTENT_ENDPOINT
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: CONTENTFUL_CONTENT_DELIVERY_API_ACCESS_TOKEN
