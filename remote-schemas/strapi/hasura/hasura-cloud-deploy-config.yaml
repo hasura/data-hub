@@ -1,0 +1,15 @@
+name: "strapi-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  STRAPI_GRAPHQL_ENDPOINT:
+    description: "Strapi GraphQL endpoint"
+    mandatory: true
+  STRAPI_API_TOKEN:
+    default: "Bearer <API Token>"
+    description: "Strapi API Token https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/optional/api-tokens.html"
+    mandatory: true

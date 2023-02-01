@@ -1,0 +1,5 @@
+- name: Magento
+  definition:
+    url_from_env: MAGENTO_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}

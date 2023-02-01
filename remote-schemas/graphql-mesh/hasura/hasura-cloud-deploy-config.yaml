@@ -1,0 +1,12 @@
+name: "graphql-mesh-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  GRAPHQL_MESH_ENDPOINT:
+    default: "http://localhost:4000"
+    description: "GraphQL Mesh Endpoint"
+    mandatory: true

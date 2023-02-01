@@ -1,0 +1,16 @@
+name: "webiny-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  WEBINY_GRAPHQL_ENDPOINT:
+    default: "https://{yourApiDomain}/cms/{type}/{locale}"
+    description: "Webiny GraphQL endpoint"
+    mandatory: true
+  WEBINY_API_TOKEN:
+    default: "Bearer <API Token>"
+    description: "Webiny API Token https://www.webiny.com/docs/headless-cms/basics/using-graphql-api#creating-the-api-key"
+    mandatory: true

@@ -2,7 +2,7 @@ Sanity is the platform for structured content that allows you to manage your tex
 
 ## Enable the GraphQL API for your Sanity Project
 
-Sanity projects do not come with a GraphQL API by default. After creating the Sanity project, you need to deploy the GraphQL API manually. 
+Sanity projects do not come with a GraphQL API by default. After creating the Sanity project, you need to deploy the GraphQL API manually.
 
 You can deploy the API only by using the command-line interface. Go into your project’s directory and run:
 
@@ -42,7 +42,7 @@ You are done! You can use the GraphQL API in Hasura.
 
 ### Protect your GraphQL API endpoint
 
-Let’s secure the API so only authenticated users can access it. 
+Let’s secure the API so only authenticated users can access it.
 
 Go to your Sanity [dashboard](https://www.sanity.io/manage) and choose your project.
 
@@ -63,9 +63,10 @@ Enter the token name and choose the appropriate permissions. In this case, the t
 Save it and copy the token.
 
 Now go to the “Remote Schemas” in Hasura and click on the “Add” button. After that, add the following information:
-* Remote Schema name
-* GraphQL endpoint URL
-* Authorization header under the “Additional headers” section
+
+- Remote Schema name
+- GraphQL endpoint URL
+- Authorization header under the “Additional headers” section
 
 ![Hasura Add Remote Schema With Authorization](https://graphql-engine-cdn.hasura.io/data-hub/sanity/hasura-add-remote-schema-token.png)
 

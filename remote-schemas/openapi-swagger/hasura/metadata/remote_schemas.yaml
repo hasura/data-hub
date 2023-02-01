@@ -1,0 +1,5 @@
+- name: OpenAPISwagger
+  definition:
+    url_from_env: OPENAPI_SWAGGER_ENDPOINT
+    timeout_seconds: 60
+    customization: {}

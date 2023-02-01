@@ -1,0 +1,8 @@
+- name: Sanity
+  definition:
+    url_from_env: SANITY_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: SANITY_API_TOKEN

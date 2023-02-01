@@ -1,0 +1,8 @@
+- name: Hygraph
+  definition:
+    url_from_env: HYGRAPH_CONTENT_API_ENDPOINT
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: HYGRAPH_PERMANENT_AUTH_TOKEN

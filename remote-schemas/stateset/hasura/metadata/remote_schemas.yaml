@@ -1,0 +1,8 @@
+- name: Stateset
+  definition:
+    url_from_env: STATESET_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: STATESET_ACCESS_TOKEN
