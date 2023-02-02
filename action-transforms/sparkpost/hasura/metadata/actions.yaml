@@ -4,8 +4,8 @@ actions:
     kind: synchronous
     handler: https://api.sparkpost.com/api/v1/transmissions
     headers:
-    - value: <YOUR_API_KEY>
-      name: Authorization
+    - name: Authorization
+      value_from_env: SPARKPOST_API_KEY
     request_transform:
       body:
         action: transform

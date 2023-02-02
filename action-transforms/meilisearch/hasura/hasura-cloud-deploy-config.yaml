@@ -1,0 +1,10 @@
+name: "meilisearch-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  MEILISEARCH_URL:
+    default: "http://localhost:7700"
+    description: "Your Meilisearch URL"
+    mandatory: true

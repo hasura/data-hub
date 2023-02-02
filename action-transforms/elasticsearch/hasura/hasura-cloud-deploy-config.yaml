@@ -1,0 +1,14 @@
+name: "elasticsearch-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  ELASTIC_SEARCH_ENDPOINT:
+    default: "https://test-app.es.us-central1.gcp.cloud.es.io:9243/kibana_sample_data_ecommerce/_search"
+    description: "The endpoint of your Elasticsearch app"
+    mandatory: true
+  ELASTIC_API_KEY:
+    default: "ApiKey <token>"
+    description: "Find your Elasticsearch API Key or create one from scratch https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api-create-api-key.html"
+    mandatory: true

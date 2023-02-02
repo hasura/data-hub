@@ -1,0 +1,14 @@
+name: "airtable-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  AIRTABLE_API_KEY:
+    default: "keyXXXXXXXXXXXXXX"
+    description: "Locate your API KEY here https://airtable.com/account"
+    mandatory: true
+  AIRTABLE_BASE_PATH:
+    default: "https://api.airtable.com/v0/<your_app_id>"
+    description: "Locate your API base path here https://airtable.com/api"
+    mandatory: true

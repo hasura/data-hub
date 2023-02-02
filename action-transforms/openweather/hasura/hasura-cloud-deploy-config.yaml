@@ -1,0 +1,10 @@
+name: "openweather-action-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  OPEN_WEATHER_API_PATH:
+    default: "https://api.openweathermap.org/data/2.5"
+    description: "Openweather API Key which can be found in your key settings page https://home.openweathermap.org/api_keys"
+    mandatory: true
