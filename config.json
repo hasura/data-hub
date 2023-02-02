@@ -72,22 +72,22 @@
     "type": "Remote Schema"
   },
   {
-    "name": "GraphCMS",
+    "name": "Hygraph",
     "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/graphcms.svg",
-    "short_desc": "GraphCMS is a headless CMS allowing you to build digital experiences the way you envisioned them and connects to Hasura using Remote Schema.",
-    "url_path": "graphcms-graphql-api",
+    "short_desc": "Hygraph is a headless CMS allowing you to build digital experiences the way you envisioned them and connects to Hasura using Remote Schema.",
+    "url_path": "hygraph-graphql-api",
     "github_repo": {
       "name": "hasura/data-hub",
       "branch": "main",
-      "readme_repo_path": "/remote-schemas/graphcms/README.md"
+      "readme_repo_path": "/remote-schemas/hygraph/README.md"
     },
-    "developed_by": "GraphCMS",
+    "developed_by": "Hygraph",
     "released_on": "June 10, 2021",
-    "last_updated": "February 03, 2022",
+    "last_updated": "February 01, 2023",
     "additional_resources": [
       {
-        "text": "GraphCMS API Docs",
-        "link": "https://graphcms.com/docs"
+        "text": "Hygraph API Docs",
+        "link": "https://hygraph.com/docs"
       }
     ],
     "additional_images": [
@@ -97,7 +97,7 @@
       }
     ],
     "video_demo": null,
-    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/graphcms",
+    "integration_link": "https://github.com/hasura/data-hub/tree/main/remote-schemas/hygraph",
     "categories": [
       {
         "name": "CMS"
@@ -253,42 +253,6 @@
     ],
     "is_featured": false,
     "coming_soon": false,
-    "type": "Remote Schema"
-  },
-  {
-    "name": "OneGraph",
-    "logo_url": "https://graphql-engine-cdn.hasura.io/assets/main-site/marketplace/one-graph.svg",
-    "short_desc": "OneGraph is single GraphQL endpoint that brings together all your SaaS APIs",
-    "url_path": "onegraph-graphql-api",
-    "github_repo": {
-      "name": "praveenweb/onegraph-graphql-api",
-      "branch": "master",
-      "readme_repo_path": "/README.md"
-    },
-    "developed_by": "OneGraph",
-    "released_on": "June 10, 2021",
-    "last_updated": "June 10, 2021",
-    "additional_resources": [
-      {
-        "text": "OneGraph API Docs",
-        "link": "https://www.onegraph.com/docs/"
-      }
-    ],
-    "additional_images": [
-      {
-        "url": "",
-        "alt": ""
-      }
-    ],
-    "video_demo": null,
-    "integration_link": "praveenweb/onegraph-graphql-api",
-    "categories": [
-      {
-        "name": "REST API"
-      }
-    ],
-    "is_featured": false,
-    "coming_soon": true,
     "type": "Remote Schema"
   },
   {

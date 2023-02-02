@@ -1,0 +1,16 @@
+name: "sanity-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  SANITY_GRAPHQL_ENDPOINT:
+    default: "https://<yourProjectId>.api.sanity.io/v1/graphql/<dataset>/<tag>"
+    description: "Sanity GraphQL endpoint"
+    mandatory: true
+  SANITY_API_TOKEN:
+    default: "Bearer <API Token>"
+    description: "Sanity API Token https://www.sanity.io/docs/http-auth"
+    mandatory: true

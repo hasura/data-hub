@@ -1,0 +1,5 @@
+- name: GraphQLMesh
+  definition:
+    url_from_env: GRAPHQL_MESH_ENDPOINT
+    timeout_seconds: 60
+    customization: {}

@@ -1,0 +1,8 @@
+- name: GitHub
+  definition:
+    url: https://api.github.com/graphql
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: GITHUB_PERSONAL_ACCESS_TOKEN

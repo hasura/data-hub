@@ -1,0 +1,5 @@
+- name: Wordpress
+  definition:
+    url_from_env: WORDPRESS_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}

@@ -1,0 +1,8 @@
+- name: Shopify
+  definition:
+    url_from_env: SHOPIFY_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: X-Shopify-Access-Token
+        value_from_env: SHOPIFY_ACCESS_TOKEN

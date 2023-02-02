@@ -1,0 +1,16 @@
+name: "stateset-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  STATESET_GRAPHQL_ENDPOINT:
+    default: "https://<your-project-name>.stateset.app/v1/graphql"
+    description: "Stateset GraphQL endpoint"
+    mandatory: true
+  STATESET_ACCESS_TOKEN:
+    default: "Bearer <API Access Token>"
+    description: "Stateset Access Token https://docs.stateset.io/stateset-docs/#authentication"
+    mandatory: true

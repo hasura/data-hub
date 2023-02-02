@@ -1,0 +1,16 @@
+name: "contentful-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  CONTENTFUL_GRAPHQL_CONTENT_ENDPOINT:
+    default: "https://graphql.contentful.com/content/v1/spaces/<space-id>"
+    description: "GraphQL endpoint of your Contentful space"
+    mandatory: true
+  CONTENTFUL_CONTENT_DELIVERY_API_ACCESS_TOKEN:
+    default: "Bearer <API Access Token>"
+    description: "Contentful API Access Token https://www.contentful.com/developers/docs/references/authentication/"
+    mandatory: true

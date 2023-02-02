@@ -1,0 +1,15 @@
+name: "shopify-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  SHOPIFY_GRAPHQL_ENDPOINT:
+    default: "https://{store_name}.myshopify.com/admin/api/2023-01/graphql.json"
+    description: "Shopify GraphQL endpoint"
+    mandatory: true
+  SHOPIFY_ACCESS_TOKEN:
+    description: "Shopify Access Token https://shopify.dev/api/admin-graphql#authentication"
+    mandatory: true

@@ -1,0 +1,5 @@
+- name: Drupal
+  definition:
+    url_from_env: DRUPAL_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}

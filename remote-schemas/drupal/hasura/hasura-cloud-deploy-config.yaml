@@ -1,0 +1,12 @@
+name: "drupal-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  DRUPAL_GRAPHQL_ENDPOINT:
+    default: "<Drupal endpoint>/graphql"
+    description: "GraphQL endpoint of your Drupal project https://drupal-graphql.gitbook.io/graphql/"
+    mandatory: true

@@ -1,0 +1,16 @@
+name: "directus-remote-schema"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+  HASURA_GRAPHQL_EXPERIMENTAL_FEATURES: "inherited_roles"
+  HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: true
+
+user-env:
+  DIRECTUS_GRAPHQL_ENDPOINT:
+    default: "https://<your-project-name>.directus.app/graphql"
+    description: "GraphQL endpoint of your Directus project"
+    mandatory: true
+  DIRECTUS_STATIC_API_TOKEN:
+    default: "Bearer <API Access Token>"
+    description: "Directus static API token https://docs.directus.io/reference/authentication.html"
+    mandatory: true

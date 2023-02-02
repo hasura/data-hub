@@ -1,0 +1,8 @@
+- name: Directus
+  definition:
+    url_from_env: DIRECTUS_GRAPHQL_ENDPOINT
+    timeout_seconds: 60
+    customization: {}
+    headers:
+      - name: Authorization
+        value_from_env: DIRECTUS_STATIC_API_TOKEN
