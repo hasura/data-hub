@@ -1,0 +1,10 @@
+name: "sparkpost-event-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  SPARKPOST_API_KEY:
+    default: "xxxxxx"
+    description: "Check out Sparkpost docs on creating an API key https://support.sparkpost.com/docs/getting-started/create-api-keys"
+    mandatory: true
