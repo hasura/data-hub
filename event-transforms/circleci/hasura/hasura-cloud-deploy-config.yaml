@@ -1,0 +1,14 @@
+name: "circleci-event-transform"
+
+static-env:
+  HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+
+user-env:
+  CIRCLECI_TOKEN:
+    default: "xxxx-xxxx-xxxx-xxxx-xxxx"
+    description: "Personal API token https://circleci.com/docs/2.0/managing-api-tokens/"
+    mandatory: true
+  CIRCLECI_PIPELINE_URL:
+    default: "<https://circleci.com/api/v2/project/<PROJECT_SLUG>/pipeline>"
+    description: "Add your project slug https://circleci.com/docs/2.0/api-intro/"
+    mandatory: true
