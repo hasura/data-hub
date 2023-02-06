@@ -4,6 +4,9 @@ static-env:
   HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
 
 user-env:
+  PG_DATABASE_URL:
+    description: "Postgres database URL"
+    mandatory: true
   NETLIFY_BUILD_HOOK:
     default: "https://api.netlify.com/build_hooks/XXXXXXXXXXXXXXX"
     description: "Check out Netlify Docs on creating and configuring a build hook https://docs.netlify.com/configure-builds/build-hooks/"

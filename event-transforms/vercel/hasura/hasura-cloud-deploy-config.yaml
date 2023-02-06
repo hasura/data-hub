@@ -4,6 +4,9 @@ static-env:
   HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
 
 user-env:
+  PG_DATABASE_URL:
+    description: "Postgres database URL"
+    mandatory: true
   VERCEL_DEPLOY_HOOK:
     default: "https://api.vercel.com/v1/integrations/deploy/QmcwKGEbAyFtfybXBxvuSjFT54dc5dRLmAYNB5jxxXsbeZ/hUg65Lj4CV"
     description: "Check out the Vercel Docs on https://vercel.com/docs/concepts/git/deploy-hooks"

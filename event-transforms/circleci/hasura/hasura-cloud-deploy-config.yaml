@@ -4,6 +4,9 @@ static-env:
   HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
 
 user-env:
+  PG_DATABASE_URL:
+    description: "Postgres database URL"
+    mandatory: true
   CIRCLECI_TOKEN:
     default: "xxxx-xxxx-xxxx-xxxx-xxxx"
     description: "Personal API token https://circleci.com/docs/2.0/managing-api-tokens/"
