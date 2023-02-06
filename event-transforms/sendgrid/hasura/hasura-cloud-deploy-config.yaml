@@ -4,6 +4,9 @@ static-env:
   HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
 
 user-env:
+  PG_DATABASE_URL:
+    description: "Postgres database URL"
+    mandatory: true
   SENDGRID_API_KEY:
     default: "Bearer xxxxxx"
     description: "Check out Sendgrid dashboard on creating an API key https://app.sendgrid.com/settings/api_keys"
