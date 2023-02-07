@@ -1,5 +1,9 @@
 Directus is an open-source Headless CMS with the flexibility and power of a Data API. It allows managing both content and raw data in any new or existing SQL database — keeping all your data pure, organized, and portable, end-to-end.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/directus/hasura)
+
 ## Directus GraphQL API
 
 After creating the Directus application, you can access the GraphQL API endpoint as follows:

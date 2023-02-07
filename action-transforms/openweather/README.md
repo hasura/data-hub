@@ -15,6 +15,10 @@ An example query:
 }
 ```
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=action-transforms/openweather/hasura)
+
 ## Configuring an Action Transform
 
 You'll need the following environment variables.

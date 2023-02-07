@@ -6,6 +6,10 @@ For example:
 
 If a new row is inserted in the blog table, we trigger the netlify build hook to rebuild our site deployed on Netlify.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=event-transforms/netlify/hasura)
+
 ## Configuring an Event Transform
 
 You'll need the following environment variables.

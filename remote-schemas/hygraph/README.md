@@ -1,3 +1,9 @@
+Hygraph is a headless CMS allowing you to build digital experiences the way you envisioned them and connects to Hasura using Remote Schema.
+
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/hygraph/hasura)
+
 ## Copy your API endpoint
 
 1. Get the Content API endpoint from your project API access settings.  

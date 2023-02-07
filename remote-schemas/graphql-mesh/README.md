@@ -1,5 +1,9 @@
 Creating a Data Graph with GraphQL Mesh and Hasura Remote Joins
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/graphql-mesh/hasura)
+
 ## Using GraphQL Mesh
 
 GraphQL Mesh can be used as
