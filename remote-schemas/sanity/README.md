@@ -1,5 +1,9 @@
 Sanity is the platform for structured content that allows you to manage your text, images and other media with APIs.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/sanity/hasura)
+
 ## Enable the GraphQL API for your Sanity Project
 
 Sanity projects do not come with a GraphQL API by default. After creating the Sanity project, you need to deploy the GraphQL API manually.

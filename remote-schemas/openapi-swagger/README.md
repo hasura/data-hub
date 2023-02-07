@@ -1,5 +1,9 @@
 [openapi-to-graphql](https://github.com/IBM/openapi-to-graphql) translates APIs described by OpenAPI Specifications (OAS) or Swagger into GraphQL. This server uses that package as a dependency to convert OAS to GraphQL.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/openapi-swagger/hasura)
+
 ## Deploy with Glitch
 
 1. Click the following button to edit on glitch

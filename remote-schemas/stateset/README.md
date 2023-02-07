@@ -1,5 +1,9 @@
 [Stateset](https://www.stateset.io/) is the Serverless Operations Platform for direct-to-consumer merchants.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/stateset/hasura)
+
 ## Enable the GraphQL API for your Stateset Project
 
 Stateset projects come with a GraphQL API by default. After creating the Stateset project, you need to deploy the GraphQL API manually.

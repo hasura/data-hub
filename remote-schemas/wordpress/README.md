@@ -1,5 +1,9 @@
 WordPress is a content management system that you can use to build websites and blogs. It's free, open-source and it's written in PHP.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/wordpress/hasura)
+
 ## Pre-requisites
 
 WordPress does not come with GraphQL support by default. That means you have to set it up yourself. One way to do it is to install the **WPGraphQL** plugin.

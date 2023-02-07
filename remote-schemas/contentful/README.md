@@ -1,5 +1,9 @@
 Contentful is an API First CMS to build Digital products. It offers a [GraphQL API](https://www.contentful.com/developers/docs/references/graphql/#/introduction/basic-api-information) which can be joined with Hasura using Remote Schema.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/contentful/hasura)
+
 ## Adding Contentful as Remote Schema
 
 - Get the GraphQL Content API Endpoint in the following format:

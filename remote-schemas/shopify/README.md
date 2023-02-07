@@ -1,5 +1,9 @@
 Shopify is an e-commerce platform that allows you to start and run an online store.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/shopify/hasura)
+
 ## Setup the Shopify GraphQL API
 
 Shopify does not come with a GraphQL API by default. You have to install and configure it manually.

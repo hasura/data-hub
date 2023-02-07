@@ -1,5 +1,9 @@
 [Webiny](https://www.webiny.com/) is Open-Source Serverless Enterprise CMS. It Includes a Headless CMS, Page Builder, Form Builder, and File Manager.
 
+You can use the one-click to deploy on Hasura Cloud to get started quickly
+
+[![Deploy to Hasura Cloud](https://hasura.io/deploy-button.svg)](https://cloud.hasura.io/deploy?github_repo=https://github.com/hasura/data-hub&hasura_dir=remote-schemas/webiny/hasura)
+
 ## Adding Webiny as Remote Schema
 
 - Get the Webiny GraphQL API Endpoint:
