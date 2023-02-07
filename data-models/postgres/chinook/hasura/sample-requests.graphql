@@ -1,5 +1,5 @@
 # fetch album and tracks
-query {
+query fetchAlbum {
   Album {
     AlbumId
     Title
