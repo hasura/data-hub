@@ -1,7 +1,6 @@
 name: "ecommerce"
 
 static-env:
-  STREAMING_SUBSCRIPTION_FLAG: true
   HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
 
 user-env:

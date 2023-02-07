@@ -1,0 +1,11 @@
+# fetch album and tracks
+query {
+  Album {
+    AlbumId
+    Title
+    Tracks {
+      TrackId
+      Name
+    }
+  }
+}
