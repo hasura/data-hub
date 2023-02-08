@@ -1,5 +1,3 @@
-# CircleCI
-
 CircleCI is the world’s largest shared continuous integration and continuous delivery (CI/CD) platform.
 
 In this example, we are going to make use of CircleCI's API to trigger a pipeline automatically on the main branch whenever there is an insert/update/delete on our blog table.
