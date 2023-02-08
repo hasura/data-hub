@@ -1,5 +1,3 @@
-# Gitlab
-
 GitLab is DevOps software that combines the ability to develop, secure, and operate software in a single application. It offers a [GraphQL API](https://docs.gitlab.com/ee/api/graphql/) which we can join with Hasura using Remote Schemas.
 
 You can use the one-click to deploy on Hasura Cloud to get started quickly

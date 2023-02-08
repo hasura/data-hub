@@ -1,5 +1,3 @@
-# Strapi
-
 Strapi is the leading open-source headless CMS. It offers a [GraphQL plugin](https://docs.strapi.io/developer-docs/latest/plugins/graphql.html) which we can join with Hasura using Remote Schemas.
 
 You can use the one-click to deploy on Hasura Cloud to get started quickly
