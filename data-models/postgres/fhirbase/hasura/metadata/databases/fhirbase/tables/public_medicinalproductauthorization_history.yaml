@@ -1,0 +1,3 @@
+table:
+  name: medicinalproductauthorization_history
+  schema: public

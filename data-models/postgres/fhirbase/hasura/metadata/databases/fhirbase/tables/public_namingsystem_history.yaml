@@ -1,0 +1,3 @@
+table:
+  name: namingsystem_history
+  schema: public

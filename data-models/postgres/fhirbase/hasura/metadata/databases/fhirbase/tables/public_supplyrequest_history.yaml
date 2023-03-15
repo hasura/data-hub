@@ -1,0 +1,3 @@
+table:
+  name: supplyrequest_history
+  schema: public

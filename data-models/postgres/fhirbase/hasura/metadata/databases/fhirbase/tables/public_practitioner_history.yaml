@@ -1,0 +1,3 @@
+table:
+  name: practitioner_history
+  schema: public

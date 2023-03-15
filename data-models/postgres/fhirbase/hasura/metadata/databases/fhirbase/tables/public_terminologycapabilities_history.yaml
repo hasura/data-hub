@@ -1,0 +1,3 @@
+table:
+  name: terminologycapabilities_history
+  schema: public

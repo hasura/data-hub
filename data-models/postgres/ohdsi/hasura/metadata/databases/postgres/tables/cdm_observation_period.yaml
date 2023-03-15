@@ -1,0 +1,10 @@
+table:
+  name: observation_period
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: period_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id

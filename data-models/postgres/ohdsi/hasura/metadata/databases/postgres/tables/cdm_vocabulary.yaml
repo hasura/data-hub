@@ -1,0 +1,22 @@
+table:
+  name: vocabulary
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: vocabulary_concept_id
+array_relationships:
+  - name: concepts
+    using:
+      foreign_key_constraint_on:
+        column: vocabulary_id
+        table:
+          name: concept
+          schema: cdm
+  - name: source_to_concept_maps
+    using:
+      foreign_key_constraint_on:
+        column: target_vocabulary_id
+        table:
+          name: source_to_concept_map
+          schema: cdm

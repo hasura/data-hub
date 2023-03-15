@@ -1,0 +1,3 @@
+table:
+  name: auditevent
+  schema: public

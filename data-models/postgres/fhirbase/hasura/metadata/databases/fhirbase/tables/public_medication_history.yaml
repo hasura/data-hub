@@ -1,0 +1,3 @@
+table:
+  name: medication_history
+  schema: public

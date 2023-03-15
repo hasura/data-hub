@@ -1,5 +1,3 @@
-# Github
-
 Github is a development platform where millions of developers and companies build, ship, and maintain their software. It offers a [GraphQL API](https://docs.github.com/en/graphql) which we can join with Hasura using Remote Schemas.
 
 You can use the one-click to deploy on Hasura Cloud to get started quickly

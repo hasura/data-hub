@@ -1,0 +1,10 @@
+table:
+  name: episode_event
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: episode_event_field_concept_id
+  - name: episode
+    using:
+      foreign_key_constraint_on: episode_id

@@ -1,0 +1,3 @@
+table:
+  name: nutritionorder_history
+  schema: public

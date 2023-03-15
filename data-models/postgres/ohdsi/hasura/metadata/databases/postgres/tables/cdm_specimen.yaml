@@ -1,0 +1,22 @@
+table:
+  name: specimen
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: anatomic_site_concept_id
+  - name: conceptByDiseaseStatusConceptId
+    using:
+      foreign_key_constraint_on: disease_status_concept_id
+  - name: conceptBySpecimenConceptId
+    using:
+      foreign_key_constraint_on: specimen_concept_id
+  - name: conceptBySpecimenTypeConceptId
+    using:
+      foreign_key_constraint_on: specimen_type_concept_id
+  - name: conceptByUnitConceptId
+    using:
+      foreign_key_constraint_on: unit_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id

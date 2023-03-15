@@ -1,0 +1,19 @@
+table:
+  name: drug_strength
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: amount_unit_concept_id
+  - name: conceptByDenominatorUnitConceptId
+    using:
+      foreign_key_constraint_on: denominator_unit_concept_id
+  - name: conceptByDrugConceptId
+    using:
+      foreign_key_constraint_on: drug_concept_id
+  - name: conceptByIngredientConceptId
+    using:
+      foreign_key_constraint_on: ingredient_concept_id
+  - name: conceptByNumeratorUnitConceptId
+    using:
+      foreign_key_constraint_on: numerator_unit_concept_id

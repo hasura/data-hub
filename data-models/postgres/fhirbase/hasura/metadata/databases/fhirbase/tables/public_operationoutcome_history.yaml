@@ -1,0 +1,3 @@
+table:
+  name: operationoutcome_history
+  schema: public

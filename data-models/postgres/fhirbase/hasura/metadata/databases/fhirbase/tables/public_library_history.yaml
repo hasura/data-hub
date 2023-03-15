@@ -1,0 +1,3 @@
+table:
+  name: library_history
+  schema: public

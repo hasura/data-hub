@@ -1,0 +1,3 @@
+table:
+  name: device_history
+  schema: public

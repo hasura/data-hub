@@ -1,0 +1,3 @@
+table:
+  name: coverage
+  schema: public

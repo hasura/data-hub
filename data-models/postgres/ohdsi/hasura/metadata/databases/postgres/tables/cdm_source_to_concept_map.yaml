@@ -1,0 +1,13 @@
+table:
+  name: source_to_concept_map
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: source_concept_id
+  - name: conceptByTargetConceptId
+    using:
+      foreign_key_constraint_on: target_concept_id
+  - name: vocabulary
+    using:
+      foreign_key_constraint_on: target_vocabulary_id

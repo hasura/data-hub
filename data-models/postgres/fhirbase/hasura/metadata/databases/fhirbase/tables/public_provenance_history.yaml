@@ -1,0 +1,3 @@
+table:
+  name: provenance_history
+  schema: public

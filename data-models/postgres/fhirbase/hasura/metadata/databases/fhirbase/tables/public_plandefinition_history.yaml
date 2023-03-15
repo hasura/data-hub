@@ -1,0 +1,3 @@
+table:
+  name: plandefinition_history
+  schema: public

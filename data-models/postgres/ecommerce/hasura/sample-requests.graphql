@@ -1,0 +1,15 @@
+# fetch latest orders and their products
+query fetchLatestOrders {
+  order(limit: 10, order_by: {created_at: desc}) {
+    id
+    is_shipped
+    order_total
+    products {
+      id
+      product {
+        name
+        price
+      }
+    }
+  }
+}

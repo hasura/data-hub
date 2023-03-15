@@ -1,0 +1,3 @@
+table:
+  name: specimendefinition_history
+  schema: public

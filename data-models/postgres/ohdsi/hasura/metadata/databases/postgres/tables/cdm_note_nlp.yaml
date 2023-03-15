@@ -1,0 +1,13 @@
+table:
+  name: note_nlp
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: note_nlp_concept_id
+  - name: conceptByNoteNlpSourceConceptId
+    using:
+      foreign_key_constraint_on: note_nlp_source_concept_id
+  - name: conceptBySectionConceptId
+    using:
+      foreign_key_constraint_on: section_concept_id

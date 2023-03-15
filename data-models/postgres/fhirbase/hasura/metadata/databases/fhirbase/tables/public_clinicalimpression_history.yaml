@@ -1,0 +1,3 @@
+table:
+  name: clinicalimpression_history
+  schema: public

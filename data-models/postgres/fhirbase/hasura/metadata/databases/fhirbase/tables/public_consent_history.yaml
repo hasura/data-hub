@@ -1,0 +1,3 @@
+table:
+  name: consent_history
+  schema: public

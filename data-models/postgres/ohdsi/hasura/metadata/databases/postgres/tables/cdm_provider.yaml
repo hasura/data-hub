@@ -1,0 +1,90 @@
+table:
+  name: provider
+  schema: cdm
+object_relationships:
+  - name: care_site
+    using:
+      foreign_key_constraint_on: care_site_id
+  - name: concept
+    using:
+      foreign_key_constraint_on: gender_concept_id
+  - name: conceptByGenderSourceConceptId
+    using:
+      foreign_key_constraint_on: gender_source_concept_id
+  - name: conceptBySpecialtyConceptId
+    using:
+      foreign_key_constraint_on: specialty_concept_id
+  - name: conceptBySpecialtySourceConceptId
+    using:
+      foreign_key_constraint_on: specialty_source_concept_id
+array_relationships:
+  - name: condition_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: condition_occurrence
+          schema: cdm
+  - name: device_exposures
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: drug_exposures
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: drug_exposure
+          schema: cdm
+  - name: measurements
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: notes
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: note
+          schema: cdm
+  - name: observations
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: observation
+          schema: cdm
+  - name: people
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: person
+          schema: cdm
+  - name: procedure_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: procedure_occurrence
+          schema: cdm
+  - name: visit_details
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visit_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: provider_id
+        table:
+          name: visit_occurrence
+          schema: cdm

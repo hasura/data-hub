@@ -1,0 +1,3 @@
+table:
+  name: group_history
+  schema: public

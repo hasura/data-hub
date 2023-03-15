@@ -1,0 +1,10 @@
+table:
+  name: concept_synonym
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: concept_id
+  - name: conceptByLanguageConceptId
+    using:
+      foreign_key_constraint_on: language_concept_id

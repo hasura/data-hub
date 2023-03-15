@@ -1,0 +1,22 @@
+table:
+  name: location
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: country_concept_id
+array_relationships:
+  - name: care_sites
+    using:
+      foreign_key_constraint_on:
+        column: location_id
+        table:
+          name: care_site
+          schema: cdm
+  - name: people
+    using:
+      foreign_key_constraint_on:
+        column: location_id
+        table:
+          name: person
+          schema: cdm

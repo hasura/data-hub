@@ -1,0 +1,3 @@
+table:
+  name: auditevent_history
+  schema: public
