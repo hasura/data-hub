@@ -1,0 +1,3 @@
+table:
+  name: devicecomponent_history
+  schema: public

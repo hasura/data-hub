@@ -1,0 +1,3 @@
+table:
+  name: questionnaire_history
+  schema: public

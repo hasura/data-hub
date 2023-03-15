@@ -1,0 +1,3 @@
+table:
+  name: endpoint
+  schema: public

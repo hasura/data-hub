@@ -1,0 +1,40 @@
+table:
+  name: measurement
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: meas_event_field_concept_id
+  - name: conceptByMeasurementConceptId
+    using:
+      foreign_key_constraint_on: measurement_concept_id
+  - name: conceptByMeasurementSourceConceptId
+    using:
+      foreign_key_constraint_on: measurement_source_concept_id
+  - name: conceptByMeasurementTypeConceptId
+    using:
+      foreign_key_constraint_on: measurement_type_concept_id
+  - name: conceptByOperatorConceptId
+    using:
+      foreign_key_constraint_on: operator_concept_id
+  - name: conceptByUnitConceptId
+    using:
+      foreign_key_constraint_on: unit_concept_id
+  - name: conceptByUnitSourceConceptId
+    using:
+      foreign_key_constraint_on: unit_source_concept_id
+  - name: conceptByValueAsConceptId
+    using:
+      foreign_key_constraint_on: value_as_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id

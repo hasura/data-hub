@@ -1,0 +1,3 @@
+table:
+  name: entrydefinition_history
+  schema: public

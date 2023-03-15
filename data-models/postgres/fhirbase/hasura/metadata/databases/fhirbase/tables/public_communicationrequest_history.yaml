@@ -1,0 +1,3 @@
+table:
+  name: communicationrequest_history
+  schema: public

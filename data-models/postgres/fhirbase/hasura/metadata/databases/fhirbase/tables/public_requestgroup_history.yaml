@@ -1,0 +1,3 @@
+table:
+  name: requestgroup_history
+  schema: public

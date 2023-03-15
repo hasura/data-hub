@@ -1,0 +1,3 @@
+table:
+  name: medicinalproductingredient
+  schema: public

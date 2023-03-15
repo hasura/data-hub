@@ -1,0 +1,3 @@
+table:
+  name: productplan_history
+  schema: public

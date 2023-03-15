@@ -1,0 +1,3 @@
+table:
+  name: eventdefinition_history
+  schema: public

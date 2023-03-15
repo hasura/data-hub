@@ -1,0 +1,3 @@
+table:
+  name: detectedissue
+  schema: public

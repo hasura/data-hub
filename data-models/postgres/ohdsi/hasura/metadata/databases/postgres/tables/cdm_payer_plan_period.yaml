@@ -1,0 +1,34 @@
+table:
+  name: payer_plan_period
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: payer_concept_id
+  - name: conceptByPayerSourceConceptId
+    using:
+      foreign_key_constraint_on: payer_source_concept_id
+  - name: conceptByPlanConceptId
+    using:
+      foreign_key_constraint_on: plan_concept_id
+  - name: conceptByPlanSourceConceptId
+    using:
+      foreign_key_constraint_on: plan_source_concept_id
+  - name: conceptBySponsorConceptId
+    using:
+      foreign_key_constraint_on: sponsor_concept_id
+  - name: conceptBySponsorSourceConceptId
+    using:
+      foreign_key_constraint_on: sponsor_source_concept_id
+  - name: conceptByStopReasonConceptId
+    using:
+      foreign_key_constraint_on: stop_reason_concept_id
+  - name: conceptByStopReasonSourceConceptId
+    using:
+      foreign_key_constraint_on: stop_reason_source_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: payer_plan_period_id
+  - name: personByPersonId
+    using:
+      foreign_key_constraint_on: person_id

@@ -1,0 +1,22 @@
+table:
+  name: domain
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: domain_concept_id
+array_relationships:
+  - name: concepts
+    using:
+      foreign_key_constraint_on:
+        column: domain_id
+        table:
+          name: concept
+          schema: cdm
+  - name: costs
+    using:
+      foreign_key_constraint_on:
+        column: cost_domain_id
+        table:
+          name: cost
+          schema: cdm

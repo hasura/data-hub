@@ -1,0 +1,13 @@
+table:
+  name: dose_era
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: drug_concept_id
+  - name: conceptByUnitConceptId
+    using:
+      foreign_key_constraint_on: unit_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id

@@ -1,0 +1,3 @@
+table:
+  name: medicationdispense_history
+  schema: public

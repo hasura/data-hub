@@ -1,0 +1,3 @@
+table:
+  name: composition_history
+  schema: public

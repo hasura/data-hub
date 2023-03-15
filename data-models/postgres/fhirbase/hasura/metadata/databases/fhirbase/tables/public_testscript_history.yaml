@@ -1,0 +1,3 @@
+table:
+  name: testscript_history
+  schema: public

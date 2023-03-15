@@ -1,0 +1,3 @@
+table:
+  name: usersession_history
+  schema: public

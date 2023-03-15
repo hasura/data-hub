@@ -1,0 +1,3 @@
+table:
+  name: capabilitystatement_history
+  schema: public

@@ -1,0 +1,3 @@
+table:
+  name: operationdefinition_history
+  schema: public

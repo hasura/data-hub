@@ -1,0 +1,3 @@
+table:
+  name: appointmentresponse_history
+  schema: public

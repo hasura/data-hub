@@ -1,0 +1,3 @@
+table:
+  name: examplescenario_history
+  schema: public

@@ -1,0 +1,3 @@
+table:
+  name: basic_history
+  schema: public

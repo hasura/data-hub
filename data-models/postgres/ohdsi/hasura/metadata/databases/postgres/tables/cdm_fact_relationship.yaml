@@ -1,0 +1,13 @@
+table:
+  name: fact_relationship
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: domain_concept_id_1
+  - name: conceptByDomainConceptId2
+    using:
+      foreign_key_constraint_on: domain_concept_id_2
+  - name: conceptByRelationshipConceptId
+    using:
+      foreign_key_constraint_on: relationship_concept_id

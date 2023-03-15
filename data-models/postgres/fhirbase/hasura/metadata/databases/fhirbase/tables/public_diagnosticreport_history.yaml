@@ -1,0 +1,3 @@
+table:
+  name: diagnosticreport_history
+  schema: public

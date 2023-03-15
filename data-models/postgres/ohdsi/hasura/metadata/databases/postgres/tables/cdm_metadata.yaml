@@ -1,0 +1,13 @@
+table:
+  name: metadata
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: metadata_concept_id
+  - name: conceptByMetadataTypeConceptId
+    using:
+      foreign_key_constraint_on: metadata_type_concept_id
+  - name: conceptByValueAsConceptId
+    using:
+      foreign_key_constraint_on: value_as_concept_id

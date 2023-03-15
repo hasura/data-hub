@@ -1,0 +1,27 @@
+table:
+  name: episode
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: episode_concept_id
+  - name: conceptByEpisodeObjectConceptId
+    using:
+      foreign_key_constraint_on: episode_object_concept_id
+  - name: conceptByEpisodeSourceConceptId
+    using:
+      foreign_key_constraint_on: episode_source_concept_id
+  - name: conceptByEpisodeTypeConceptId
+    using:
+      foreign_key_constraint_on: episode_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+array_relationships:
+  - name: episode_events
+    using:
+      foreign_key_constraint_on:
+        column: episode_id
+        table:
+          name: episode_event
+          schema: cdm

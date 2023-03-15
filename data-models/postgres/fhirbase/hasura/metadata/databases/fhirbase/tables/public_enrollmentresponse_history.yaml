@@ -1,0 +1,3 @@
+table:
+  name: enrollmentresponse_history
+  schema: public

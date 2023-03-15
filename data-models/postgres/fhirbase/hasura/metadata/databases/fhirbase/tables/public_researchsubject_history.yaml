@@ -1,0 +1,3 @@
+table:
+  name: researchsubject_history
+  schema: public

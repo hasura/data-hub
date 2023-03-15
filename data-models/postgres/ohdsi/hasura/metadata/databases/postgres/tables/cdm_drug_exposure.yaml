@@ -1,0 +1,28 @@
+table:
+  name: drug_exposure
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: drug_concept_id
+  - name: conceptByDrugSourceConceptId
+    using:
+      foreign_key_constraint_on: drug_source_concept_id
+  - name: conceptByDrugTypeConceptId
+    using:
+      foreign_key_constraint_on: drug_type_concept_id
+  - name: conceptByRouteConceptId
+    using:
+      foreign_key_constraint_on: route_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id

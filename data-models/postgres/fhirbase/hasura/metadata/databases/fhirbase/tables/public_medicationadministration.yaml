@@ -1,0 +1,3 @@
+table:
+  name: medicationadministration
+  schema: public

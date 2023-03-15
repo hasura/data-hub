@@ -1,0 +1,3 @@
+table:
+  name: eligibilityresponse_history
+  schema: public

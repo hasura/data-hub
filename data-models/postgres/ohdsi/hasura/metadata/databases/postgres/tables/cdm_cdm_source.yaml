@@ -1,0 +1,7 @@
+table:
+  name: cdm_source
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: cdm_version_concept_id

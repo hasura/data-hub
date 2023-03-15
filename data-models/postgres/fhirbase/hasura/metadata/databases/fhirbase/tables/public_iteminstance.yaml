@@ -1,0 +1,3 @@
+table:
+  name: iteminstance
+  schema: public

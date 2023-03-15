@@ -1,0 +1,3 @@
+table:
+  name: specimen_history
+  schema: public

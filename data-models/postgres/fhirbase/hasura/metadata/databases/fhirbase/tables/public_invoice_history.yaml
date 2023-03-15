@@ -1,0 +1,3 @@
+table:
+  name: invoice_history
+  schema: public

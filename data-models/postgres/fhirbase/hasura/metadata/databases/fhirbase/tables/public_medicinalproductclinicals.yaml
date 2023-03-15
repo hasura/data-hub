@@ -1,0 +1,3 @@
+table:
+  name: medicinalproductclinicals
+  schema: public
