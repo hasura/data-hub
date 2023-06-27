@@ -1,0 +1,37 @@
+table:
+  name: observation
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: obs_event_field_concept_id
+  - name: conceptByObservationConceptId
+    using:
+      foreign_key_constraint_on: observation_concept_id
+  - name: conceptByObservationSourceConceptId
+    using:
+      foreign_key_constraint_on: observation_source_concept_id
+  - name: conceptByObservationTypeConceptId
+    using:
+      foreign_key_constraint_on: observation_type_concept_id
+  - name: conceptByQualifierConceptId
+    using:
+      foreign_key_constraint_on: qualifier_concept_id
+  - name: conceptByUnitConceptId
+    using:
+      foreign_key_constraint_on: unit_concept_id
+  - name: conceptByValueAsConceptId
+    using:
+      foreign_key_constraint_on: value_as_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id

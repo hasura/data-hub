@@ -1,0 +1,3 @@
+table:
+  name: substancereferenceinformation_history
+  schema: public

@@ -1,0 +1,3 @@
+table:
+  name: organizationrole_history
+  schema: public

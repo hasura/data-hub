@@ -1,0 +1,3 @@
+table:
+  name: documentmanifest_history
+  schema: public

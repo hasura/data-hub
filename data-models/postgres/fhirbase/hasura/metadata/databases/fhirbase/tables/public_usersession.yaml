@@ -1,0 +1,3 @@
+table:
+  name: usersession
+  schema: public

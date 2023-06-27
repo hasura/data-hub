@@ -1,0 +1,15 @@
+table:
+  name: concept_class
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: concept_class_concept_id
+array_relationships:
+  - name: concepts
+    using:
+      foreign_key_constraint_on:
+        column: concept_class_id
+        table:
+          name: concept
+          schema: cdm

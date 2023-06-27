@@ -1,0 +1,3 @@
+table:
+  name: testreport_history
+  schema: public

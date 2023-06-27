@@ -1,0 +1,3 @@
+table:
+  name: condition_history
+  schema: public

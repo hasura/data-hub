@@ -1,0 +1,19 @@
+table:
+  name: cost
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: cost_type_concept_id
+  - name: conceptByCurrencyConceptId
+    using:
+      foreign_key_constraint_on: currency_concept_id
+  - name: conceptByDrgConceptId
+    using:
+      foreign_key_constraint_on: drg_concept_id
+  - name: conceptByRevenueCodeConceptId
+    using:
+      foreign_key_constraint_on: revenue_code_concept_id
+  - name: domain
+    using:
+      foreign_key_constraint_on: cost_domain_id

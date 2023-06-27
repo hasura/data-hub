@@ -1,0 +1,3 @@
+table:
+  name: paymentreconciliation_history
+  schema: public

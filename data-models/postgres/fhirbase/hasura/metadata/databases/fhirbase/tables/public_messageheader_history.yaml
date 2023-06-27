@@ -1,0 +1,3 @@
+table:
+  name: messageheader_history
+  schema: public

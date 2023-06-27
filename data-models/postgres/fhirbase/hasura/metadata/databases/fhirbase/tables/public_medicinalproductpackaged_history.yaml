@@ -1,0 +1,3 @@
+table:
+  name: medicinalproductpackaged_history
+  schema: public

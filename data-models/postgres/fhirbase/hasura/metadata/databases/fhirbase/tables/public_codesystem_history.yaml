@@ -1,0 +1,3 @@
+table:
+  name: codesystem_history
+  schema: public

@@ -1,0 +1,39 @@
+table:
+  name: care_site
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: place_of_service_concept_id
+  - name: location
+    using:
+      foreign_key_constraint_on: location_id
+array_relationships:
+  - name: people
+    using:
+      foreign_key_constraint_on:
+        column: care_site_id
+        table:
+          name: person
+          schema: cdm
+  - name: providers
+    using:
+      foreign_key_constraint_on:
+        column: care_site_id
+        table:
+          name: provider
+          schema: cdm
+  - name: visit_details
+    using:
+      foreign_key_constraint_on:
+        column: care_site_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visit_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: care_site_id
+        table:
+          name: visit_occurrence
+          schema: cdm

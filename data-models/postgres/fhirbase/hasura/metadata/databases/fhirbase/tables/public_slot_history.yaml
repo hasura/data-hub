@@ -1,0 +1,3 @@
+table:
+  name: slot_history
+  schema: public

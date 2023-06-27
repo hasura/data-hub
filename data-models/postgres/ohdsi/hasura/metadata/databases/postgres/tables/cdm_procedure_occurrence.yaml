@@ -1,0 +1,28 @@
+table:
+  name: procedure_occurrence
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: modifier_concept_id
+  - name: conceptByProcedureConceptId
+    using:
+      foreign_key_constraint_on: procedure_concept_id
+  - name: conceptByProcedureSourceConceptId
+    using:
+      foreign_key_constraint_on: procedure_source_concept_id
+  - name: conceptByProcedureTypeConceptId
+    using:
+      foreign_key_constraint_on: procedure_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id

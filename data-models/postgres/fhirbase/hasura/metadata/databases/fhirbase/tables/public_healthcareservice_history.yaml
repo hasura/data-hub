@@ -1,0 +1,3 @@
+table:
+  name: healthcareservice_history
+  schema: public

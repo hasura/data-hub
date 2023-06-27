@@ -1,0 +1,3 @@
+table:
+  name: measurereport_history
+  schema: public

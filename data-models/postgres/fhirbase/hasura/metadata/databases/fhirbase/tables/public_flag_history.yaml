@@ -1,0 +1,3 @@
+table:
+  name: flag_history
+  schema: public

@@ -1,0 +1,13 @@
+table:
+  name: concept_relationship
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: concept_id_1
+  - name: conceptByConceptId2
+    using:
+      foreign_key_constraint_on: concept_id_2
+  - name: relationship
+    using:
+      foreign_key_constraint_on: relationship_id

@@ -1,0 +1,3 @@
+table:
+  name: messagedefinition_history
+  schema: public

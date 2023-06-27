@@ -1,0 +1,3 @@
+table:
+  name: observationdefinition_history
+  schema: public

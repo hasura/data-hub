@@ -1,0 +1,3 @@
+table:
+  name: endpoint_history
+  schema: public

@@ -1,0 +1,31 @@
+table:
+  name: note
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: encoding_concept_id
+  - name: conceptByLanguageConceptId
+    using:
+      foreign_key_constraint_on: language_concept_id
+  - name: conceptByNoteClassConceptId
+    using:
+      foreign_key_constraint_on: note_class_concept_id
+  - name: conceptByNoteEventFieldConceptId
+    using:
+      foreign_key_constraint_on: note_event_field_concept_id
+  - name: conceptByNoteTypeConceptId
+    using:
+      foreign_key_constraint_on: note_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id

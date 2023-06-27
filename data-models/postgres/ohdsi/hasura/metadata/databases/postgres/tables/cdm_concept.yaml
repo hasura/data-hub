@@ -1,0 +1,826 @@
+table:
+  name: concept
+  schema: cdm
+object_relationships:
+  - name: concept_class
+    using:
+      foreign_key_constraint_on: concept_class_id
+  - name: domain
+    using:
+      foreign_key_constraint_on: domain_id
+  - name: vocabulary
+    using:
+      foreign_key_constraint_on: vocabulary_id
+array_relationships:
+  - name: care_sites
+    using:
+      foreign_key_constraint_on:
+        column: place_of_service_concept_id
+        table:
+          name: care_site
+          schema: cdm
+  - name: cdm_sources
+    using:
+      foreign_key_constraint_on:
+        column: cdm_version_concept_id
+        table:
+          name: cdm_source
+          schema: cdm
+  - name: conceptAncestorsByDescendantConceptId
+    using:
+      foreign_key_constraint_on:
+        column: descendant_concept_id
+        table:
+          name: concept_ancestor
+          schema: cdm
+  - name: conceptRelationshipsByConceptId2
+    using:
+      foreign_key_constraint_on:
+        column: concept_id_2
+        table:
+          name: concept_relationship
+          schema: cdm
+  - name: conceptSynonymsByLanguageConceptId
+    using:
+      foreign_key_constraint_on:
+        column: language_concept_id
+        table:
+          name: concept_synonym
+          schema: cdm
+  - name: concept_ancestors
+    using:
+      foreign_key_constraint_on:
+        column: ancestor_concept_id
+        table:
+          name: concept_ancestor
+          schema: cdm
+  - name: concept_classes
+    using:
+      foreign_key_constraint_on:
+        column: concept_class_concept_id
+        table:
+          name: concept_class
+          schema: cdm
+  - name: concept_relationships
+    using:
+      foreign_key_constraint_on:
+        column: concept_id_1
+        table:
+          name: concept_relationship
+          schema: cdm
+  - name: concept_synonyms
+    using:
+      foreign_key_constraint_on:
+        column: concept_id
+        table:
+          name: concept_synonym
+          schema: cdm
+  - name: conditionOccurrencesByConditionSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: condition_source_concept_id
+        table:
+          name: condition_occurrence
+          schema: cdm
+  - name: conditionOccurrencesByConditionStatusConceptId
+    using:
+      foreign_key_constraint_on:
+        column: condition_status_concept_id
+        table:
+          name: condition_occurrence
+          schema: cdm
+  - name: conditionOccurrencesByConditionTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: condition_type_concept_id
+        table:
+          name: condition_occurrence
+          schema: cdm
+  - name: condition_eras
+    using:
+      foreign_key_constraint_on:
+        column: condition_concept_id
+        table:
+          name: condition_era
+          schema: cdm
+  - name: condition_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: condition_concept_id
+        table:
+          name: condition_occurrence
+          schema: cdm
+  - name: costs
+    using:
+      foreign_key_constraint_on:
+        column: cost_type_concept_id
+        table:
+          name: cost
+          schema: cdm
+  - name: costsByCurrencyConceptId
+    using:
+      foreign_key_constraint_on:
+        column: currency_concept_id
+        table:
+          name: cost
+          schema: cdm
+  - name: costsByDrgConceptId
+    using:
+      foreign_key_constraint_on:
+        column: drg_concept_id
+        table:
+          name: cost
+          schema: cdm
+  - name: costsByRevenueCodeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: revenue_code_concept_id
+        table:
+          name: cost
+          schema: cdm
+  - name: deaths
+    using:
+      foreign_key_constraint_on:
+        column: cause_concept_id
+        table:
+          name: death
+          schema: cdm
+  - name: deathsByCauseSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: cause_source_concept_id
+        table:
+          name: death
+          schema: cdm
+  - name: deathsByDeathTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: death_type_concept_id
+        table:
+          name: death
+          schema: cdm
+  - name: deviceExposuresByDeviceSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: device_source_concept_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: deviceExposuresByDeviceTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: device_type_concept_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: deviceExposuresByUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_concept_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: deviceExposuresByUnitSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_source_concept_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: device_exposures
+    using:
+      foreign_key_constraint_on:
+        column: device_concept_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: domains
+    using:
+      foreign_key_constraint_on:
+        column: domain_concept_id
+        table:
+          name: domain
+          schema: cdm
+  - name: doseErasByUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_concept_id
+        table:
+          name: dose_era
+          schema: cdm
+  - name: dose_eras
+    using:
+      foreign_key_constraint_on:
+        column: drug_concept_id
+        table:
+          name: dose_era
+          schema: cdm
+  - name: drugExposuresByDrugSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: drug_source_concept_id
+        table:
+          name: drug_exposure
+          schema: cdm
+  - name: drugExposuresByDrugTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: drug_type_concept_id
+        table:
+          name: drug_exposure
+          schema: cdm
+  - name: drugExposuresByRouteConceptId
+    using:
+      foreign_key_constraint_on:
+        column: route_concept_id
+        table:
+          name: drug_exposure
+          schema: cdm
+  - name: drugStrengthsByDenominatorUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: denominator_unit_concept_id
+        table:
+          name: drug_strength
+          schema: cdm
+  - name: drugStrengthsByDrugConceptId
+    using:
+      foreign_key_constraint_on:
+        column: drug_concept_id
+        table:
+          name: drug_strength
+          schema: cdm
+  - name: drugStrengthsByIngredientConceptId
+    using:
+      foreign_key_constraint_on:
+        column: ingredient_concept_id
+        table:
+          name: drug_strength
+          schema: cdm
+  - name: drugStrengthsByNumeratorUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: numerator_unit_concept_id
+        table:
+          name: drug_strength
+          schema: cdm
+  - name: drug_eras
+    using:
+      foreign_key_constraint_on:
+        column: drug_concept_id
+        table:
+          name: drug_era
+          schema: cdm
+  - name: drug_exposures
+    using:
+      foreign_key_constraint_on:
+        column: drug_concept_id
+        table:
+          name: drug_exposure
+          schema: cdm
+  - name: drug_strengths
+    using:
+      foreign_key_constraint_on:
+        column: amount_unit_concept_id
+        table:
+          name: drug_strength
+          schema: cdm
+  - name: episode_events
+    using:
+      foreign_key_constraint_on:
+        column: episode_event_field_concept_id
+        table:
+          name: episode_event
+          schema: cdm
+  - name: episodes
+    using:
+      foreign_key_constraint_on:
+        column: episode_concept_id
+        table:
+          name: episode
+          schema: cdm
+  - name: episodesByEpisodeObjectConceptId
+    using:
+      foreign_key_constraint_on:
+        column: episode_object_concept_id
+        table:
+          name: episode
+          schema: cdm
+  - name: episodesByEpisodeSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: episode_source_concept_id
+        table:
+          name: episode
+          schema: cdm
+  - name: episodesByEpisodeTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: episode_type_concept_id
+        table:
+          name: episode
+          schema: cdm
+  - name: factRelationshipsByDomainConceptId2
+    using:
+      foreign_key_constraint_on:
+        column: domain_concept_id_2
+        table:
+          name: fact_relationship
+          schema: cdm
+  - name: factRelationshipsByRelationshipConceptId
+    using:
+      foreign_key_constraint_on:
+        column: relationship_concept_id
+        table:
+          name: fact_relationship
+          schema: cdm
+  - name: fact_relationships
+    using:
+      foreign_key_constraint_on:
+        column: domain_concept_id_1
+        table:
+          name: fact_relationship
+          schema: cdm
+  - name: locations
+    using:
+      foreign_key_constraint_on:
+        column: country_concept_id
+        table:
+          name: location
+          schema: cdm
+  - name: measurements
+    using:
+      foreign_key_constraint_on:
+        column: meas_event_field_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByMeasurementConceptId
+    using:
+      foreign_key_constraint_on:
+        column: measurement_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByMeasurementSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: measurement_source_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByMeasurementTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: measurement_type_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByOperatorConceptId
+    using:
+      foreign_key_constraint_on:
+        column: operator_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByUnitSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_source_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: measurementsByValueAsConceptId
+    using:
+      foreign_key_constraint_on:
+        column: value_as_concept_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: metadata
+    using:
+      foreign_key_constraint_on:
+        column: metadata_concept_id
+        table:
+          name: metadata
+          schema: cdm
+  - name: metadataByMetadataTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: metadata_type_concept_id
+        table:
+          name: metadata
+          schema: cdm
+  - name: metadataByValueAsConceptId
+    using:
+      foreign_key_constraint_on:
+        column: value_as_concept_id
+        table:
+          name: metadata
+          schema: cdm
+  - name: noteNlpsByNoteNlpSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: note_nlp_source_concept_id
+        table:
+          name: note_nlp
+          schema: cdm
+  - name: noteNlpsBySectionConceptId
+    using:
+      foreign_key_constraint_on:
+        column: section_concept_id
+        table:
+          name: note_nlp
+          schema: cdm
+  - name: note_nlps
+    using:
+      foreign_key_constraint_on:
+        column: note_nlp_concept_id
+        table:
+          name: note_nlp
+          schema: cdm
+  - name: notes
+    using:
+      foreign_key_constraint_on:
+        column: encoding_concept_id
+        table:
+          name: note
+          schema: cdm
+  - name: notesByLanguageConceptId
+    using:
+      foreign_key_constraint_on:
+        column: language_concept_id
+        table:
+          name: note
+          schema: cdm
+  - name: notesByNoteClassConceptId
+    using:
+      foreign_key_constraint_on:
+        column: note_class_concept_id
+        table:
+          name: note
+          schema: cdm
+  - name: notesByNoteEventFieldConceptId
+    using:
+      foreign_key_constraint_on:
+        column: note_event_field_concept_id
+        table:
+          name: note
+          schema: cdm
+  - name: notesByNoteTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: note_type_concept_id
+        table:
+          name: note
+          schema: cdm
+  - name: observation_periods
+    using:
+      foreign_key_constraint_on:
+        column: period_type_concept_id
+        table:
+          name: observation_period
+          schema: cdm
+  - name: observations
+    using:
+      foreign_key_constraint_on:
+        column: obs_event_field_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: observationsByObservationConceptId
+    using:
+      foreign_key_constraint_on:
+        column: observation_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: observationsByObservationSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: observation_source_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: observationsByObservationTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: observation_type_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: observationsByQualifierConceptId
+    using:
+      foreign_key_constraint_on:
+        column: qualifier_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: observationsByUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: observationsByValueAsConceptId
+    using:
+      foreign_key_constraint_on:
+        column: value_as_concept_id
+        table:
+          name: observation
+          schema: cdm
+  - name: payerPlanPeriodsByPayerSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: payer_source_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payerPlanPeriodsByPlanConceptId
+    using:
+      foreign_key_constraint_on:
+        column: plan_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payerPlanPeriodsByPlanSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: plan_source_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payerPlanPeriodsBySponsorConceptId
+    using:
+      foreign_key_constraint_on:
+        column: sponsor_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payerPlanPeriodsBySponsorSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: sponsor_source_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payerPlanPeriodsByStopReasonConceptId
+    using:
+      foreign_key_constraint_on:
+        column: stop_reason_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payerPlanPeriodsByStopReasonSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: stop_reason_source_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: payer_plan_periods
+    using:
+      foreign_key_constraint_on:
+        column: payer_concept_id
+        table:
+          name: payer_plan_period
+          schema: cdm
+  - name: people
+    using:
+      foreign_key_constraint_on:
+        column: ethnicity_concept_id
+        table:
+          name: person
+          schema: cdm
+  - name: peopleByEthnicitySourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: ethnicity_source_concept_id
+        table:
+          name: person
+          schema: cdm
+  - name: peopleByGenderConceptId
+    using:
+      foreign_key_constraint_on:
+        column: gender_concept_id
+        table:
+          name: person
+          schema: cdm
+  - name: peopleByGenderSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: gender_source_concept_id
+        table:
+          name: person
+          schema: cdm
+  - name: peopleByRaceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: race_concept_id
+        table:
+          name: person
+          schema: cdm
+  - name: peopleByRaceSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: race_source_concept_id
+        table:
+          name: person
+          schema: cdm
+  - name: procedureOccurrencesByProcedureConceptId
+    using:
+      foreign_key_constraint_on:
+        column: procedure_concept_id
+        table:
+          name: procedure_occurrence
+          schema: cdm
+  - name: procedureOccurrencesByProcedureSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: procedure_source_concept_id
+        table:
+          name: procedure_occurrence
+          schema: cdm
+  - name: procedureOccurrencesByProcedureTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: procedure_type_concept_id
+        table:
+          name: procedure_occurrence
+          schema: cdm
+  - name: procedure_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: modifier_concept_id
+        table:
+          name: procedure_occurrence
+          schema: cdm
+  - name: providers
+    using:
+      foreign_key_constraint_on:
+        column: gender_concept_id
+        table:
+          name: provider
+          schema: cdm
+  - name: providersByGenderSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: gender_source_concept_id
+        table:
+          name: provider
+          schema: cdm
+  - name: providersBySpecialtyConceptId
+    using:
+      foreign_key_constraint_on:
+        column: specialty_concept_id
+        table:
+          name: provider
+          schema: cdm
+  - name: providersBySpecialtySourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: specialty_source_concept_id
+        table:
+          name: provider
+          schema: cdm
+  - name: relationships
+    using:
+      foreign_key_constraint_on:
+        column: relationship_concept_id
+        table:
+          name: relationship
+          schema: cdm
+  - name: sourceToConceptMapsByTargetConceptId
+    using:
+      foreign_key_constraint_on:
+        column: target_concept_id
+        table:
+          name: source_to_concept_map
+          schema: cdm
+  - name: source_to_concept_maps
+    using:
+      foreign_key_constraint_on:
+        column: source_concept_id
+        table:
+          name: source_to_concept_map
+          schema: cdm
+  - name: specimens
+    using:
+      foreign_key_constraint_on:
+        column: anatomic_site_concept_id
+        table:
+          name: specimen
+          schema: cdm
+  - name: specimensByDiseaseStatusConceptId
+    using:
+      foreign_key_constraint_on:
+        column: disease_status_concept_id
+        table:
+          name: specimen
+          schema: cdm
+  - name: specimensBySpecimenConceptId
+    using:
+      foreign_key_constraint_on:
+        column: specimen_concept_id
+        table:
+          name: specimen
+          schema: cdm
+  - name: specimensBySpecimenTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: specimen_type_concept_id
+        table:
+          name: specimen
+          schema: cdm
+  - name: specimensByUnitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: unit_concept_id
+        table:
+          name: specimen
+          schema: cdm
+  - name: visitDetailsByDischargedToConceptId
+    using:
+      foreign_key_constraint_on:
+        column: discharged_to_concept_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visitDetailsByVisitDetailConceptId
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_concept_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visitDetailsByVisitDetailSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_source_concept_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visitDetailsByVisitDetailTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_type_concept_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visitOccurrencesByDischargedToConceptId
+    using:
+      foreign_key_constraint_on:
+        column: discharged_to_concept_id
+        table:
+          name: visit_occurrence
+          schema: cdm
+  - name: visitOccurrencesByVisitConceptId
+    using:
+      foreign_key_constraint_on:
+        column: visit_concept_id
+        table:
+          name: visit_occurrence
+          schema: cdm
+  - name: visitOccurrencesByVisitSourceConceptId
+    using:
+      foreign_key_constraint_on:
+        column: visit_source_concept_id
+        table:
+          name: visit_occurrence
+          schema: cdm
+  - name: visitOccurrencesByVisitTypeConceptId
+    using:
+      foreign_key_constraint_on:
+        column: visit_type_concept_id
+        table:
+          name: visit_occurrence
+          schema: cdm
+  - name: visit_details
+    using:
+      foreign_key_constraint_on:
+        column: admitted_from_concept_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visit_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: admitted_from_concept_id
+        table:
+          name: visit_occurrence
+          schema: cdm
+  - name: vocabularies
+    using:
+      foreign_key_constraint_on:
+        column: vocabulary_concept_id
+        table:
+          name: vocabulary
+          schema: cdm

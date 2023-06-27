@@ -1,0 +1,3 @@
+table:
+  name: contract_history
+  schema: public

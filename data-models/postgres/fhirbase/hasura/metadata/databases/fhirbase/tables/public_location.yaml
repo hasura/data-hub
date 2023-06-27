@@ -1,0 +1,3 @@
+table:
+  name: location
+  schema: public

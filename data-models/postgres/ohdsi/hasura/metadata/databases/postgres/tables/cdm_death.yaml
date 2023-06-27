@@ -1,0 +1,16 @@
+table:
+  name: death
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: cause_concept_id
+  - name: conceptByCauseSourceConceptId
+    using:
+      foreign_key_constraint_on: cause_source_concept_id
+  - name: conceptByDeathTypeConceptId
+    using:
+      foreign_key_constraint_on: death_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id

@@ -1,0 +1,3 @@
+table:
+  name: conceptmap_history
+  schema: public

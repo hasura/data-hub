@@ -1,0 +1,28 @@
+table:
+  name: condition_occurrence
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: condition_concept_id
+  - name: conceptByConditionSourceConceptId
+    using:
+      foreign_key_constraint_on: condition_source_concept_id
+  - name: conceptByConditionStatusConceptId
+    using:
+      foreign_key_constraint_on: condition_status_concept_id
+  - name: conceptByConditionTypeConceptId
+    using:
+      foreign_key_constraint_on: condition_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id

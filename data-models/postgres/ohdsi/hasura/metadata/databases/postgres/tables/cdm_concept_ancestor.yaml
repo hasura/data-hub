@@ -1,0 +1,10 @@
+table:
+  name: concept_ancestor
+  schema: cdm
+object_relationships:
+  - name: concept
+    using:
+      foreign_key_constraint_on: ancestor_concept_id
+  - name: conceptByDescendantConceptId
+    using:
+      foreign_key_constraint_on: descendant_concept_id

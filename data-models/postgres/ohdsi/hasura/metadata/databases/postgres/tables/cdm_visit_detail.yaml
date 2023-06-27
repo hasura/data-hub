@@ -1,0 +1,101 @@
+table:
+  name: visit_detail
+  schema: cdm
+object_relationships:
+  - name: care_site
+    using:
+      foreign_key_constraint_on: care_site_id
+  - name: concept
+    using:
+      foreign_key_constraint_on: admitted_from_concept_id
+  - name: conceptByDischargedToConceptId
+    using:
+      foreign_key_constraint_on: discharged_to_concept_id
+  - name: conceptByVisitDetailConceptId
+    using:
+      foreign_key_constraint_on: visit_detail_concept_id
+  - name: conceptByVisitDetailSourceConceptId
+    using:
+      foreign_key_constraint_on: visit_detail_source_concept_id
+  - name: conceptByVisitDetailTypeConceptId
+    using:
+      foreign_key_constraint_on: visit_detail_type_concept_id
+  - name: person
+    using:
+      foreign_key_constraint_on: person_id
+  - name: provider
+    using:
+      foreign_key_constraint_on: provider_id
+  - name: visitDetailByPrecedingVisitDetailId
+    using:
+      foreign_key_constraint_on: preceding_visit_detail_id
+  - name: visit_detail
+    using:
+      foreign_key_constraint_on: parent_visit_detail_id
+  - name: visit_occurrence
+    using:
+      foreign_key_constraint_on: visit_occurrence_id
+array_relationships:
+  - name: condition_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: condition_occurrence
+          schema: cdm
+  - name: device_exposures
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: device_exposure
+          schema: cdm
+  - name: drug_exposures
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: drug_exposure
+          schema: cdm
+  - name: measurements
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: measurement
+          schema: cdm
+  - name: notes
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: note
+          schema: cdm
+  - name: observations
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: observation
+          schema: cdm
+  - name: procedure_occurrences
+    using:
+      foreign_key_constraint_on:
+        column: visit_detail_id
+        table:
+          name: procedure_occurrence
+          schema: cdm
+  - name: visitDetailsByPrecedingVisitDetailId
+    using:
+      foreign_key_constraint_on:
+        column: preceding_visit_detail_id
+        table:
+          name: visit_detail
+          schema: cdm
+  - name: visit_details
+    using:
+      foreign_key_constraint_on:
+        column: parent_visit_detail_id
+        table:
+          name: visit_detail
+          schema: cdm
