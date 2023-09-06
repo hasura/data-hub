@@ -9,7 +9,7 @@ curl -XGET 'https://test-tiru.es.us-central1.gcp.cloud.es.io:9243/kibana_sample_
 -d '{
   "query": {
     "match": {
-      "customer_id": 10   
+      "customer_id": 10
     }
   }
 }'
@@ -50,7 +50,7 @@ Steps required for this integration:
 
 - Metadata Apply
 
-### Metatadata Apply
+### Metadata Apply
 
 To apply metadata into your project. You will need:
 

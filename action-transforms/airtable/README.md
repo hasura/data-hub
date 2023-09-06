@@ -32,6 +32,7 @@ AIRTABLE_BASE_PATH: "https://api.airtable.com/v0/${AIRTABLE_APP_ID}"
 ```
 
 ## Using Hasura CLI you can reload and indicate the .env file name eg. production.env
+
 hasura console --envfile production.env
 
 If you are using Docker you can provide these environment variables along with the rest of your Hasura configuration information.
@@ -48,7 +49,7 @@ Steps required for this integration:
 
 - Metadata Apply
 
-### Metatadata Apply
+### Metadata Apply
 
 To apply metadata into your project. You will need:
 

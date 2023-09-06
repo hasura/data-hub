@@ -32,7 +32,7 @@ Steps required for this integration:
 - Migrate Apply
 - Metadata Reload
 
-### Metatadata Apply
+### Metadata Apply
 
 To apply metadata into your project. You will need:
 
