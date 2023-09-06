@@ -34,7 +34,7 @@ Steps required for this integration:
 
 - Metadata Apply
 
-### Metatadata Apply
+### Metadata Apply
 
 To apply metadata into your project. You will need:
 
